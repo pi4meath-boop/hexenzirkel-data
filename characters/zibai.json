@@ -60,7 +60,61 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 2.28528,
+      "p1_mult": 3.199392,
+      "p2_mult": 15.0,
+      "p3_mult": 60.0
+    },
+    "skill": {
+      "p0_mult": 3.105504,
+      "p1_mult": 2.537424,
+      "p2_mult": 0.530208,
+      "p3_mult": 15.0,
+      "p4_mult": 18.0,
+      "p5_mult": 1.018426,
+      "p6_mult": 0.937813,
+      "p7_mult": 0.622248,
+      "p8_mult": 0.622248,
+      "p9_mult": 1.569218,
+      "p10_mult": 1.1871,
+      "p11_mult": 1.1871
+    },
+    "normal": {
+      "p0_mult": 0.999328,
+      "p1_mult": 0.920227,
+      "p2_mult": 0.61058,
+      "p3_mult": 0.61058,
+      "p4_mult": 1.539792,
+      "p5_mult": 1.45605,
+      "p6_mult": 1.45605,
+      "p7_mult": 20.0,
+      "p8_mult": 1.26378,
+      "p9_mult": 2.527025,
+      "p10_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive": {
+      "a0LunarcrystallizeBase_cap": 4.0,
+      "a0LunarcrystallizeBase_perEm": 0.6
+    },
+    "constellation": {
+      "c1LunarbloomDmg": 2.2,
+      "c6Point_lunarSpecialDmg": 0.016,
+      "c2ShiftMode_lunarcrystallizeDmg": 0.3
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "lunarcrystallize_specialDmg_": {

@@ -60,7 +60,48 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 7.7472,
+      "p1_mult": 0.27,
+      "p2_mult": 0.005,
+      "p3_mult": 690.0,
+      "p4_mult": 1.0,
+      "p5_mult": 12.0,
+      "p6_mult": 18.0,
+      "p7_mult": 70.0
+    },
+    "skill": {
+      "p0_mult": 5.1552,
+      "p1_mult": 54.0,
+      "p2_mult": 16.0
+    },
+    "normal": {
+      "p0_mult": 0.928591,
+      "p1_mult": 0.845342,
+      "p2_mult": 1.27279,
+      "p3_mult": 1.9822,
+      "p4_mult": 1.6643,
+      "p5_mult": 25.0,
+      "p6_mult": 1.26378,
+      "p7_mult": 2.527025,
+      "p8_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "Iansan"
+    },
+    "passive": {},
+    "constellation": {}
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],

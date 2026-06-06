@@ -767,7 +767,88 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "cooldown": 18.0,
+      "energy_cost": 70.0,
+      "purity1_mult": 2.14128,
+      "purity2_mult": 1.7352,
+      "purity3_mult": 2.01312,
+      "darkness1_mult": 2.25792,
+      "darkness2_mult": 1.83168,
+      "darkness3_mult": 2.01312,
+      "dark_decay_mult": 2.33712,
+      "white_flame_mult": 1.70352,
+      "dark_decay_duration": 20.0,
+      "white_flame_duration": 20.0
+    },
+    "skill": {
+      "cooldown": 12.0,
+      "denial1_mult": 1.30032,
+      "denial2_mult": 0.9576,
+      "denial3_mult": 1.16352,
+      "energy_regen": 33.0,
+      "confirmation_mult": 1.9008
+    },
+    "normal": {
+      "hit1_mult": 0.902394,
+      "hit2_mult": 0.81056,
+      "hit4_mult": 1.406495,
+      "hit3a_mult": 0.576453,
+      "hit3b_mult": 0.576453,
+      "plunge_mult": 1.26378,
+      "charged_mult": 2.2423,
+      "plunge_low_mult": 2.527025,
+      "plunge_high_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive": {
+      "locked_passive_bonus": 0.75,
+      "a1_dark_decay_melt_dmg": 0.4,
+      "a1_white_flame_duration": 6.0,
+      "a4_primordial_fusion_cap": 0.75,
+      "a1_dark_decay_vaporize_dmg": 0.4,
+      "a4_primordial_fusion_stacks": 10.0,
+      "a1_white_flame_enemy_res_down": 0.2,
+      "a4_primordial_fusion_per_100_atk": 0.03
+    },
+    "constellation": {
+      "c1": {
+        "c1p0_mult": 20.0,
+        "c1p1_mult": 20.0,
+        "c1p2_mult": 1.0,
+        "c1p3_mult": 0.6,
+        "c1p4_mult": 2.0,
+        "c1p5_mult": 1.5
+      },
+      "c2": {
+        "c2p0_mult": 20.0,
+        "c2p1_mult": 6.0,
+        "c2p2_mult": 0.5
+      },
+      "c4": {
+        "c4p0_mult": 20.0,
+        "c4p1_mult": 0.3,
+        "c4p2_mult": 0.4
+      },
+      "c6": {
+        "c6p0_mult": 0.3,
+        "c6p1_mult": 0.3,
+        "c6p2_mult": 6.0,
+        "c6p3_mult": 0.4
+      }
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "durin_a4_periodic_base_mult_": {

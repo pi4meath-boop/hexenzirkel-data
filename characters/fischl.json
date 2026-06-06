@@ -60,7 +60,46 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 3.744,
+      "p1_mult": 15.0,
+      "p2_mult": 60.0
+    },
+    "skill": {
+      "p0_mult": 1.5984,
+      "p1_mult": 2.07792,
+      "p2_mult": 10.0,
+      "p3_mult": 25.0,
+      "p4_mult": 8.0
+    },
+    "normal": {
+      "p0_mult": 0.8721,
+      "p1_mult": 0.9248,
+      "p2_mult": 1.1492,
+      "p3_mult": 1.1407,
+      "p4_mult": 1.4246,
+      "p5_mult": 0.867,
+      "p6_mult": 2.232,
+      "p7_mult": 1.12336,
+      "p8_mult": 2.246244,
+      "p9_mult": 2.80568
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "Fischl"
+    },
+    "passive": {},
+    "constellation": {}
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],

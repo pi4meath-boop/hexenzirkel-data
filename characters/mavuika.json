@@ -400,7 +400,60 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 8.0064,
+      "p1_mult": 7.0,
+      "p2_mult": 0.0288,
+      "p3_mult": 0.0051,
+      "p4_mult": 0.0102,
+      "p5_mult": 1.0,
+      "p6_mult": 1.5,
+      "p7_mult": 18.0,
+      "p8_mult": 200.0
+    },
+    "skill": {
+      "p0_mult": 1.3392,
+      "p1_mult": 2.304,
+      "p2_mult": 2.0,
+      "p3_mult": 1.131979,
+      "p4_mult": 1.168903,
+      "p5_mult": 1.38346,
+      "p6_mult": 1.377884,
+      "p7_mult": 1.798906,
+      "p8_mult": 1.598,
+      "p9_mult": 1.955,
+      "p10_mult": 2.72,
+      "p11_mult": 3.162,
+      "p12_mult": 80.0,
+      "p13_mult": 15.0
+    },
+    "normal": {
+      "p0_mult": 1.582088,
+      "p1_mult": 0.721114,
+      "p2_mult": 0.656738,
+      "p3_mult": 2.296836,
+      "p4_mult": 3.8318,
+      "p5_mult": 50.0,
+      "p6_mult": 1.47441,
+      "p7_mult": 2.948195,
+      "p8_mult": 3.682455
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "Mavuika"
+    },
+    "passive": {},
+    "constellation": {}
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],

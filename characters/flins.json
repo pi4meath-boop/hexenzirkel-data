@@ -60,7 +60,66 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 4.67712,
+      "p1_mult": 0.29232,
+      "p2_mult": 2.104704,
+      "p3_mult": 80.0,
+      "p4_mult": 20.0,
+      "p5_mult": 1.286208,
+      "p6_mult": 1.870848,
+      "p7_mult": 30.0
+    },
+    "skill": {
+      "p0_mult": 1.048464,
+      "p1_mult": 1.058357,
+      "p2_mult": 1.310861,
+      "p3_mult": 0.751054,
+      "p4_mult": 1.800202,
+      "p5_mult": 2.06928,
+      "p6_mult": 3.2112,
+      "p7_mult": 6.0,
+      "p8_mult": 10.0,
+      "p9_mult": 16.0
+    },
+    "normal": {
+      "p0_mult": 0.884119,
+      "p1_mult": 0.892466,
+      "p2_mult": 1.105391,
+      "p3_mult": 0.633327,
+      "p4_mult": 1.518032,
+      "p5_mult": 2.0366,
+      "p6_mult": 25.0,
+      "p7_mult": 1.26378,
+      "p8_mult": 2.527025,
+      "p9_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive": {
+      "a4AtkCap": 160.0,
+      "a4AtkPerEm": 0.08,
+      "a1LunarchargedDmg": 0.2,
+      "a4BaseLunarchargedDmg_cap": 0.14,
+      "a4BaseLunarchargedDmg_perEm": 0.007
+    },
+    "constellation": {
+      "c4Atk": 0.2,
+      "c2ElectroEnemyRes": 0.5,
+      "c6LunarchargedSpecialDmg_self": 0.35,
+      "c6LunarchargedSpecialDmg_team": 0.1
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "lunarcharged_dmg_": {

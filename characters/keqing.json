@@ -454,7 +454,49 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 1.584,
+      "p1_mult": 0.432,
+      "p2_mult": 3.3984,
+      "p3_mult": 12.0,
+      "p4_mult": 40.0
+    },
+    "skill": {
+      "p0_mult": 0.9072,
+      "p1_mult": 3.024,
+      "p2_mult": 1.512,
+      "p3_mult": 7.5
+    },
+    "normal": {
+      "p0_mult": 0.8109,
+      "p1_mult": 0.8109,
+      "p2_mult": 1.0761,
+      "p3_mult": 0.6222,
+      "p4_mult": 0.68,
+      "p5_mult": 1.3243,
+      "p6_mult": 1.5181,
+      "p7_mult": 1.7,
+      "p8_mult": 25.0,
+      "p9_mult": 1.26378,
+      "p10_mult": 2.527025,
+      "p11_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "Keqing"
+    },
+    "passive": {},
+    "constellation": {}
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],

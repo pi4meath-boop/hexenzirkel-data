@@ -60,7 +60,51 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 9.6768,
+      "p1_mult": 2.4192,
+      "p2_mult": 24.0,
+      "p3_mult": 3.0,
+      "p4_mult": 15.0,
+      "p5_mult": 60.0
+    },
+    "skill": {
+      "p0_mult": 1.31328,
+      "p1_mult": 10.368,
+      "p2_mult": 3050.9182,
+      "p3_mult": 20.0,
+      "p4_mult": 0.306432,
+      "p5_mult": 24.0,
+      "p6_mult": 8.0,
+      "p7_mult": 16.0,
+      "p8_mult": 100.0
+    },
+    "normal": {
+      "p0_mult": 0.78133,
+      "p1_mult": 0.698645,
+      "p2_mult": 0.967882,
+      "p3_mult": 1.7856,
+      "p4_mult": 50.0,
+      "p5_mult": 1.12336,
+      "p6_mult": 2.246244,
+      "p7_mult": 2.80568
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "Citlali"
+    },
+    "passive": {},
+    "constellation": {}
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],

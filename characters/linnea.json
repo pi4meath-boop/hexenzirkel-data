@@ -60,7 +60,56 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 1694.9546,
+      "p1_mult": 2.88,
+      "p2_mult": 338.9909,
+      "p3_mult": 0.576,
+      "p4_mult": 12.0,
+      "p5_mult": 15.0,
+      "p6_mult": 60.0
+    },
+    "skill": {
+      "p0_mult": 1.728,
+      "p1_mult": 1.8,
+      "p2_mult": 7.2,
+      "p3_mult": 25.0,
+      "p4_mult": 18.0
+    },
+    "normal": {
+      "p0_mult": 1.166217,
+      "p1_mult": 1.011143,
+      "p2_mult": 1.61364,
+      "p3_mult": 0.867,
+      "p4_mult": 2.232,
+      "p5_mult": 1.12336,
+      "p6_mult": 2.246244,
+      "p7_mult": 2.80568
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive": {
+      "a0LunarcrystallizeBase_cap": 0.3,
+      "a0LunarcrystallizeBase_perEm": 0.15
+    },
+    "constellation": {
+      "c1GeoEnemyRes": 6.0,
+      "c2Moondrift_def": 1.5,
+      "c4Moondrift_def": 0.25,
+      "c6Gleam_lunarcrystallizeDmg": 0.25,
+      "c2LunarcrystallizeDmgInc_perEm": 0.4
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "def_": {

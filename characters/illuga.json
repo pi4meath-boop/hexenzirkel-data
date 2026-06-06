@@ -60,7 +60,59 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "p0_mult": 14.8896,
+      "p1_mult": 7.4448,
+      "p2_mult": 0.6048,
+      "p3_mult": 4.06656,
+      "p4_mult": 21.0,
+      "p5_mult": 5.0,
+      "p6_mult": 20.0,
+      "p7_mult": 15.0,
+      "p8_mult": 60.0
+    },
+    "skill": {
+      "p0_mult": 8.68608,
+      "p1_mult": 4.34304,
+      "p2_mult": 10.8576,
+      "p3_mult": 5.4288,
+      "p4_mult": 15.0
+    },
+    "normal": {
+      "p0_mult": 0.936309,
+      "p1_mult": 0.959225,
+      "p2_mult": 0.62135,
+      "p3_mult": 0.62135,
+      "p4_mult": 1.507832,
+      "p5_mult": 2.1947,
+      "p6_mult": 25.0,
+      "p7_mult": 1.26378,
+      "p8_mult": 2.527025,
+      "p9_mult": 3.15639
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive": {
+      "a4StackingBonus_tier1": 0.07,
+      "a4StackingBonus_tier2": 0.14,
+      "a1LunarcrystallizeBase_tier1": 0.05,
+      "a1LunarcrystallizeBase_tier2": 0.1
+    },
+    "constellation": {
+      "c1EleMas": 12.0,
+      "c4EleMas": 200.0
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "eleMas": {

@@ -243,7 +243,60 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "burst": {
+      "hit1Atk_mult": 4.04352,
+      "hit2Atk_mult": 6.06528,
+      "hit1EleMas_mult": 8.08704,
+      "hit2EleMas_mult": 12.13056,
+      "dmgPerStack_mult": 0.4
+    },
+    "skill": {
+      "shade1Mv_mult": 1.728,
+      "shade2Mv_mult": 1.728,
+      "shade3Mv_mult": 2.304,
+      "nefer1Atk_mult": 0.44352,
+      "nefer2Atk_mult": 0.576576,
+      "skillDmgAtk_mult": 1.374912,
+      "nefer1EleMas_mult": 0.88704,
+      "nefer2EleMas_mult": 1.153152,
+      "skillDmgEleMas_mult": 2.749824
+    },
+    "normal": {
+      "hit1_mult": 0.685282,
+      "hit2_mult": 0.676152,
+      "hit4_mult": 1.097899,
+      "hit3x2_mult": 0.45432,
+      "plunge_mult": 1.12336,
+      "charged_mult": 2.35584,
+      "plunge_low_mult": 2.246244,
+      "plunge_high_mult": 2.80568
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterFile": "libs/gi/sheets/src/Characters/Nefer/index.tsx"
+    },
+    "passive": {
+      "a1MaxVeilEleMas": 100.0,
+      "a0LunarBloomBasePctCap": 0.14,
+      "a0LunarBloomBasePct_perEm": 0.000175,
+      "a1PhantasmVeilMult_perStack": 0.08
+    },
+    "constellation": {
+      "c2NewEleMas": 200.0,
+      "c4DendroEnemyRes_mult": -0.2,
+      "c1LunarbloomDmgInc_mult": 0.6,
+      "c6LunarbloomSpecialDmg_mult": 0.15
+    }
+  },
   "buffs": {
     "self_modifiers_json": {
       "isMoonsign": 1,
