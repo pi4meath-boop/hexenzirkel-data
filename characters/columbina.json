@@ -60,6 +60,7 @@
       }
     }
   },
+  "talent_multipliers_json": {},
   "buffs": {
     "self_modifiers_json": {
       "lunar_special_": {

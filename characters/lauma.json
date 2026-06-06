@@ -156,6 +156,7 @@
     },
     "burst": {}
   },
+  "talent_multipliers_json": {},
   "buffs": {
     "self_modifiers_json": {
       "skill_dmg_": {
