@@ -1,0 +1,420 @@
+{
+  "display_name": "Nefer",
+  "go_key": "Nefer",
+  "avatar_id": 10000122,
+  "character_key": "avatar_10000122",
+  "base_stats_json": {
+    "baseHp": 12703.9082338,
+    "baseAtk": 344.4168692,
+    "baseDef": 799.2965448000001,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "hit2Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "hit3Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3x2_mult"
+          }
+        ]
+      },
+      "hit4Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit4_mult"
+          }
+        ]
+      },
+      "chargedDmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_mult"
+          }
+        ]
+      },
+      "plungeDmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "pp_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "skillDmgAtk_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "skillDmgEleMas_mult"
+          }
+        ]
+      },
+      "nefer1Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "pp_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "nefer1Atk_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "nefer1EleMas_mult"
+          }
+        ]
+      },
+      "nefer2Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "nefer2Atk_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "nefer2EleMas_mult"
+          }
+        ]
+      },
+      "shade1Dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "lunarbloom_dmg_",
+          "reaction_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "shade1Mv_mult"
+          }
+        ]
+      },
+      "shade2Dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "lunarbloom_dmg_",
+          "reaction_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "shade2Mv_mult"
+          }
+        ]
+      },
+      "shade3Dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "lunarbloom_dmg_",
+          "reaction_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "shade3Mv_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1Atk_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "hit1EleMas_mult"
+          }
+        ]
+      },
+      "hit2": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2Atk_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "hit2EleMas_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "isMoonsign": 1,
+      "lunarbloom_directDmg_": {
+        "formulaRef": "nefer.c1.lunarbloom.direct_dmg"
+      }
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1VeilStacks",
+        "source": "Nefer",
+        "gating": {
+          "ascMin": 1,
+          "requiresMoonsign": true
+        },
+        "states": [
+          {
+            "value": "1",
+            "modifiers": {
+              "pp_mult_": {
+                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
+              }
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "pp_mult_": {
+                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
+              }
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "pp_mult_": {
+                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
+              },
+              "eleMas": {
+                "formulaRef": "nefer.a1.veil_stacks.eleMas"
+              }
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "pp_mult_": {
+                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
+              },
+              "eleMas": {
+                "formulaRef": "nefer.a1.veil_stacks.eleMas"
+              }
+            },
+            "gating": {
+              "constellationMin": 2
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "pp_mult_": {
+                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
+              },
+              "eleMas": {
+                "formulaRef": "nefer.a1.veil_stacks.eleMas"
+              }
+            },
+            "gating": {
+              "constellationMin": 2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstVeilsAbsorbed",
+        "source": "Nefer",
+        "gating": {
+          "ascMin": 1,
+          "requiresMoonsign": true
+        },
+        "states": [
+          {
+            "value": "1",
+            "modifiers": {
+              "burst_dmg_": {
+                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
+              }
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "burst_dmg_": {
+                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
+              }
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "burst_dmg_": {
+                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
+              }
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "burst_dmg_": {
+                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
+              }
+            },
+            "gating": {
+              "constellationMin": 2
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "burst_dmg_": {
+                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
+              }
+            },
+            "gating": {
+              "constellationMin": 2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6Gleam",
+        "source": "Nefer",
+        "gating": {
+          "constellationMin": 6,
+          "requiresMoonsign": true
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarbloom_specialDmg_": {
+                "formulaRef": "nefer.c6.gleam.lunarbloom_special_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {
+      "lunarbloom_baseDmg_": {
+        "formulaRef": "nefer.a0.lunarbloom_base_dmg"
+      },
+      "lunarbloom_dmg_": 0.1
+    },
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4ShadowDance",
+        "source": "Nefer",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "dendro_enemyRes_": {
+                "formulaRef": "nefer.c4.shadow_dance.dendro_enemy_res"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

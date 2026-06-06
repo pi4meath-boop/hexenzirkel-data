@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15406",
+  "display_name": "Prototype Crescent",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "atk_",
+    "subStatValue": 0.41346
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

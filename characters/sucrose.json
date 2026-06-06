@@ -1,0 +1,94 @@
+{
+  "display_name": "Sucrose",
+  "go_key": "Sucrose",
+  "avatar_id": 10000043,
+  "character_key": "avatar_10000043",
+  "base_stats_json": {
+    "baseHp": 9243.67751666,
+    "baseAtk": 169.9177536,
+    "baseDef": 702.99717075,
+    "ascStatKey": "anemo_dmg_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1CatalystConversion",
+        "source": "Sucrose",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 50.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4MollisFavonius",
+        "source": "Sucrose",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

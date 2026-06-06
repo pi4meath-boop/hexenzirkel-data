@@ -1,0 +1,104 @@
+{
+  "display_name": "Flins",
+  "go_key": "Flins",
+  "avatar_id": 10000120,
+  "character_key": "avatar_10000120",
+  "base_stats_json": {
+    "baseHp": 12490.8290496,
+    "baseAtk": 351.5922196,
+    "baseDef": 808.51919724,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "lunarcharged_dmg_": {
+        "formulaRef": "flins.a1.lunarcharged_dmg"
+      },
+      "atk_": {
+        "formulaRef": "flins.a4.atk_from_elemas"
+      },
+      "lunarcharged_specialDmg_": {
+        "formulaRef": "flins.c6.lunarcharged_special_dmg"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {
+      "lunarcharged_baseDmg_": {
+        "formulaRef": "flins.a4.lunarcharged_base_dmg"
+      },
+      "electro_enemyRes_": {
+        "formulaRef": "flins.c2.shift_mode_electro_res"
+      }
+    },
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6Ascendant",
+        "source": "avatar_10000120",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarcharged_specialDmg_": {
+                "formulaRef": "flins.c6.lunarcharged_special_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

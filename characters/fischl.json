@@ -1,0 +1,128 @@
+{
+  "display_name": "Fischl",
+  "go_key": "Fischl",
+  "avatar_id": 10000031,
+  "character_key": "avatar_10000031",
+  "base_stats_json": {
+    "baseHp": 9189.3029266,
+    "baseAtk": 244.25677079999997,
+    "baseDef": 593.79372675,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "burst OL Atk Buff",
+        "source": "Fischl",
+        "description": "Burst hexerei conditional team ATK bonus when overload condition is met.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.225
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burst EC/LC ME Buff",
+        "source": "Fischl",
+        "description": "Burst hexerei conditional team ATK bonus when EC/LC condition is met.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 45
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "C6 burst OL Atk Buff",
+        "source": "Fischl",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 hexerei conditional team ATK bonus when overload condition is met.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "C6 burst EC/LC ME Buff",
+        "source": "Fischl",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 hexerei conditional team EM bonus when EC/LC condition is met.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 90
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

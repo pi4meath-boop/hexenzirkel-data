@@ -1,0 +1,73 @@
+{
+  "display_name": "Illuga",
+  "go_key": "Illuga",
+  "avatar_id": 10000127,
+  "character_key": "avatar_10000127",
+  "base_stats_json": {
+    "baseHp": 11962.4064649,
+    "baseAtk": 191.15747280000002,
+    "baseDef": 813.5656577999999,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 96.0
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": {
+        "formulaRef": "illuga.c4.elemas_bonus"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

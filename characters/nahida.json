@@ -1,0 +1,94 @@
+{
+  "display_name": "Nahida",
+  "go_key": "Nahida",
+  "avatar_id": 10000073,
+  "character_key": "avatar_10000073",
+  "base_stats_json": {
+    "baseHp": 10360.0405293,
+    "baseAtk": 298.972975,
+    "baseDef": 630.2145834,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 115.2
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p1_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p1_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": {
+        "formulaRef": "nahida.c4.stacking_elemas"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {
+      "eleMas": {
+        "formulaRef": "nahida.burst.team_elemas"
+      },
+      "lunarbloom_dmg_": {
+        "formulaRef": "nahida.ascendant_gleam.lunarbloom_dmg_bonus"
+      },
+      "lunarbloom_critRate_": {
+        "formulaRef": "nahida.c2.lunarbloom_crit_rate"
+      },
+      "lunarbloom_critDMG_": {
+        "formulaRef": "nahida.c2.lunarbloom_crit_dmg"
+      }
+    },
+    "team_conditional_modifiers_json": []
+  }
+}

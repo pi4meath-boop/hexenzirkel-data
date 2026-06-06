@@ -1,0 +1,21 @@
+{
+  "set_key": "TinyMiracle",
+  "display_name": "Tiny Miracle",
+  "buffs": {
+    "self_modifiers_json": {
+      "all_res_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_incoming_elemental_dmg_increases_corresponding_elemental_res",
+        "source": "TinyMiracle",
+        "description": "4pc: Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+        "modifiers": {
+          "all_res_": 0.3
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

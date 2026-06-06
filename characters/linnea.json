@@ -1,0 +1,98 @@
+{
+  "display_name": "Linnea",
+  "go_key": "Linnea",
+  "avatar_id": 10000130,
+  "character_key": "avatar_10000130",
+  "base_stats_json": {
+    "baseHp": 9894.69552967,
+    "baseAtk": 143.50702800000002,
+    "baseDef": 906.8941566000001,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "def_": {
+        "formulaRef": "linnea.c4.moondrift.def"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {
+      "lunarcrystallize_baseDmg_": {
+        "formulaRef": "linnea.a0.lunarcrystallize_base_dmg"
+      },
+      "geo_enemyRes_": {
+        "formulaRef": "linnea.a1.lumi.geo_enemy_res"
+      }
+    },
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6Gleam",
+        "source": "avatar_10000130",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarcrystallize_dmg_": {
+                "formulaRef": "linnea.c6.gleam.lunarcrystallize_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "set_key": "RetracingBolide",
+  "display_name": "Retracing Bolide",
+  "buffs": {
+    "self_modifiers_json": {
+      "shield_": 0.35
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_while_protected_by_a_shield_gain_an_additional_40_normal_and",
+        "source": "RetracingBolide",
+        "description": "4pc: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+        "modifiers": {
+          "normal_dmg_": 0.4,
+          "charged_dmg_": 0.4
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

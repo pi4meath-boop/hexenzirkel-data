@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15507",
+  "display_name": "Polar Star",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.330768
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

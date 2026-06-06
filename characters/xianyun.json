@@ -1,0 +1,200 @@
+{
+  "display_name": "Xianyun",
+  "go_key": "Xianyun",
+  "avatar_id": 10000093,
+  "character_key": "avatar_10000093",
+  "base_stats_json": {
+    "baseHp": 10409.023958000002,
+    "baseAtk": 334.849732,
+    "baseDef": 572.57300565,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.288
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit_1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "hit_2": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "hit_3": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
+      },
+      "hit_4": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "charged_1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "plunging_dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p7_mult"
+          }
+        ]
+      },
+      "plunging_low": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p8_mult"
+          }
+        ]
+      },
+      "plunging_high": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p9_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "cloud_step": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "burst_1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "burst_2": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4GalesOfReverie",
+        "source": "Xianyun",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "plunging_dmgIncFromAtk_": 2.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

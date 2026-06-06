@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15304",
+  "display_name": "Slingshot",
+  "base_stats_json": {
+    "baseAtk": 354.37940000000003,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.31239200000000006
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "weapon_key": "11509",
+  "display_name": "Mistsplitter Reforged",
+  "base_stats_json": {
+    "baseAtk": 674.3345459999999,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.441024
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "all_dmg_": 0.12
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "mistsplitter_emblem_stacks",
+        "source": "MistsplitterReforged",
+        "description": "Mistsplitter's Emblem stack bonus for the wielder's elemental type.",
+        "states": {
+          "1": {
+            "all_dmg_": 0.8
+          },
+          "2": {
+            "all_dmg_": 0.16
+          },
+          "3": {
+            "all_dmg_": 0.28
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

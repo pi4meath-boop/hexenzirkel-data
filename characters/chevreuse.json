@@ -1,0 +1,125 @@
+{
+  "display_name": "Chevreuse",
+  "go_key": "Chevreuse",
+  "avatar_id": 10000090,
+  "character_key": "avatar_10000090",
+  "base_stats_json": {
+    "baseHp": 11962.4064649,
+    "baseAtk": 193.28144472,
+    "baseDef": 604.71407115,
+    "ascStatKey": "hp_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1OverloadedTriggered",
+        "source": "Chevreuse",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_enemyRes_": -0.4,
+              "electro_enemyRes_": -0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4OverchargedBall",
+        "source": "Chevreuse",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6ShortrangeRapidInterdiction",
+        "source": "Chevreuse",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "stack1",
+            "modifiers": {
+              "pyro_dmg_": 0.2,
+              "electro_dmg_": 0.2
+            }
+          },
+          {
+            "value": "stack2",
+            "modifiers": {
+              "pyro_dmg_": 0.4,
+              "electro_dmg_": 0.4
+            }
+          },
+          {
+            "value": "stack3",
+            "modifiers": {
+              "pyro_dmg_": 0.6,
+              "electro_dmg_": 0.6
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

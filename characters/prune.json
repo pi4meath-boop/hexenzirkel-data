@@ -1,0 +1,82 @@
+{
+  "display_name": "Prune",
+  "go_key": "Prune",
+  "avatar_id": 10000132,
+  "character_key": "avatar_10000132",
+  "base_stats_json": {
+    "baseHp": 9678.674406,
+    "baseAtk": 220.89308168000002,
+    "baseDef": 580.14329625,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.0
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "tollingRally",
+        "source": "Prune",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.25
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

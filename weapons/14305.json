@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14305",
+  "display_name": "Twin Nephrite",
+  "base_stats_json": {
+    "baseAtk": 448.2215814,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.15619600000000003
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11501",
+  "display_name": "Aquila Favonia",
+  "base_stats_json": {
+    "baseAtk": 674.3345459999999,
+    "subStatKey": "physical_dmg_",
+    "subStatValue": 0.41346
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

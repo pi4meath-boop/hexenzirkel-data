@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13511",
+  "display_name": "Staff of the Scarlet Sands",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.441024
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

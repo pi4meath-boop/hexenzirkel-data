@@ -1,0 +1,821 @@
+{
+  "display_name": "Durin",
+  "go_key": "Durin",
+  "avatar_id": 10000123,
+  "character_key": "avatar_10000123",
+  "base_stats_json": {
+    "baseHp": 12429.5994322,
+    "baseAtk": 346.808651,
+    "baseDef": 822.3531759000001,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit_1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "hit_2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "hit_3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3a_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3b_mult"
+          }
+        ]
+      },
+      "hit_4": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit4_mult"
+          }
+        ]
+      },
+      "normal1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "normal2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "normal3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3a_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3b_mult"
+          }
+        ]
+      },
+      "normal4": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit4_mult"
+          }
+        ]
+      },
+      "charged_1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_mult"
+          }
+        ]
+      },
+      "plunging_dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_mult"
+          }
+        ]
+      },
+      "hit1Dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "hit2Dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "hit3Dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3a_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3b_mult"
+          }
+        ]
+      },
+      "hit4Dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit4_mult"
+          }
+        ]
+      },
+      "chargedDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_mult"
+          }
+        ]
+      },
+      "plungeDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "confirmation": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "confirmation_mult"
+          }
+        ]
+      },
+      "denial": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial3_mult"
+          }
+        ]
+      },
+      "darkDmg1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial1_mult"
+          }
+        ]
+      },
+      "darkDmg2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial2_mult"
+          }
+        ]
+      },
+      "darkDmg3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial3_mult"
+          }
+        ]
+      },
+      "transmutationConfirmationDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "confirmation_mult"
+          }
+        ]
+      },
+      "transmutationDenialDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial3_mult"
+          }
+        ]
+      },
+      "transmutation_confirmation_of_purity": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "confirmation_mult"
+          }
+        ]
+      },
+      "transmutation_denial_of_darkness": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "denial1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "denial3_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "purity": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "purity1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity3_mult"
+          }
+        ]
+      },
+      "darkness": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness3_mult"
+          }
+        ]
+      },
+      "white_flame": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "white_flame_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "dark_decay": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dark_decay_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "darkDmg1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness1_mult"
+          }
+        ]
+      },
+      "darkDmg2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness2_mult"
+          }
+        ]
+      },
+      "darkDmg3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness3_mult"
+          }
+        ]
+      },
+      "decayDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dark_decay_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "principleOfPurityDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "purity1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity3_mult"
+          }
+        ]
+      },
+      "principleOfDarknessDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness3_mult"
+          }
+        ]
+      },
+      "dragonOfWhiteFlameDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "white_flame_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "dragonOfDarkDecayDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dark_decay_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "principle_of_purity_as_the_light_shifts": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "purity1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "purity3_mult"
+          }
+        ]
+      },
+      "principle_of_darkness_as_the_stars_smolder": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "darkness3_mult"
+          }
+        ]
+      },
+      "dragon_of_white_flame": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "white_flame_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      },
+      "dragon_of_dark_decay": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dark_decay_mult"
+          }
+        ],
+        "consumesStacks": {
+          "poolKey": "durin_a4_primordial_fusion",
+          "initialStacksTalentKey": "a4_primordial_fusion_stacks",
+          "consumePerHit": 1,
+          "consumeByTargetWeight": true,
+          "bonusStatKey": "durin_a4_periodic_base_mult_",
+          "bonusScalingStatKey": "atk",
+          "bonusPer100TalentKey": "a4_primordial_fusion_per_100_atk",
+          "bonusCapTalentKey": "a4_primordial_fusion_cap"
+        }
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "durin_a4_periodic_base_mult_": {
+        "formulaRef": "durin.a4.periodic_dragon_dmg_bonus"
+      }
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "durinDarkDecayMode",
+        "source": "avatar_10000123",
+        "states": [
+          {
+            "value": "black_mode",
+            "modifiers": {
+              "vaporize_dmg_": 0.4,
+              "melt_dmg_": 0.4
+            }
+          },
+          {
+            "value": "black_mode_hexerei",
+            "modifiers": {
+              "vaporize_dmg_": 0.7000000000000001,
+              "melt_dmg_": 0.7000000000000001
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "durinA1WhiteFlameResShred",
+        "source": "avatar_10000123",
+        "description": "A1: White Flame applies enemy RES shred while active.",
+        "states": [
+          {
+            "value": "no_hexerei",
+            "modifiers": {
+              "pyro_enemyRes_": -0.2
+            }
+          },
+          {
+            "value": "hexerei",
+            "modifiers": {
+              "pyro_enemyRes_": -0.35
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

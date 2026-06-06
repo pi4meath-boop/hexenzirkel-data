@@ -1,0 +1,21 @@
+{
+  "set_key": "HeartOfDepth",
+  "display_name": "Heart of Depth",
+  "buffs": {
+    "self_modifiers_json": {
+      "hydro_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_after_using_elemental_skill_increases_normal_attack_and_char",
+        "source": "HeartOfDepth",
+        "description": "4pc: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+        "modifiers": {
+          "normal_dmg_": 0.3
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

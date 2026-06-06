@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14518",
+  "display_name": "Sunny Morning Sleep-In",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "eleMas",
+    "subStatValue": 264.61440000000005
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

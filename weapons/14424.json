@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14424",
+  "display_name": "Sacrificial Jade",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.36752
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

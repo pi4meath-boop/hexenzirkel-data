@@ -1,0 +1,12 @@
+{
+  "set_key": "DefendersWill",
+  "display_name": "Defender's Will",
+  "buffs": {
+    "self_modifiers_json": {
+      "def_": 0.3
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

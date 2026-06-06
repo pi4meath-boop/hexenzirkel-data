@@ -1,0 +1,131 @@
+{
+  "display_name": "Furina",
+  "go_key": "Furina",
+  "avatar_id": 10000089,
+  "character_key": "avatar_10000089",
+  "base_stats_json": {
+    "baseHp": 15307.388350000001,
+    "baseAtk": 243.96194960000003,
+    "baseDef": 695.5417048500001,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstFanfare",
+        "source": "Furina",
+        "description": "Burst fanfare stacks: each stack provides DMG bonus",
+        "states": [
+          {
+            "value": "0",
+            "modifiers": {
+              "all_dmg_": 0.0
+            }
+          },
+          {
+            "value": "50",
+            "modifiers": {
+              "all_dmg_": 0.125
+            }
+          },
+          {
+            "value": "100",
+            "modifiers": {
+              "all_dmg_": 0.25
+            }
+          },
+          {
+            "value": "150",
+            "modifiers": {
+              "all_dmg_": 0.375
+            }
+          },
+          {
+            "value": "200",
+            "modifiers": {
+              "all_dmg_": 0.5
+            }
+          },
+          {
+            "value": "250",
+            "modifiers": {
+              "all_dmg_": 0.625
+            }
+          },
+          {
+            "value": "300",
+            "modifiers": {
+              "all_dmg_": 0.75
+            }
+          },
+          {
+            "value": "350",
+            "modifiers": {
+              "all_dmg_": 0.875
+            }
+          },
+          {
+            "value": "400",
+            "modifiers": {
+              "all_dmg_": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

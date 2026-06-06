@@ -1,0 +1,19 @@
+{
+  "weapon_key": "14402",
+  "display_name": "The Widsith",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.2,
+      "all_dmg_": 0.16,
+      "eleMas": 80.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

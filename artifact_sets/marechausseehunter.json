@@ -1,0 +1,29 @@
+{
+  "set_key": "MarechausseeHunter",
+  "display_name": "Marechaussee Hunter",
+  "buffs": {
+    "self_modifiers_json": {
+      "normal_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_hp_change_crit_stacks",
+        "source": "MarechausseeHunter",
+        "description": "4pc: When current HP increases or decreases, CRIT Rate +12% per stack (max 3 stacks, 5s)",
+        "states": {
+          "1": {
+            "critRate_": 0.12
+          },
+          "2": {
+            "critRate_": 0.24
+          },
+          "3": {
+            "critRate_": 0.36
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

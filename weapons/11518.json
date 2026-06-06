@@ -1,0 +1,45 @@
+{
+  "weapon_key": "11518",
+  "display_name": "Athame Artis",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.330768
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "burst_critDMG_": 0.16
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "athame_artis_blade_of_the_daylight_hours",
+        "source": "AthameArtis",
+        "description": "When Elemental Burst hits: ATK +40% (or +70% with Hexerei).",
+        "states": {
+          "active": {
+            "atk_": 0.2
+          },
+          "hexerei": {
+            "atk_": 0.35
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "athame_artis_party_daylight_hours",
+        "source": "AthameArtis",
+        "description": "Nearby active party members other than the wearer gain ATK +32% for 3s (or +56% with Hexerei).",
+        "states": {
+          "active": {
+            "atk_": 0.16
+          },
+          "hexerei": {
+            "atk_": 0.28
+          }
+        }
+      }
+    ]
+  }
+}

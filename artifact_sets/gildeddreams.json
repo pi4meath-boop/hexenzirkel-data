@@ -1,0 +1,21 @@
+{
+  "set_key": "GildedDreams",
+  "display_name": "Gilded Dreams",
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": 80.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_within_8s_of_triggering_an_elemental_reaction_the_character_",
+        "source": "GildedDreams",
+        "description": "4pc: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+        "modifiers": {
+          "atk_": 0.14
+        }
+      }
+    ]
+  }
+}

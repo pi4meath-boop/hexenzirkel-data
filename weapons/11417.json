@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11417",
+  "display_name": "Sapwood Blade",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "enerRech_",
+    "subStatValue": 0.30626819800000005
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

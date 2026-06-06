@@ -1,0 +1,12 @@
+{
+  "set_key": "TravelingDoctor",
+  "display_name": "Traveling Doctor",
+  "buffs": {
+    "self_modifiers_json": {
+      "incHeal_": 0.2
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

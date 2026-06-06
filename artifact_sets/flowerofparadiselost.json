@@ -1,0 +1,22 @@
+{
+  "set_key": "FlowerOfParadiseLost",
+  "display_name": "Flower of Paradise Lost",
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": 80.0
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_the_equipping_character_s_bloom_hyperbloom_and_burgeon_react",
+        "source": "FlowerOfParadiseLost",
+        "description": "4pc: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.",
+        "modifiers": {
+          "bloom_dmg_": 0.5,
+          "lunarbloom_dmg_": 0.125
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

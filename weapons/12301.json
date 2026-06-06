@@ -1,0 +1,15 @@
+{
+  "weapon_key": "12301",
+  "display_name": "Ferrous Shadow",
+  "base_stats_json": {
+    "baseAtk": 401.2935898,
+    "subStatKey": "hp_",
+    "subStatValue": 0.35190040000000006
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

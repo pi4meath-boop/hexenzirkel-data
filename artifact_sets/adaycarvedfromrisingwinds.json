@@ -1,0 +1,27 @@
+{
+  "set_key": "ADayCarvedFromRisingWinds",
+  "display_name": "A Day Carved From Rising Winds",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_blessing_of_pastoral_winds",
+        "source": "ADayCarvedFromRisingWinds",
+        "description": "4pc: After hitting with any attack, Blessing of Pastoral Winds (6s): ATK +25%. Upgraded to Resolve of Pastoral Winds with Witch's Homework: additionally CRIT Rate +20%",
+        "states": {
+          "only_atk": {
+            "atk_": 0.25
+          },
+          "full_buff": {
+            "atk_": 0.25,
+            "critRate_": 0.2
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

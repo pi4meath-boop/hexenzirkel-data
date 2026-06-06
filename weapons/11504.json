@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11504",
+  "display_name": "Summit Shaper",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "atk_",
+    "subStatValue": 0.49615200000000004
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "weapon_key": "14433",
+  "display_name": "Blackmarrow Lantern",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "eleMas",
+    "subStatValue": 220.512
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "lunarbloom_dmg_": 0.48,
+      "bloom_dmg_": 0.96
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

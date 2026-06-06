@@ -1,0 +1,98 @@
+{
+  "display_name": "Citlali",
+  "go_key": "Citlali",
+  "avatar_id": 10000107,
+  "character_key": "avatar_10000107",
+  "base_stats_json": {
+    "baseHp": 11633.615306000002,
+    "baseAtk": 126.76454140000001,
+    "baseDef": 763.17448941,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 115.2
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1FrozenOrMelted",
+        "source": "Citlali",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_enemyRes_": -0.2,
+              "hydro_enemyRes_": -0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1OpalShield",
+        "source": "Citlali",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 250.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

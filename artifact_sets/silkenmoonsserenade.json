@@ -1,0 +1,21 @@
+{
+  "set_key": "SilkenMoonsSerenade",
+  "display_name": "Silken Moon's Serenade",
+  "buffs": {
+    "self_modifiers_json": {
+      "enerRech_": 0.2
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_silken_moon_team_lunarbloom_window",
+        "source": "SilkenMoonsSerenade",
+        "description": "4pc Silken Moon's Serenade lunar team buff window.",
+        "modifiers": {
+          "eleMas": 120.0
+        }
+      }
+    ]
+  }
+}

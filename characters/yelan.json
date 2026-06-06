@@ -1,0 +1,303 @@
+{
+  "display_name": "Yelan",
+  "go_key": "Yelan",
+  "avatar_id": 10000060,
+  "character_key": "avatar_10000060",
+  "base_stats_json": {
+    "baseHp": 14450.174906400001,
+    "baseAtk": 243.96194960000003,
+    "baseDef": 547.97926581,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit_1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "hit_2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "hit_3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
+      },
+      "hit_4": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "charged_1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "charged_aimed": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "plunging_dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p6_mult"
+          }
+        ]
+      },
+      "plunging_low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p7_mult"
+          }
+        ]
+      },
+      "plunging_high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p8_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "breakthrough_barb": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "burst_1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "exquisite_throw": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "p1_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4ExquisiteThrowRamp",
+        "source": "Yelan",
+        "description": "A4 passive: Hydro DMG bonus increases by ~3.5% per second (capped at 50% at 15s+)",
+        "states": [
+          {
+            "value": "0",
+            "modifiers": {
+              "all_dmg_": 0.0
+            }
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "all_dmg_": 0.035
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "all_dmg_": 0.07
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "all_dmg_": 0.105
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "all_dmg_": 0.14
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "all_dmg_": 0.175
+            }
+          },
+          {
+            "value": "6",
+            "modifiers": {
+              "all_dmg_": 0.21
+            }
+          },
+          {
+            "value": "7",
+            "modifiers": {
+              "all_dmg_": 0.245
+            }
+          },
+          {
+            "value": "8",
+            "modifiers": {
+              "all_dmg_": 0.28
+            }
+          },
+          {
+            "value": "9",
+            "modifiers": {
+              "all_dmg_": 0.315
+            }
+          },
+          {
+            "value": "10",
+            "modifiers": {
+              "all_dmg_": 0.35
+            }
+          },
+          {
+            "value": "11",
+            "modifiers": {
+              "all_dmg_": 0.385
+            }
+          },
+          {
+            "value": "12",
+            "modifiers": {
+              "all_dmg_": 0.42
+            }
+          },
+          {
+            "value": "13",
+            "modifiers": {
+              "all_dmg_": 0.455
+            }
+          },
+          {
+            "value": "14",
+            "modifiers": {
+              "all_dmg_": 0.49
+            }
+          },
+          {
+            "value": "15",
+            "modifiers": {
+              "all_dmg_": 0.5
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

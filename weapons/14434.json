@@ -1,0 +1,32 @@
+{
+  "weapon_key": "14434",
+  "display_name": "Dawning Frost",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "afterChargedAttack",
+        "source": "DawningFrost",
+        "description": "After Charged Attack: +144 EM (R5 model).",
+        "modifiers": {
+          "eleMas": 144.0
+        }
+      },
+      {
+        "conditionKey": "afterSkill",
+        "source": "DawningFrost",
+        "description": "After Skill: +96 EM (R5 model).",
+        "modifiers": {
+          "eleMas": 96.0
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "set_key": "DeepwoodMemories",
+  "display_name": "Deepwood Memories",
+  "buffs": {
+    "self_modifiers_json": {
+      "dendro_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_after_elemental_skills_or_bursts_hit_opponents_the_targets_d",
+        "source": "DeepwoodMemories",
+        "description": "4pc: After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+        "modifiers": {
+          "dendro_enemyRes_": -0.3
+        }
+      }
+    ]
+  }
+}

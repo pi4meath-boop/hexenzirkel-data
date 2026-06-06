@@ -1,0 +1,22 @@
+{
+  "set_key": "BloodstainedChivalry",
+  "display_name": "Bloodstained Chivalry",
+  "buffs": {
+    "self_modifiers_json": {
+      "physical_dmg_": 0.25
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_after_defeating_an_opponent_increases_charged_attack_dmg_by_",
+        "source": "BloodstainedChivalry",
+        "description": "4pc: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
+        "modifiers": {
+          "charged_dmg_": 0.5,
+          "staminaChargedDec_": 1.0
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

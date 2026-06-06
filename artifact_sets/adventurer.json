@@ -1,0 +1,12 @@
+{
+  "set_key": "Adventurer",
+  "display_name": "Adventurer",
+  "buffs": {
+    "self_modifiers_json": {
+      "hp": 1000.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

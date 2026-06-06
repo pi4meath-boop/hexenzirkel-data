@@ -1,0 +1,26 @@
+{
+  "weapon_key": "14517",
+  "display_name": "Starcaller's Watch",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "eleMas",
+    "subStatValue": 264.61440000000005
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "starcallers_watch_team_buff",
+        "source": "StarcallersWatch",
+        "description": "Conditional team bonus damage from passive proc.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.28
+          }
+        }
+      }
+    ]
+  }
+}

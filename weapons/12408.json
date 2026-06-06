@@ -1,0 +1,15 @@
+{
+  "weapon_key": "12408",
+  "display_name": "Blackcliff Slasher",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

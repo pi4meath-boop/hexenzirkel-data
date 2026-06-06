@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11406",
+  "display_name": "Prototype Rancour",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "physical_dmg_",
+    "subStatValue": 0.344857798
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "set_key": "ShimenawasReminiscence",
+  "display_name": "Shimenawa's Reminiscence",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_when_casting_an_elemental_skill_if_the_character_has_15_or_m",
+        "source": "ShimenawasReminiscence",
+        "description": "4pc: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+        "modifiers": {
+          "normal_dmg_": 0.5
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

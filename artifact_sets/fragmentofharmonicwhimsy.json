@@ -1,0 +1,29 @@
+{
+  "set_key": "FragmentOfHarmonicWhimsy",
+  "display_name": "Fragment of Harmonic Whimsy",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_bond_of_life_dmg_stacks",
+        "source": "FragmentOfHarmonicWhimsy",
+        "description": "4pc: When Bond of Life value changes, DMG +18% per stack (max 3 stacks, 6s)",
+        "states": {
+          "1": {
+            "all_dmg_": 0.18
+          },
+          "2": {
+            "all_dmg_": 0.36
+          },
+          "3": {
+            "all_dmg_": 0.54
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

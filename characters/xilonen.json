@@ -1,0 +1,85 @@
+{
+  "display_name": "Xilonen",
+  "go_key": "Xilonen",
+  "avatar_id": 10000103,
+  "character_key": "avatar_10000103",
+  "base_stats_json": {
+    "baseHp": 12405.10724307,
+    "baseAtk": 275.05513700000006,
+    "baseDef": 929.9507877000001,
+    "ascStatKey": "def_",
+    "ascStatValue": 0.36
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillSourceSamplesActive",
+        "source": "Xilonen",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_enemyRes_": -0.36,
+              "hydro_enemyRes_": -0.36,
+              "electro_enemyRes_": -0.36,
+              "cryo_enemyRes_": -0.36
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

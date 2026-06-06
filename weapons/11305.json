@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11305",
+  "display_name": "Fillet Blade",
+  "base_stats_json": {
+    "baseAtk": 401.2935898,
+    "subStatKey": "atk_",
+    "subStatValue": 0.35190040000000006
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

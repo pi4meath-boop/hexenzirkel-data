@@ -1,0 +1,17 @@
+{
+  "weapon_key": "12425",
+  "display_name": "Tidal Shadow",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "atk_",
+    "subStatValue": 0.41346
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.48
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

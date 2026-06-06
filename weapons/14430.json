@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14430",
+  "display_name": "Waveriding Whirl",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "enerRech_",
+    "subStatValue": 0.6125318020000001
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

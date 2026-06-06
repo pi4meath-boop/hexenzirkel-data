@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15402",
+  "display_name": "The Stringless",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "eleMas",
+    "subStatValue": 165.38400000000001
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

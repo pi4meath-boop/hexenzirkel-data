@@ -1,0 +1,83 @@
+{
+  "display_name": "Mona",
+  "go_key": "Mona",
+  "avatar_id": 10000041,
+  "character_key": "avatar_10000041",
+  "base_stats_json": {
+    "baseHp": 10409.023958000002,
+    "baseAtk": 287.01405600000004,
+    "baseDef": 653.2712145,
+    "ascStatKey": "enerRech_",
+    "ascStatValue": 0.32
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "omenBuff",
+        "source": "Mona",
+        "description": "Omen: enemies affected take 60% more DMG from burst damage (R5-equivalent buff)",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.6
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11414",
+  "display_name": "Amenoma Kageuchi",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "atk_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "set_key": "NighttimeWhispersInTheEchoingWoods",
+  "display_name": "Nighttime Whispers in the Echoing Woods",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

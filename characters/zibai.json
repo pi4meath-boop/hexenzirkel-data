@@ -1,0 +1,95 @@
+{
+  "display_name": "Zibai",
+  "go_key": "Zibai",
+  "avatar_id": 10000126,
+  "character_key": "avatar_10000126",
+  "base_stats_json": {
+    "baseHp": 12919.435971400002,
+    "baseAtk": 224.82766920000003,
+    "baseDef": 956.8501906500001,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "lunarcrystallize_specialDmg_": {
+        "formulaRef": "zibai.c6.point.lunarcrystallize_special_dmg"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {
+      "lunarcrystallize_baseDmg_": {
+        "formulaRef": "zibai.a0.lunarcrystallize_base_dmg"
+      }
+    },
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2ShiftMode",
+        "source": "avatar_10000126",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarcrystallize_dmg_": {
+                "formulaRef": "zibai.c2.shift_mode.lunarcrystallize_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

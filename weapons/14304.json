@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14304",
+  "display_name": "Emerald Orb",
+  "base_stats_json": {
+    "baseAtk": 448.2215814,
+    "subStatKey": "eleMas",
+    "subStatValue": 93.7176
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

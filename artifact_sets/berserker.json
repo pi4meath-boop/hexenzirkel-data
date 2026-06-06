@@ -1,0 +1,21 @@
+{
+  "set_key": "Berserker",
+  "display_name": "Berserker",
+  "buffs": {
+    "self_modifiers_json": {
+      "critRate_": 0.12
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_when_hp_is_below_70_crit_rate_increases_by_an_additional_24",
+        "source": "Berserker",
+        "description": "4pc: When HP is below 70%, CRIT Rate increases by an additional 24%.",
+        "modifiers": {
+          "critRate_": 0.24
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

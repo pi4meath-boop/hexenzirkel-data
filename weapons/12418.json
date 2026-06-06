@@ -1,0 +1,18 @@
+{
+  "weapon_key": "12418",
+  "display_name": "Mailed Flower",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "eleMas",
+    "subStatValue": 110.256
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.24,
+      "eleMas": 96.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13414",
+  "display_name": "Kitain Cross Spear",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "eleMas",
+    "subStatValue": 110.256
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

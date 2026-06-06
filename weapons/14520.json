@@ -1,0 +1,50 @@
+{
+  "weapon_key": "14520",
+  "display_name": "Nightweaver's Looking Glass",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "eleMas",
+    "subStatValue": 264.61440000000005
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "nightweavers_looking_glass_prayer_of_the_far_north",
+        "source": "NightweaversLookingGlass",
+        "description": "After Elemental Skill Hydro or Dendro DMG: Elemental Mastery +120 for 4.5s (R5 model).",
+        "states": {
+          "active": {
+            "eleMas": 60.0
+          }
+        }
+      },
+      {
+        "conditionKey": "nightweavers_looking_glass_new_moon_verse",
+        "source": "NightweaversLookingGlass",
+        "description": "When nearby party members trigger Lunar-Bloom: Elemental Mastery +120 for 10s (R5 model).",
+        "states": {
+          "active": {
+            "eleMas": 60.0
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "nightweavers_looking_glass_millennial_hymn",
+        "source": "NightweaversLookingGlass",
+        "description": "When both EM buffs are active: Bloom +240%, Hyperbloom/Burgeon +160%, Lunar-Bloom +80% (R5 model).",
+        "states": {
+          "active": {
+            "bloom_dmg_": 1.2,
+            "hyperbloom_dmg_": 0.8,
+            "burgeon_dmg_": 0.8,
+            "lunarbloom_dmg_": 0.4
+          }
+        }
+      }
+    ]
+  }
+}

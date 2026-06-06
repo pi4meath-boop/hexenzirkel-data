@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11410",
+  "display_name": "The Alley Flash",
+  "base_stats_json": {
+    "baseAtk": 620.0329535,
+    "subStatKey": "eleMas",
+    "subStatValue": 55.12794487200001
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

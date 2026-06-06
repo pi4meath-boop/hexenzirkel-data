@@ -1,0 +1,21 @@
+{
+  "set_key": "BraveHeart",
+  "display_name": "Brave Heart",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_increases_dmg_by_30_against_opponents_with_more_than_50_hp",
+        "source": "BraveHeart",
+        "description": "4pc: Increases DMG by 30% against opponents with more than 50% HP.",
+        "modifiers": {
+          "all_dmg_": 0.3
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

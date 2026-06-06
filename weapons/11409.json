@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11409",
+  "display_name": "The Black Sword",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

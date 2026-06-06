@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14403",
+  "display_name": "Sacrificial Fragments",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "eleMas",
+    "subStatValue": 220.512
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

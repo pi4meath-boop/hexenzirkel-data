@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15503",
+  "display_name": "Elegy for the End",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "enerRech_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

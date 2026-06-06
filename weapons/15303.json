@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15303",
+  "display_name": "Recurve Bow",
+  "base_stats_json": {
+    "baseAtk": 354.37940000000003,
+    "subStatKey": "hp_",
+    "subStatValue": 0.46919900200000003
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

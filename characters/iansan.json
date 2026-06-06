@@ -1,0 +1,112 @@
+{
+  "display_name": "Iansan",
+  "go_key": "Iansan",
+  "avatar_id": 10000110,
+  "character_key": "avatar_10000110",
+  "base_stats_json": {
+    "baseHp": 10657.416864800001,
+    "baseAtk": 257.00060032,
+    "baseDef": 638.157625875,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstKineticScale",
+        "source": "Iansan",
+        "states": [
+          {
+            "value": "highNightsoul",
+            "modifiers": {
+              "atk": 810.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a1Precise",
+        "source": "Iansan",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6Extreme",
+        "source": "Iansan",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.25
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

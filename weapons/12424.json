@@ -1,0 +1,15 @@
+{
+  "weapon_key": "12424",
+  "display_name": "Talking Stick",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.18376
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "14301",
+  "display_name": "Magic Guide",
+  "base_stats_json": {
+    "baseAtk": 354.37940000000003,
+    "subStatKey": "eleMas",
+    "subStatValue": 187.4352
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

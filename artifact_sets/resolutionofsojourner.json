@@ -1,0 +1,13 @@
+{
+  "set_key": "ResolutionOfSojourner",
+  "display_name": "Resolution of Sojourner",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18,
+      "charged_critRate_": 0.3
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11415",
+  "display_name": "Cinnabar Spindle",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "def_",
+    "subStatValue": 0.689711002
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15419",
+  "display_name": "Ibis Piercer",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "atk_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

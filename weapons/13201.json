@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13201",
+  "display_name": "Iron Point",
+  "base_stats_json": {
+    "baseAtk": 32.93,
+    "subStatKey": "",
+    "subStatValue": 0.0
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

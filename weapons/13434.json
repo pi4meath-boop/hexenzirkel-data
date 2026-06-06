@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13434",
+  "display_name": "Sacrificer's Staff",
+  "base_stats_json": {
+    "baseAtk": 620.0329535,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.09188
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

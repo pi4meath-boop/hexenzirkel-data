@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15407",
+  "display_name": "Compound Bow",
+  "base_stats_json": {
+    "baseAtk": 454.36315250000007,
+    "subStatKey": "physical_dmg_",
+    "subStatValue": 0.689711002
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

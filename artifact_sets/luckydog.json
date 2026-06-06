@@ -1,0 +1,12 @@
+{
+  "set_key": "LuckyDog",
+  "display_name": "Lucky Dog",
+  "buffs": {
+    "self_modifiers_json": {
+      "def": 100.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

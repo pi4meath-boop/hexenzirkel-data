@@ -1,0 +1,21 @@
+{
+  "set_key": "GladiatorsFinale",
+  "display_name": "Gladiator's Finale",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_if_the_wielder_of_this_artifact_set_uses_a_sword_claymore_or",
+        "source": "GladiatorsFinale",
+        "description": "4pc: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
+        "modifiers": {
+          "normal_dmg_": 0.35
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

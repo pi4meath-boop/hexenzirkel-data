@@ -1,0 +1,23 @@
+{
+  "set_key": "MartialArtist",
+  "display_name": "Martial Artist",
+  "buffs": {
+    "self_modifiers_json": {
+      "normal_dmg_": 0.15,
+      "charged_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_after_using_elemental_skill_increases_normal_attack_and_char",
+        "source": "MartialArtist",
+        "description": "4pc: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+        "modifiers": {
+          "normal_dmg_": 0.25,
+          "charged_dmg_": 0.25
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "weapon_key": "12502",
+  "display_name": "Wolf's Gravestone",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "atk_",
+    "subStatValue": 0.49615200000000004
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.2
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "wgs_team_buff_r1",
+        "source": "WolfsGravestone",
+        "description": "Team ATK bonus from passive proc (enemy HP < 30%).",
+        "states": {
+          "avg active": {
+            "atk_": 0.12
+          },
+          "active": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ]
+  }
+}

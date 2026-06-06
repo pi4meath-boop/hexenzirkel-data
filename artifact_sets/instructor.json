@@ -1,0 +1,21 @@
+{
+  "set_key": "Instructor",
+  "display_name": "Instructor",
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": 80.0
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_upon_triggering_an_elemental_reaction_increases_all_party_me",
+        "source": "Instructor",
+        "description": "4pc: Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.",
+        "modifiers": {
+          "eleMas": 120.0
+        }
+      }
+    ]
+  }
+}

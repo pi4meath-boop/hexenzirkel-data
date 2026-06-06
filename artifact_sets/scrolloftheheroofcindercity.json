@@ -1,0 +1,27 @@
+{
+  "set_key": "ScrollOfTheHeroOfCinderCity",
+  "display_name": "Scroll of the Hero of Cinder City",
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_after_the_equipping_character_triggers_a_reaction_related_to",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack.",
+        "modifiers": {
+          "all_dmg_": 0.12
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_nightsoul_extra",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Nightsoul-enhanced extra Elemental DMG Bonus for reaction elements (+28%)",
+        "modifiers": {
+          "all_dmg_": 0.28
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "weapon_key": "11407",
+  "display_name": "Iron Sting",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "eleMas",
+    "subStatValue": 165.38400000000001
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "iron_sting_elemental_dmg_stacks",
+        "source": "IronSting",
+        "description": "Dealing Elemental DMG increases all DMG by up to 2 stacks.",
+        "states": {
+          "1": {
+            "all_dmg_": 0.12
+          },
+          "2": {
+            "all_dmg_": 0.24
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "display_name": "Lauma",
+  "go_key": "Lauma",
+  "avatar_id": 10000119,
+  "character_key": "avatar_10000119",
+  "base_stats_json": {
+    "baseHp": 10653.9424276,
+    "baseAtk": 254.96415188000003,
+    "baseDef": 668.6423019,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 115.2
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "hit2Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "hit3Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
+      },
+      "chargedDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
+      },
+      "plungeDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p8_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "holdDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "hold2Dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "lunarbloom_dmg_",
+          "reaction_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p2_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p2_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p2_mult"
+          }
+        ]
+      },
+      "frostgroveSanctuaryDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p4_mult"
+          }
+        ]
+      }
+    },
+    "burst": {}
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "skill_dmg_": {
+        "formulaRef": "lauma.a4.skill_dmg.from_elemas"
+      },
+      "lunarbloom_dmg_": {
+        "formulaRef": "lauma.c2.ascendant.lunarbloom_dmg"
+      },
+      "lunarbloom_specialDmg_": {
+        "formulaRef": "lauma.c6.ascendant.lunarbloom_special_dmg"
+      }
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {
+      "lunarbloom_baseDmg_": {
+        "formulaRef": "lauma.a0.lunarbloom_base_dmg"
+      },
+      "lunarbloom_dmg_": {
+        "formulaRef": "lauma.team.lunarbloom_dmg_bonus"
+      },
+      "lunarbloom_critRate_": {
+        "formulaRef": "lauma.team.lunarbloom_crit_rate"
+      },
+      "lunarbloom_critDMG_": {
+        "formulaRef": "lauma.team.lunarbloom_crit_dmg"
+      }
+    },
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillAfterHit",
+        "source": "avatar_10000119",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "dendro_enemyRes_": {
+                "formulaRef": "lauma.skill.after_hit.enemy_res"
+              },
+              "hydro_enemyRes_": {
+                "formulaRef": "lauma.skill.after_hit.enemy_res"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstPaleHymn",
+        "source": "avatar_10000119",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarbloom_dmgInc": {
+                "formulaRef": "lauma.burst.pale_hymn.lunarbloom_dmg_inc"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

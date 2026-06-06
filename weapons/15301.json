@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15301",
+  "display_name": "Raven Bow",
+  "base_stats_json": {
+    "baseAtk": 448.2215814,
+    "subStatKey": "eleMas",
+    "subStatValue": 93.7176
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "set_key": "DisenchantmentInDeepShadow",
+  "display_name": "Disenchantment in Deep Shadow",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_superconduct_active",
+        "source": "DisenchantmentInDeepShadow",
+        "description": "4pc: Superconduct Reaction DMG +80%; when attacking Superconduct-affected opponents, CRIT Rate +16%",
+        "modifiers": {
+          "reaction_dmg_": 0.8,
+          "critRate_": 0.16
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

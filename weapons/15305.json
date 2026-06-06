@@ -1,0 +1,15 @@
+{
+  "weapon_key": "15305",
+  "display_name": "Messenger",
+  "base_stats_json": {
+    "baseAtk": 448.2215814,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.31239200000000006
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

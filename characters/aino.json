@@ -1,0 +1,121 @@
+{
+  "display_name": "Aino",
+  "go_key": "Aino",
+  "avatar_id": 10000121,
+  "character_key": "avatar_10000121",
+  "base_stats_json": {
+    "baseHp": 11201.1621003,
+    "baseAtk": 242.13280088,
+    "baseDef": 607.44415725,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 96.0
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "burst_dmg_": {
+        "formulaRef": "aino.a4.burst_dmg.from_elemas"
+      }
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1AfterSkillOrBurst",
+        "source": "avatar_10000121",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": {
+                "formulaRef": "aino.c1.after_skill.self_elemas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6AfterBurst",
+        "source": "avatar_10000121",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "electrocharged_dmg_": {
+                "formulaRef": "aino.c6.after_burst.reaction_dmg"
+              },
+              "bloom_dmg_": {
+                "formulaRef": "aino.c6.after_burst.reaction_dmg"
+              },
+              "lunarcharged_dmg_": {
+                "formulaRef": "aino.c6.after_burst.reaction_dmg"
+              },
+              "lunarbloom_dmg_": {
+                "formulaRef": "aino.c6.after_burst.reaction_dmg"
+              },
+              "lunarcrystallization_dmg_": {
+                "formulaRef": "aino.c6.after_burst.reaction_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

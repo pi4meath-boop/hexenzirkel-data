@@ -1,0 +1,21 @@
+{
+  "set_key": "WanderersTroupe",
+  "display_name": "Wanderer's Troupe",
+  "buffs": {
+    "self_modifiers_json": {
+      "eleMas": 80.0
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_increases_charged_attack_dmg_by_35_if_the_character_uses_a_c",
+        "source": "WanderersTroupe",
+        "description": "4pc: Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.",
+        "modifiers": {
+          "charged_dmg_": 0.35
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

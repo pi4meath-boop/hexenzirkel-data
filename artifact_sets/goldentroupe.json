@@ -1,0 +1,21 @@
+{
+  "set_key": "GoldenTroupe",
+  "display_name": "Golden Troupe",
+  "buffs": {
+    "self_modifiers_json": {
+      "skill_dmg_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_increases_elemental_skill_dmg_by_25_additionally_when_not_on",
+        "source": "GoldenTroupe",
+        "description": "4pc: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field.",
+        "modifiers": {
+          "skill_dmg_": 0.25
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

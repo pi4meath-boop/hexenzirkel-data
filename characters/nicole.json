@@ -1,0 +1,82 @@
+{
+  "display_name": "Nicole",
+  "go_key": "Nicole",
+  "avatar_id": 10000131,
+  "character_key": "avatar_10000131",
+  "base_stats_json": {
+    "baseHp": 10409.023958000002,
+    "baseAtk": 342.0250874,
+    "baseDef": 562.58179884,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.0
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "nicoleSwordOfCassiopeia",
+        "source": "Nicole",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk": 900
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

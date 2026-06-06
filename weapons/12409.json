@@ -1,0 +1,38 @@
+{
+  "weapon_key": "12409",
+  "display_name": "Serpent Spine",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "wavesplitter_stacks_r5",
+        "source": "SerpentSpine",
+        "description": "R5 stacks while active: DMG dealt +10% per stack (max 5).",
+        "states": {
+          "1": {
+            "all_dmg_": 0.1
+          },
+          "2": {
+            "all_dmg_": 0.2
+          },
+          "3": {
+            "all_dmg_": 0.3
+          },
+          "4": {
+            "all_dmg_": 0.4
+          },
+          "5": {
+            "all_dmg_": 0.5
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

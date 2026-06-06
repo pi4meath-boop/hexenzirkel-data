@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11304",
+  "display_name": "Dark Iron Sword",
+  "base_stats_json": {
+    "baseAtk": 401.2935898,
+    "subStatKey": "eleMas",
+    "subStatValue": 140.5764
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

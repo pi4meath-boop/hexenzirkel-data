@@ -1,0 +1,83 @@
+{
+  "display_name": "Escoffier",
+  "go_key": "Escoffier",
+  "avatar_id": 10000112,
+  "character_key": "avatar_10000112",
+  "base_stats_json": {
+    "baseHp": 13348.0427932,
+    "baseAtk": 346.808651,
+    "baseDef": 731.66376024,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1HydroCryoTeam",
+        "source": "Escoffier",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_enemyRes_": -0.3,
+              "cryo_enemyRes_": -0.3
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

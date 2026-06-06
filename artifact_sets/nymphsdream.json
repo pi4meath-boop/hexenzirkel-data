@@ -1,0 +1,32 @@
+{
+  "set_key": "NymphsDream",
+  "display_name": "Nymph's Dream",
+  "buffs": {
+    "self_modifiers_json": {
+      "hydro_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_mirrored_nymph_stacks",
+        "source": "NymphsDream",
+        "description": "4pc: Mirrored Nymph stacks from attacks (max 3, 8s): ATK +7/16/25%, Hydro DMG +4/9/15%",
+        "states": {
+          "1": {
+            "atk_": 0.07,
+            "hydro_dmg_": 0.04
+          },
+          "2": {
+            "atk_": 0.16,
+            "hydro_dmg_": 0.09
+          },
+          "3": {
+            "atk_": 0.25,
+            "hydro_dmg_": 0.15
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13101",
+  "display_name": "Beginner's Protector",
+  "base_stats_json": {
+    "baseAtk": 23.245,
+    "subStatKey": "",
+    "subStatValue": 0.0
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

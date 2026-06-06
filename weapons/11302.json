@@ -1,0 +1,26 @@
+{
+  "weapon_key": "11302",
+  "display_name": "Harbinger of Dawn",
+  "base_stats_json": {
+    "baseAtk": 401.2935898,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.468588
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "harbinger_of_dawn_hp_above_90",
+        "source": "HarbingerOfDawn",
+        "description": "When HP is above 90%: CRIT Rate increases.",
+        "states": {
+          "active": {
+            "critRate_": 0.28
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13515",
+  "display_name": "Fractured Halo",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.661536
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

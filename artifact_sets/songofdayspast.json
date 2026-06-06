@@ -1,0 +1,12 @@
+{
+  "set_key": "SongOfDaysPast",
+  "display_name": "Song of Days Past",
+  "buffs": {
+    "self_modifiers_json": {
+      "heal_": 0.15
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "weapon_key": "12513",
+  "display_name": "Fang of the Mountain King",
+  "base_stats_json": {
+    "baseAtk": 740.5801544000001,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.110256
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

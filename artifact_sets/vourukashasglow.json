@@ -1,0 +1,22 @@
+{
+  "set_key": "VourukashasGlow",
+  "display_name": "Vourukasha's Glow",
+  "buffs": {
+    "self_modifiers_json": {
+      "hp_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_elemental_skill_and_elemental_burst_dmg_will_be_increased_by",
+        "source": "VourukashasGlow",
+        "description": "4pc: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
+        "modifiers": {
+          "skill_dmg_": 0.1,
+          "burst_dmg_": 0.1
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

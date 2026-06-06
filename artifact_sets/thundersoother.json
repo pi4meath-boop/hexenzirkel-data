@@ -1,0 +1,21 @@
+{
+  "set_key": "Thundersoother",
+  "display_name": "Thundersoother",
+  "buffs": {
+    "self_modifiers_json": {
+      "electro_res_": 0.4
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_increases_dmg_against_opponents_affected_by_electro_by_35",
+        "source": "Thundersoother",
+        "description": "4pc: Increases DMG against opponents affected by Electro by 35%.",
+        "modifiers": {
+          "all_dmg_": 0.35
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

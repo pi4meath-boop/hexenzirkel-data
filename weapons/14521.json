@@ -1,0 +1,49 @@
+{
+  "weapon_key": "14521",
+  "display_name": "Reliquary of Truth",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.882048
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "critRate_": 0.08
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "afterSkill",
+        "source": "14521",
+        "description": "After using skill: +80 EM for 12s (R1)",
+        "states": {
+          "active": {
+            "eleMas": 80.0
+          }
+        }
+      },
+      {
+        "conditionKey": "afterLunarBloom",
+        "source": "14521",
+        "description": "After Lunarbloom hit: +24% crit DMG for 12s (R1)",
+        "states": {
+          "active": {
+            "critDMG_": 0.24
+          }
+        }
+      },
+      {
+        "conditionKey": "afterSkillAndLunarBloomBoost",
+        "source": "14521",
+        "description": "If both previous conditions are active, add the 1.5x bonus delta (R1)",
+        "states": {
+          "active": {
+            "eleMas": 40.0,
+            "critDMG_": 0.12
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "display_name": "Columbina",
+  "go_key": "Columbina",
+  "avatar_id": 10000125,
+  "character_key": "avatar_10000125",
+  "base_stats_json": {
+    "baseHp": 14695.093175999998,
+    "baseAtk": 95.67135200000001,
+    "baseDef": 514.9314279,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "lunar_special_": {
+        "formulaRef": "columbina.c6.lunar_special_dmg"
+      }
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstActive",
+        "source": "avatar_10000125",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "isMoonsign": 1,
+              "lunar_special_": {
+                "formulaRef": "columbina.burst.lunar_special_dmg"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a1MoonsignPassive",
+        "source": "avatar_10000125",
+        "gating": {
+          "ascMin": 1,
+          "requiresMoonsign": true
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": {
+                "formulaRef": "columbina.a1.moonsign.crit_rate"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4Passive",
+        "source": "avatar_10000125",
+        "gating": {
+          "ascMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunar_baseDmg_": {
+                "formulaRef": "columbina.a4.lunar_base_dmg"
+              },
+              "lunarbloom_baseDmg_": {
+                "formulaRef": "columbina.a4.lunarbloom_base_dmg_mult"
+              },
+              "lunarcharged_baseDmg_": {
+                "formulaRef": "columbina.a4.lunarcharged_base_dmg_mult"
+              },
+              "lunarcrystallization_baseDmg_": {
+                "formulaRef": "columbina.a4.lunarcrystallize_base_dmg_mult"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstActive",
+        "source": "avatar_10000125",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarbloom_dmg_": {
+                "formulaRef": "columbina.burst.lunarbloom_dmg_bonus"
+              },
+              "lunarcharged_dmg_": {
+                "formulaRef": "columbina.burst.lunarcharged_dmg_bonus"
+              },
+              "lunarcrystallization_dmg_": {
+                "formulaRef": "columbina.burst.lunarcrystallize_dmg_bonus"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4BurstDomain",
+        "source": "avatar_10000125",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarcharged_dmg_": {
+                "formulaRef": "columbina.c4.lunarcharged_dmg"
+              },
+              "lunarbloom_dmg_": {
+                "formulaRef": "columbina.c4.lunarbloom_dmg"
+              },
+              "lunarcrystallization_dmg_": {
+                "formulaRef": "columbina.c4.lunarcrystallize_dmg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

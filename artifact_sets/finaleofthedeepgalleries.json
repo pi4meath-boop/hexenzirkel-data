@@ -1,0 +1,12 @@
+{
+  "set_key": "FinaleOfTheDeepGalleries",
+  "display_name": "Finale of the Deep Galleries",
+  "buffs": {
+    "self_modifiers_json": {
+      "cryo_dmg_": 0.15
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

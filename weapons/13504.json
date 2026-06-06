@@ -1,0 +1,15 @@
+{
+  "weapon_key": "13504",
+  "display_name": "Vortex Vanquisher",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "atk_",
+    "subStatValue": 0.49615200000000004
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

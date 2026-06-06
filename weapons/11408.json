@@ -1,0 +1,15 @@
+{
+  "weapon_key": "11408",
+  "display_name": "Blackcliff Longsword",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.36752
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}
