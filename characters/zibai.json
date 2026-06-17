@@ -66,7 +66,8 @@
         "specialType": "direct_lunar_crystallization",
         "element": "geo",
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "def", "multKey": "p1_mult"}]
+        "components": [{"scalingKey": "def", "multKey": "p1_mult"}],
+        "flatDmgIncFromStat": [{"statKey": "def", "ratio": 0.6}]
       },
       "shift1Dmg": {
         "element": "geo",
@@ -177,17 +178,30 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {
-      "lunarcrystallize_specialDmg_": {
-        "formulaRef": "zibai.c6.point.lunarcrystallize_special_dmg"
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4GeoParty",
+        "source": "avatar_10000126",
+        "description": "A4: DEF +15% for each Geo party member other than Zibai (select how many other Geo members are in the team).",
+        "states": [
+          {"value": "1", "modifiers": {"def_": 0.15}},
+          {"value": "2", "modifiers": {"def_": 0.3}},
+          {"value": "3", "modifiers": {"def_": 0.45}}
+        ]
+      },
+      {
+        "conditionKey": "a4HydroParty",
+        "source": "avatar_10000126",
+        "description": "A4: Elemental Mastery +60 for each Hydro party member (select how many Hydro members are in the team).",
+        "states": [
+          {"value": "1", "modifiers": {"eleMas": 60.0}},
+          {"value": "2", "modifiers": {"eleMas": 120.0}},
+          {"value": "3", "modifiers": {"eleMas": 180.0}}
+        ]
       }
-    },
-    "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {
-      "lunarcrystallize_baseDmg_": {
-        "formulaRef": "zibai.a0.lunarcrystallize_base_dmg"
-      }
-    },
+    ],
+    "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "lunarReactionPassive",
