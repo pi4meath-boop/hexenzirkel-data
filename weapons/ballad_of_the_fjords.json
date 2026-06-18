@@ -8,7 +8,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "talesOfTheTundra",
+        "source": "BalladOfTheFjords",
+        "description": "Tales of the Tundra (R1): when the party's Elemental Types reach 3 or more, the wielder's Elemental Mastery is increased by 120.",
+        "states": [
+          {
+            "value": "threePlusElements",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

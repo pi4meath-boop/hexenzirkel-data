@@ -178,7 +178,7 @@
             "value": "on",
             "modifiers": {
               "geo_dmgInc": 514.08,
-              "lunarcrystallization_dmgInc": 3456.576
+              "lunarcrystallize_dmgInc": 3456.576
             }
           }
         ]
@@ -192,21 +192,21 @@
             "value": "members1",
             "modifiers": {
               "geo_dmgInc": 59.5,
-              "lunarcrystallization_dmgInc": 408.0
+              "lunarcrystallize_dmgInc": 408.0
             }
           },
           {
             "value": "members2",
             "modifiers": {
               "geo_dmgInc": 119.0,
-              "lunarcrystallization_dmgInc": 816.0
+              "lunarcrystallize_dmgInc": 816.0
             }
           },
           {
             "value": "members3plus",
             "modifiers": {
               "geo_dmgInc": 204.0,
-              "lunarcrystallization_dmgInc": 1360.0
+              "lunarcrystallize_dmgInc": 1360.0
             }
           }
         ]

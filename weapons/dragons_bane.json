@@ -8,7 +8,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "baneOfTheSwirlingMortal",
+        "source": "DragonsBane",
+        "description": "Bane of the Swirling Mortal (R1): DMG dealt to opponents affected by Hydro or Pyro is increased by 20%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

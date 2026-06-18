@@ -104,19 +104,114 @@
     "constellation": {}
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "hydro_dmg_from_enerRech_": 0.2
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "omenBuff",
         "source": "Mona",
-        "description": "Omen: enemies affected take 60% more DMG from burst damage (R5-equivalent buff)",
+        "description": "Omen (Elemental Burst): enemies affected take 60% increased DMG (burst Lv10).",
         "states": [
           {
             "value": "on",
             "modifiers": {
               "all_dmg_": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "hexPassive",
+        "source": "Mona",
+        "description": "Hexerei passive : +5% vape dmg per stack",
+        "states": [
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "vaporize_dmg_": 0.05
+            }
+          },
+          {
+            "value": "2 stack",
+            "modifiers": {
+              "vaporize_dmg_": 0.10
+            }
+          },
+          {
+            "value": "3 stack",
+            "modifiers": {
+              "vaporize_dmg_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1ProphecyOfSubmersion",
+        "source": "Mona",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Prophecy of Submersion: when a party member hits an Omen-affected opponent, Hydro-related reaction DMG (incl. Vaporize) is increased by 15%.",
+        "states": [
+          {
+            "value": "no hexerei",
+            "modifiers": {
+              "electrocharged_dmg_": 0.15,
+              "lunarcharged_dmg_": 0.15,
+              "vaporize_dmg_": 0.15,
+              "hydro_swirl_dmg_": 0.15,
+              "lunarcrystallize_dmg_": 0.15
+            }
+          },
+          {
+            "value": "hexerei",
+            "modifiers": {
+              "electrocharged_dmg_": 0.24,
+              "lunarcharged_dmg_": 0.24,
+              "vaporize_dmg_": 0.24,
+              "hydro_swirl_dmg_": 0.24,
+              "lunarcrystallize_dmg_": 0.24
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2LunarChainHexerei",
+        "source": "Mona",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Lunar Chain: if hexerei, +80EM.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 80
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4ProphecyOfOblivion",
+        "source": "Mona",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Prophecy of Oblivion: when any party member attacks an Omen-affected opponent, their CRIT Rate is increased by 15%.",
+        "states": [
+          {
+            "value": "no hexerei",
+            "modifiers": {
+              "critRate_": 0.15
+            }
+          },{
+            "value": "hexerei",
+            "modifiers": {
+              "critRate_": 0.15,
+              "critDMG_": 0.15
             }
           }
         ]

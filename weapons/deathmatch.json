@@ -8,7 +8,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "gladiator",
+        "source": "Deathmatch",
+        "description": "Gladiator (R1): if there are at least 2 opponents nearby, ATK +16% and DEF +16%. If fewer than 2 opponents are nearby, ATK +24%.",
+        "states": [
+          {
+            "value": "twoOrMoreEnemies",
+            "modifiers": {
+              "atk_": 0.16,
+              "def_": 0.16
+            }
+          },
+          {
+            "value": "fewerThanTwoEnemies",
+            "modifiers": {
+              "atk_": 0.24
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

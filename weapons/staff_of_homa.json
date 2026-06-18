@@ -7,8 +7,30 @@
     "subStatValue": 0.661536
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "hp_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "recklessCinnabar",
+        "source": "StaffOfHoma",
+        "description": "Reckless Cinnabar (R1): HP +20%; ATK increased by 0.8% of Max HP. When the wielder's HP is below 50%, the ATK bonus is 1.8% of Max HP instead.",
+        "states": [
+          {
+            "value": "above50",
+            "modifiers": {
+              "atk_from_maxHp_": 0.008
+            }
+          },
+          {
+            "value": "below50",
+            "modifiers": {
+              "atk_from_maxHp_": 0.018
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -155,7 +155,7 @@
               "lunarbloom_dmg_": {
                 "formulaRef": "aino.c6.after_burst.reaction_dmg"
               },
-              "lunarcrystallization_dmg_": {
+              "lunarcrystallize_dmg_": {
                 "formulaRef": "aino.c6.after_burst.reaction_dmg"
               }
             }

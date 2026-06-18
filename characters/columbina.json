@@ -185,7 +185,7 @@
               "lunarcharged_baseDmg_": {
                 "formulaRef": "columbina.a4.lunarcharged_base_dmg_mult"
               },
-              "lunarcrystallization_baseDmg_": {
+              "lunarcrystallize_baseDmg_": {
                 "formulaRef": "columbina.a4.lunarcrystallize_base_dmg_mult"
               }
             }
@@ -205,7 +205,7 @@
               "lunarcharged_dmg_": {
                 "formulaRef": "columbina.burst.lunarcharged_dmg_bonus"
               },
-              "lunarcrystallization_dmg_": {
+              "lunarcrystallize_dmg_": {
                 "formulaRef": "columbina.burst.lunarcrystallize_dmg_bonus"
               }
             }
@@ -228,7 +228,7 @@
               "lunarbloom_dmg_": {
                 "formulaRef": "columbina.c4.lunarbloom_dmg"
               },
-              "lunarcrystallization_dmg_": {
+              "lunarcrystallize_dmg_": {
                 "formulaRef": "columbina.c4.lunarcrystallize_dmg"
               }
             }

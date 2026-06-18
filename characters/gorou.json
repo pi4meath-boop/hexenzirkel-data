@@ -1,0 +1,70 @@
+{
+  "display_name": "Gorou",
+  "go_key": "Gorou",
+  "avatar_id": 10000055,
+  "character_key": "avatar_10000055",
+  "weapon_type": "bow",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "nation": "inazuma",
+  "base_stats_json": {
+    "baseHp": 9570.7905,
+    "baseAtk": 183.0388,
+    "baseDef": 648.4593,
+    "ascStatKey": "geo_dmg_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {},
+  "talent_multipliers_json": {
+    "source": {
+      "goCharacterKey": "Gorou",
+      "note": "Support teammate: only team buffs are used by the evaluator. Combat hit definitions/multipliers can be added if a Gorou-as-main leaderboard is ever needed. Skill values: Standing Firm flat DEF 371.088 and Crunch Geo DMG 15% at skill Lv10 (Project Amber).",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "skillTalentLevel": 10
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "standingFirm",
+        "source": "avatar_10000055",
+        "description": "Elemental Skill (General's War Banner) — Standing Firm (1+ Geo party member): nearby active characters gain a flat DEF bonus of 371.088 (skill Lv10).",
+        "modifiers": {
+          "def": 371.088
+        }
+      },
+      {
+        "conditionKey": "crunch",
+        "source": "avatar_10000055",
+        "description": "Elemental Skill (General's War Banner) — Crunch (3 Geo party members): nearby active characters gain +15% Geo DMG Bonus.",
+        "modifiers": {
+          "geo_dmg_": 0.15
+        }
+      },
+      {
+        "conditionKey": "a1HeedlessDef",
+        "source": "avatar_10000055",
+        "description": "A1 Heedless of the Wind and Weather: after using his Elemental Burst, nearby party members gain +25% DEF for 12s.",
+        "modifiers": {
+          "def_": 0.25
+        }
+      },
+      {
+        "conditionKey": "c6GeoCritDmg",
+        "source": "avatar_10000055",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Valiant Hound: Mountainous Fealty: with Crunch active, nearby party members gain +40% Geo CRIT DMG for 12s after his Skill/Burst.",
+        "modifiers": {
+          "geo_critDMG_": 0.4
+        }
+      }
+    ]
+  }
+}

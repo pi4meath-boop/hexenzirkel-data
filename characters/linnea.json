@@ -140,11 +140,7 @@
       }
     },
     "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {
-      "lunarcrystallize_baseDmg_": {
-        "formulaRef": "linnea.a0.lunarcrystallize_base_dmg"
-      }
-    },
+    "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "a1GeoShred",

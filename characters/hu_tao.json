@@ -208,10 +208,73 @@
       }
     }
   },
-  "talent_multipliers_json": {},
+  "talent_multipliers_json": {
+    "normal": {
+      "p0_mult": 0.8365,
+      "p1_mult": 0.8609,
+      "p2_mult": 1.0892,
+      "p3_mult": 1.1711,
+      "p4_mult": 0.5936,
+      "p5_mult": 0.628,
+      "p6_mult": 1.5336,
+      "p7_mult": 2.4257
+    },
+    "plunging": {
+      "p9_mult": 1.1671,
+      "p10_mult": 2.3338,
+      "p11_mult": 2.915
+    },
+    "skill": {
+      "p0_mult": 1.152
+    },
+    "burst": {
+      "p0_mult": 4.9395,
+      "p1_mult": 6.1744
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "goCharacterKey": "HuTao"
+    }
+  },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "paramitaPapilio",
+        "source": "avatar_10000046",
+        "description": "Paramita Papilio (Elemental Skill state): ATK increased by 6.26% of Max HP (skill Lv10), capped at 400% of Base ATK. Normal/Charged Attacks are converted to Pyro DMG.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_from_maxHp_capped_": 0.0626,
+              "atk_from_maxHp_capMult_": 4.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "sanguineRouge",
+        "source": "avatar_10000046",
+        "description": "A4 Sanguine Rouge: when HP is 50% or less, Pyro DMG Bonus +33%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_": 0.33
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

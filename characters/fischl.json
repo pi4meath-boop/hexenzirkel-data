@@ -128,7 +128,7 @@
           {
             "value": "on",
             "modifiers": {
-              "eleMas": 45
+              "eleMas": 90
             }
           }
         ]
@@ -160,7 +160,7 @@
           {
             "value": "on",
             "modifiers": {
-              "eleMas": 90
+              "eleMas": 180
             }
           }
         ]

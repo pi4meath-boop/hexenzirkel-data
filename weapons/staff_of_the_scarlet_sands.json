@@ -7,8 +7,36 @@
     "subStatValue": 0.441024
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "atk_from_eleMas_": 0.52
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "dreamOfTheScarletSands",
+        "source": "StaffOfTheScarletSands",
+        "description": "Theory of Another Quicksand (R1): the wielder gains 52% of Elemental Mastery as bonus ATK (always applied). After an Elemental Skill hits, gains Dream of the Scarlet Sands: a further 28% of EM as bonus ATK per stack, max 3 stacks.",
+        "states": [
+          {
+            "value": "1stack",
+            "modifiers": {
+              "atk_from_eleMas_": 0.28
+            }
+          },
+          {
+            "value": "2stacks",
+            "modifiers": {
+              "atk_from_eleMas_": 0.56
+            }
+          },
+          {
+            "value": "3stacks",
+            "modifiers": {
+              "atk_from_eleMas_": 0.84
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
