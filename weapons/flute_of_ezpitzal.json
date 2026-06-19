@@ -15,7 +15,7 @@
         "description": "After an Elemental Skill hits an opponent: DEF +16% (R1) for 15s.",
         "states": {
           "on": {
-            "def_": 0.16
+            "def_": 0.32
           }
         }
       }

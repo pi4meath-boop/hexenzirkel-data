@@ -14,197 +14,87 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "hit_1": {
+      "0": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      },
+      "1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
+      "2": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+      },
+      "3": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
+          {"scalingKey": "atk", "multKey": "p3_mult"},
+          {"scalingKey": "atk", "multKey": "p4_mult"}
         ]
       },
-      "hit_2": {
+      "4": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p1_mult"
-          }
-        ]
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
-      "hit_3": {
+      "5": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p2_mult"
-          }
-        ]
-      },
-      "hit_4": {
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+      }
+    },
+    "charged": {
+      "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p3_mult"
-          },
-          {
-            "scalingKey": "atk",
-            "multKey": "p4_mult"
-          }
-        ]
-      },
-      "hit_5": {
-        "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p5_mult"
-          }
-        ]
-      },
-      "hit_6": {
-        "element": "pyro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p6_mult"
-          }
-        ]
-      },
-      "charged_1": {
-        "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p7_mult"
-          }
-        ]
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
       }
     },
     "plunging": {
-      "plunging_dmg": {
+      "plunge": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p9_mult"
-          }
-        ]
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
       },
-      "plunging_low": {
+      "plungeLow": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p10_mult"
-          }
-        ]
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
       },
-      "plunging_high": {
+      "plungeHigh": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p11_mult"
-          }
-        ]
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p11_mult"}]
       }
     },
     "skill": {
-      "blood_blossom": {
+      "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
-        ]
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       }
     },
     "burst": {
-      "burst_1": {
+      "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
-        ]
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "burst_low_hp": {
+      "lowHpDmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p1_mult"
-          }
-        ]
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      }
+    },
+    "reaction": {
+      "overloaded": {
+        "specialType": "overloaded_reaction",
+        "element": "pyro"
       }
     }
   },
@@ -216,7 +106,9 @@
       "p3_mult": 1.1711,
       "p4_mult": 0.5936,
       "p5_mult": 0.628,
-      "p6_mult": 1.5336,
+      "p6_mult": 1.5336
+    },
+    "charged": {
       "p7_mult": 2.4257
     },
     "plunging": {

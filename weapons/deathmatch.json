@@ -12,19 +12,19 @@
       {
         "conditionKey": "gladiator",
         "source": "Deathmatch",
-        "description": "Gladiator (R1): if there are at least 2 opponents nearby, ATK +16% and DEF +16%. If fewer than 2 opponents are nearby, ATK +24%.",
+        "description": "Gladiator (R5): if there are at least 2 opponents nearby, ATK +16% and DEF +16%. If fewer than 2 opponents are nearby, ATK +24%.",
         "states": [
           {
             "value": "twoOrMoreEnemies",
             "modifiers": {
-              "atk_": 0.16,
-              "def_": 0.16
+              "atk_": 0.32,
+              "def_": 0.32
             }
           },
           {
             "value": "fewerThanTwoEnemies",
             "modifiers": {
-              "atk_": 0.24
+              "atk_": 0.48
             }
           }
         ]

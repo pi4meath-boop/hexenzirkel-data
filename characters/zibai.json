@@ -59,7 +59,7 @@
     "skill": {
       "stride1Dmg": {
         "element": "geo",
-        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_", "lunarcrystallize_dmg_"],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "def", "multKey": "p0_mult"}]
       },
       "stride2Dmg": {
