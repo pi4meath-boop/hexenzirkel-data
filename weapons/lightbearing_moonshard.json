@@ -1,6 +1,7 @@
 {
   "weapon_key": "11519",
   "display_name": "Lightbearing Moonshard",
+  "rarity": 5,
   "base_stats_json": {
     "baseAtk": 541.829758,
     "subStatKey": "critDMG_",
