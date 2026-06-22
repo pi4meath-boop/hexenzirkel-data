@@ -3,6 +3,7 @@
   "go_key": "Nefer",
   "avatar_id": 10000122,
   "character_key": "avatar_10000122",
+  "element": "dendro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "nod_krai",
@@ -449,9 +450,7 @@
       }
     ],
     "team_modifiers_json": {
-      "lunarbloom_baseDmg_": {
-        "formulaRef": "nefer.a0.lunarbloom_base_dmg"
-      },
+      "lunarbloom_baseDmg_": 0.14,
       "lunarbloom_dmg_": 0.14
     },
     "team_conditional_modifiers_json": [
@@ -465,9 +464,7 @@
           {
             "value": "on",
             "modifiers": {
-              "dendro_enemyRes_": {
-                "formulaRef": "nefer.c4.shadow_dance.dendro_enemy_res"
-              }
+              "dendro_enemyRes_": -0.2
             }
           }
         ]

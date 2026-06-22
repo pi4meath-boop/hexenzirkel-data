@@ -3,6 +3,7 @@
   "go_key": "Varka",
   "avatar_id": 10000128,
   "character_key": "avatar_10000128",
+  "element": "anemo",
   "weapon_type": "claymore",
   "constellation_talent_boosts": {},
   "base_stats_json": {

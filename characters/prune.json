@@ -3,6 +3,7 @@
   "go_key": "Prune",
   "avatar_id": 10000132,
   "character_key": "avatar_10000132",
+  "element": "anemo",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {

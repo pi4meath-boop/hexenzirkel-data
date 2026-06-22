@@ -20,9 +20,9 @@
         "description": "after triggering lunar reaction",
         "modifiers": {
           "hp_": 0.14,
-          "lunarbloom_critDmg_": 0.6,
-          "lunarcharged_critDmg_": 0.6,
-          "lunarcrystallize_critDmg_": 0.6
+          "lunarbloom_critRate_": 0.6,
+          "lunarcharged_critRate_": 0.6,
+          "lunarcrystallize_critRate_": 0.6
         }
       }
     ]

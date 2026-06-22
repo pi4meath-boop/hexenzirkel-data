@@ -3,6 +3,7 @@
   "go_key": "Sucrose",
   "avatar_id": 10000043,
   "character_key": "avatar_10000043",
+  "element": "anemo",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

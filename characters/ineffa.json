@@ -3,6 +3,7 @@
   "go_key": "Ineffa",
   "avatar_id": 10000116,
   "character_key": "avatar_10000116",
+  "element": "electro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "nod_krai",

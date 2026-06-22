@@ -3,6 +3,7 @@
   "go_key": "Nicole",
   "avatar_id": 10000131,
   "character_key": "avatar_10000131",
+  "element": "pyro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

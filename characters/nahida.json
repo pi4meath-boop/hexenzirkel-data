@@ -3,6 +3,7 @@
   "go_key": "Nahida",
   "avatar_id": 10000073,
   "character_key": "avatar_10000073",
+  "element": "dendro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

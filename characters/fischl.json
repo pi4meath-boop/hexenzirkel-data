@@ -3,6 +3,7 @@
   "go_key": "Fischl",
   "avatar_id": 10000031,
   "character_key": "avatar_10000031",
+  "element": "electro",
   "weapon_type": "bow",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

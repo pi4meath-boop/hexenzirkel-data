@@ -3,6 +3,7 @@
   "go_key": "Flins",
   "avatar_id": 10000120,
   "character_key": "avatar_10000120",
+  "element": "electro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "nation": "nod_krai",
@@ -190,9 +191,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "lunarcharged_dmg_": {
-        "formulaRef": "flins.a1.lunarcharged_dmg"
-      },
+      "lunarcharged_dmg_": 0.2,
       "eleMas": {
         "formulaRef": "flins.a4.atk_from_elemas"
       },

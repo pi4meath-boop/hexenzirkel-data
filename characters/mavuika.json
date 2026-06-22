@@ -3,6 +3,7 @@
   "go_key": "Mavuika",
   "avatar_id": 10000106,
   "character_key": "avatar_10000106",
+  "element": "pyro",
   "weapon_type": "claymore",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {

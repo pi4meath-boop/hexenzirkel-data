@@ -3,6 +3,7 @@
   "go_key": "Zibai",
   "avatar_id": 10000126,
   "character_key": "avatar_10000126",
+  "element": "geo",
   "weapon_type": "sword",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "nod_krai",
@@ -221,9 +222,7 @@
           {
             "value": "on",
             "modifiers": {
-              "lunarcrystallize_dmg_": {
-                "formulaRef": "zibai.c2.shift_mode.lunarcrystallize_dmg"
-              }
+              "lunarcrystallize_dmg_": 0.3
             }
           }
         ]

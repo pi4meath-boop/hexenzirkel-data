@@ -3,6 +3,7 @@
   "go_key": "Keqing",
   "avatar_id": 10000042,
   "character_key": "avatar_10000042",
+  "element": "electro",
   "weapon_type": "sword",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {

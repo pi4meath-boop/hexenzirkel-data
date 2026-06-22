@@ -3,6 +3,7 @@
   "go_key": "Bennett",
   "avatar_id": 10000032,
   "character_key": "avatar_10000032",
+  "element": "pyro",
   "weapon_type": "sword",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

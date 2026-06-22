@@ -3,6 +3,7 @@
   "go_key": "Lauma",
   "avatar_id": 10000119,
   "character_key": "avatar_10000119",
+  "element": "dendro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "nation": "nod_krai",
@@ -269,18 +270,10 @@
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {
-      "lunarbloom_baseDmg_": {
-        "formulaRef": "lauma.a0.lunarbloom_base_dmg"
-      },
-      "lunarbloom_dmg_": {
-        "formulaRef": "lauma.team.lunarbloom_dmg_bonus"
-      },
-      "lunarbloom_critRate_": {
-        "formulaRef": "lauma.team.lunarbloom_crit_rate"
-      },
-      "lunarbloom_critDMG_": {
-        "formulaRef": "lauma.team.lunarbloom_crit_dmg"
-      }
+      "lunarbloom_baseDmg_": 0.14,
+      "lunarbloom_dmg_": 0.1,
+      "lunarbloom_critRate_": 0.1,
+      "lunarbloom_critDMG_": 0.2
     },
     "team_conditional_modifiers_json": [
       {
@@ -290,12 +283,8 @@
           {
             "value": "on",
             "modifiers": {
-              "dendro_enemyRes_": {
-                "formulaRef": "lauma.skill.after_hit.enemy_res"
-              },
-              "hydro_enemyRes_": {
-                "formulaRef": "lauma.skill.after_hit.enemy_res"
-              }
+              "dendro_enemyRes_": -0.25,
+              "hydro_enemyRes_": -0.25
             }
           }
         ]
@@ -307,9 +296,10 @@
           {
             "value": "on",
             "modifiers": {
-              "lunarbloom_dmgInc": {
-                "formulaRef": "lauma.burst.pale_hymn.lunarbloom_dmg_inc"
-              }
+              "lunarbloom_dmgInc": 6000.0,
+              "bloom_dmgInc": 7500.0,
+              "hyperbloom_dmgInc": 7500.0,
+              "burgeon_dmgInc": 7500.0
             }
           }
         ]

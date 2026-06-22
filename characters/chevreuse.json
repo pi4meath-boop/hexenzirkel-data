@@ -3,6 +3,7 @@
   "go_key": "Chevreuse",
   "avatar_id": 10000090,
   "character_key": "avatar_10000090",
+  "element": "pyro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {

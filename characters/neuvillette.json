@@ -3,6 +3,7 @@
   "go_key": "Neuvillette",
   "avatar_id": 10000087,
   "character_key": "avatar_10000087",
+  "element": "hydro",
   "weapon_type": "catalyst",
   "nation": "fontaine",
   "constellation_talent_boosts": {"normal": 3, "burst": 5},

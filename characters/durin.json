@@ -3,6 +3,7 @@
   "go_key": "Durin",
   "avatar_id": 10000123,
   "character_key": "avatar_10000123",
+  "element": "pyro",
   "weapon_type": "sword",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {

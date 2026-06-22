@@ -3,6 +3,7 @@
   "go_key": "Gorou",
   "avatar_id": 10000055,
   "character_key": "avatar_10000055",
+  "element": "geo",
   "weapon_type": "bow",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "inazuma",

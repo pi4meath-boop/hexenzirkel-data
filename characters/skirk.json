@@ -3,6 +3,7 @@
   "go_key": "Skirk",
   "avatar_id": 10000114,
   "character_key": "avatar_10000114",
+  "element": "cryo",
   "weapon_type": "sword",
   "constellation_talent_boosts": {"burst": 3, "skill": 5},
   "base_stats_json": {

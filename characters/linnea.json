@@ -3,6 +3,7 @@
   "go_key": "Linnea",
   "avatar_id": 10000130,
   "character_key": "avatar_10000130",
+  "element": "geo",
   "weapon_type": "bow",
   "constellation_talent_boosts": {"skill": 3},
   "nation": "nod_krai",
@@ -137,10 +138,21 @@
     "self_modifiers_json": {
       "def_": {
         "formulaRef": "linnea.c4.moondrift.def"
-      }
+      },
+      "eleMas_from_def_": 0.05
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4EmBuff",
+        "source": "avatar_10000130",
+        "description": "A4 passive: team EM equal to 5% of Linnea's DEF, evaluated at 2500 DEF (+125 EM). Applied statically to teammates; when Linnea herself is scored the buff is dynamic (eleMas_from_def_ in self_modifiers).",
+        "modifiers": {
+          "eleMas": 125.0
+        }
+      }
+    ],
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "a1GeoShred",
@@ -148,14 +160,6 @@
         "description": "A1 passive: -30% Geo RES (shred).",
         "modifiers": {
           "geo_enemyRes_": -0.3
-        }
-      },
-      {
-        "conditionKey": "a4EmBuff",
-        "source": "avatar_10000130",
-        "description": "A4 passive: team EM equal to 5% of Linnea's DEF, evaluated at 2500 DEF (+125 EM).",
-        "modifiers": {
-          "eleMas": 125.0
         }
       },
       {

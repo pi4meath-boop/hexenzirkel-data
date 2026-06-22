@@ -3,6 +3,7 @@
   "go_key": "Illuga",
   "avatar_id": 10000127,
   "character_key": "avatar_10000127",
+  "element": "geo",
   "weapon_type": "polearm",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "nation": "nod_krai",
@@ -172,13 +173,20 @@
       {
         "conditionKey": "burstSong",
         "source": "avatar_10000127",
-        "description": "Burst Song active: active character gains Geo DMG increase and Lunar-Crystallize direct DMG increase scaling with Illuga's Elemental Mastery (computed at 850 EM).",
+        "description": "Burst Song active: active character gains Geo DMG increase and Lunar-Crystallize direct DMG increase scaling with Illuga's Elemental Mastery.",
         "states": [
           {
-            "value": "on",
+            "value": "1120 EM (SMS)",
             "modifiers": {
-              "geo_dmgInc": 514.08,
-              "lunarcrystallize_dmgInc": 3456.576
+              "geo_dmgInc": 799.68,
+              "lunarcrystallize_dmgInc": 5377.12
+            }
+          },
+          {
+            "value": "1160 EM (2P 2P)",
+            "modifiers": {
+              "geo_dmgInc": 828.24,
+              "lunarcrystallize_dmgInc": 5569.16
             }
           }
         ]
@@ -186,27 +194,48 @@
       {
         "conditionKey": "a4SongHydroGeo",
         "source": "avatar_10000127",
-        "description": "A4: while Burst Song is active, the active character gains additional Geo DMG and Lunar-Crystallize direct DMG increase based on the number of Hydro/Geo party members (computed at 850 EM).",
+        "description": "A4: while Burst Song is active, the active character gains additional Geo DMG and Lunar-Crystallize direct DMG increase based on the number of Hydro/Geo party members.",
         "states": [
           {
-            "value": "members1",
+            "value": "1 members 1120 EM",
             "modifiers": {
-              "geo_dmgInc": 59.5,
-              "lunarcrystallize_dmgInc": 408.0
+              "geo_dmgInc": 78.4,
+              "lunarcrystallize_dmgInc": 537.6
             }
           },
           {
-            "value": "members2",
+            "value": "1 members 1160 EM",
             "modifiers": {
-              "geo_dmgInc": 119.0,
-              "lunarcrystallize_dmgInc": 816.0
+              "geo_dmgInc": 81.2,
+              "lunarcrystallize_dmgInc": 556.8
             }
           },
           {
-            "value": "members3plus",
+            "value": "2 members 1120 EM",
             "modifiers": {
-              "geo_dmgInc": 204.0,
-              "lunarcrystallize_dmgInc": 1360.0
+              "geo_dmgInc": 156.8,
+              "lunarcrystallize_dmgInc": 1075.2
+            }
+          },
+          {
+            "value": "2 members 1160 EM",
+            "modifiers": {
+              "geo_dmgInc": 162.4,
+              "lunarcrystallize_dmgInc": 1113.6
+            }
+          },
+          {
+            "value": "3plus members 1120 EM",
+            "modifiers": {
+              "geo_dmgInc": 268.8,
+              "lunarcrystallize_dmgInc": 1792
+            }
+          },
+          {
+            "value": "3plus members 1160 EM",
+            "modifiers": {
+              "geo_dmgInc": 278.4,
+              "lunarcrystallize_dmgInc": 1856
             }
           }
         ]

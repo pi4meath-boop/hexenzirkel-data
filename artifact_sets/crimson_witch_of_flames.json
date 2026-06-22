@@ -14,6 +14,22 @@
           "overloaded_dmg_": 0.4,
           "vaporize_dmg_": 0.15
         }
+      },
+      {
+        "conditionKey": "4pc_increases_pyro_dmg",
+        "source": "CrimsonWitchOfFlames",
+        "description": "4pc: Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+        "states": {
+          "1 stacks": {
+            "pyro_dmg_": 0.075
+          },
+          "2 stacks": {
+            "pyro_dmg_": 0.15
+          },
+          "3 stacks": {
+            "pyro_dmg_": 0.225
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

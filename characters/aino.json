@@ -3,6 +3,7 @@
   "go_key": "Aino",
   "avatar_id": 10000121,
   "character_key": "avatar_10000121",
+  "element": "hydro",
   "weapon_type": "claymore",
   "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "nation": "nod_krai",
@@ -123,9 +124,7 @@
           {
             "value": "on",
             "modifiers": {
-              "eleMas": {
-                "formulaRef": "aino.c1.after_skill.self_elemas"
-              }
+              "eleMas": 80.0
             }
           }
         ]
@@ -141,23 +140,23 @@
         },
         "states": [
           {
-            "value": "on",
+            "value": "nascent gleam",
             "modifiers": {
-              "electrocharged_dmg_": {
-                "formulaRef": "aino.c6.after_burst.reaction_dmg"
-              },
-              "bloom_dmg_": {
-                "formulaRef": "aino.c6.after_burst.reaction_dmg"
-              },
-              "lunarcharged_dmg_": {
-                "formulaRef": "aino.c6.after_burst.reaction_dmg"
-              },
-              "lunarbloom_dmg_": {
-                "formulaRef": "aino.c6.after_burst.reaction_dmg"
-              },
-              "lunarcrystallize_dmg_": {
-                "formulaRef": "aino.c6.after_burst.reaction_dmg"
-              }
+              "electrocharged_dmg_": 0.15,
+              "bloom_dmg_": 0.15,
+              "lunarcharged_dmg_": 0.15,
+              "lunarbloom_dmg_": 0.15,
+              "lunarcrystallize_dmg_": 0.15
+            }
+          },
+          {
+            "value": "ascendant gleam",
+            "modifiers": {
+              "electrocharged_dmg_": 0.35,
+              "bloom_dmg_": 0.35,
+              "lunarcharged_dmg_": 0.35,
+              "lunarbloom_dmg_": 0.35,
+              "lunarcrystallize_dmg_": 0.35
             }
           }
         ]

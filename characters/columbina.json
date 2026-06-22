@@ -3,6 +3,7 @@
   "go_key": "Columbina",
   "avatar_id": 10000125,
   "character_key": "avatar_10000125",
+  "element": "hydro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "nod_krai",
@@ -41,44 +42,44 @@
         "specialType": "direct_lunarbloom",
         "element": "dendro",
         "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "dew_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "dew_mult"}]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
       },
       "continuousDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p1_mult"}]
       },
       "lunarchargedDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p2_mult"}]
       },
       "lunarbloomDmg": {
         "specialType": "direct_lunarbloom",
         "element": "dendro",
         "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p3_mult"}]
       },
       "lunarcrystallizeDmg": {
         "specialType": "direct_lunar_crystallization",
         "element": "geo",
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p4_mult"}]
       }
     },
     "burst": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
       }
     },
     "reaction": {
@@ -132,7 +133,7 @@
     },
     "charged": {
       "dmg_mult": 2.08944,
-      "dew_mult": 0.081606
+      "dew_mult": 0.027202
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
@@ -178,9 +179,7 @@
             "value": "on",
             "modifiers": {
               "isMoonsign": 1,
-              "lunar_special_": {
-                "formulaRef": "columbina.burst.lunar_special_dmg"
-              }
+              "lunar_special_": 0.4
             }
           }
         ]
@@ -213,15 +212,9 @@
               "lunar_baseDmg_": {
                 "formulaRef": "columbina.a4.lunar_base_dmg"
               },
-              "lunarbloom_baseDmg_": {
-                "formulaRef": "columbina.a4.lunarbloom_base_dmg_mult"
-              },
-              "lunarcharged_baseDmg_": {
-                "formulaRef": "columbina.a4.lunarcharged_base_dmg_mult"
-              },
-              "lunarcrystallize_baseDmg_": {
-                "formulaRef": "columbina.a4.lunarcrystallize_base_dmg_mult"
-              }
+              "lunarbloom_baseDmg_": 0.07,
+              "lunarcharged_baseDmg_": 0.07,
+              "lunarcrystallize_baseDmg_": 0.07
             }
           }
         ]
@@ -233,15 +226,9 @@
           {
             "value": "on",
             "modifiers": {
-              "lunarbloom_dmg_": {
-                "formulaRef": "columbina.burst.lunarbloom_dmg_bonus"
-              },
-              "lunarcharged_dmg_": {
-                "formulaRef": "columbina.burst.lunarcharged_dmg_bonus"
-              },
-              "lunarcrystallize_dmg_": {
-                "formulaRef": "columbina.burst.lunarcrystallize_dmg_bonus"
-              }
+              "lunarbloom_dmg_": 0.4,
+              "lunarcharged_dmg_": 0.4,
+              "lunarcrystallize_dmg_": 0.4
             }
           }
         ]
@@ -256,15 +243,9 @@
           {
             "value": "on",
             "modifiers": {
-              "lunarcharged_dmg_": {
-                "formulaRef": "columbina.c4.lunarcharged_dmg"
-              },
-              "lunarbloom_dmg_": {
-                "formulaRef": "columbina.c4.lunarbloom_dmg"
-              },
-              "lunarcrystallize_dmg_": {
-                "formulaRef": "columbina.c4.lunarcrystallize_dmg"
-              }
+              "lunarcharged_dmg_": 0.125,
+              "lunarbloom_dmg_": 0.025,
+              "lunarcrystallize_dmg_": 0.125
             }
           }
         ]
