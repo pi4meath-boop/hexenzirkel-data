@@ -1,0 +1,166 @@
+{
+  "display_name": "Arlecchino",
+  "go_key": "Arlecchino",
+  "avatar_id": 10000096,
+  "character_key": "avatar_10000096",
+  "element": "pyro",
+  "weapon_type": "polearm",
+  "constellation_talent_boosts": {"normal": 3, "burst": 5},
+  "nation": "snezhnaya",
+  "base_stats_json": {
+    "baseHp": 13103.1246236,
+    "baseAtk": 342.0250874,
+    "baseDef": 764.7115982,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      },
+      "1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
+      "2": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+      },
+      "3": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p3_mult"},
+          {"scalingKey": "atk", "multKey": "p4_mult"}
+        ]
+      },
+      "4": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+      },
+      "5": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+      }
+    },
+    "plunging": {
+      "plunge": {
+        "element": "pyro",
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+      },
+      "plungeLow": {
+        "element": "pyro",
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+      },
+      "plungeHigh": {
+        "element": "pyro",
+        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
+      }
+    },
+    "skill": {
+      "directive": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      },
+      "spike": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
+      "cleave": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+      }
+    },
+    "burst": {
+      "dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "p0_mult": 0.938961,
+      "p1_mult": 1.029996,
+      "p2_mult": 1.29251,
+      "p3_mult": 0.734264,
+      "p4_mult": 1.383358,
+      "p5_mult": 1.687709,
+      "p6_mult": 1.7952
+    },
+    "charged": {
+      "p7_mult": 2.38
+    },
+    "plunging": {
+      "p8_mult": 1.26378,
+      "p9_mult": 2.527025,
+      "p10_mult": 3.15639
+    },
+    "skill": {
+      "p0_mult": 2.40408,
+      "p1_mult": 0.26712,
+      "p2_mult": 0.5724
+    },
+    "burst": {
+      "p0_mult": 6.6672
+    },
+    "source": {
+      "provider": "ProjectAmber",
+      "endpoint": "https://gi.yatta.moe/api/v2/en/avatar/10000096",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "pyro_dmg_": 0.4
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6AfterSkill",
+        "source": "avatar_10000096",
+        "description": "C6: for 20s after using All Is Ash, Normal Attacks and Elemental Burst gain +10% CRIT Rate and +70% CRIT DMG.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 0.1,
+              "critDMG_": 0.7
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

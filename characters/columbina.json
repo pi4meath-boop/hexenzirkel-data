@@ -211,10 +211,7 @@
             "modifiers": {
               "lunar_baseDmg_": {
                 "formulaRef": "columbina.a4.lunar_base_dmg"
-              },
-              "lunarbloom_baseDmg_": 0.07,
-              "lunarcharged_baseDmg_": 0.07,
-              "lunarcrystallize_baseDmg_": 0.07
+              }
             }
           }
         ]

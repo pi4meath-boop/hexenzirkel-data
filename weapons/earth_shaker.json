@@ -8,7 +8,16 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "12431",
+        "conditionKey": "after_pyro_reaction",
+        "description": "R5: after a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 32% for 8s. Triggers even when the reacting party member is off-field.",
+        "modifiers": {
+          "skill_dmg_": 0.32
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

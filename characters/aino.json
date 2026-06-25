@@ -113,7 +113,9 @@
         "formulaRef": "aino.a4.burst_dmg.from_elemas"
       }
     },
-    "self_conditional_modifiers_json": [
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
       {
         "conditionKey": "c1AfterSkillOrBurst",
         "source": "avatar_10000121",
@@ -128,10 +130,7 @@
             }
           }
         ]
-      }
-    ],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
+      },
       {
         "conditionKey": "c6AfterBurst",
         "source": "avatar_10000121",

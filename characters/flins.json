@@ -63,68 +63,70 @@
       }
     },
     "skill": {
-      "enhancedHit1Dmg": {
+      "na1": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "enhancedHit2Dmg": {
+      "na2": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       },
-      "enhancedHit3Dmg": {
+      "na3": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
       },
-      "enhancedHit4Dmg": {
+      "na4": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
       },
-      "enhancedHit5Dmg": {
+      "na5": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
       },
-      "enhancedChargedDmg": {
+      "ca": {
         "element": "electro",
         "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
-      "northlandSpearstormDmg": {
+      "spearDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
       }
     },
     "burst": {
-      "initialDmg": {
+      "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "middlePhaseLunarchargedDmg": {
+      "middleLunarDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       },
-      "finalPhaseLunarchargedDmg": {
+      "finalLunarDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
       },
-      "thunderousSymphonyDmg": {
+      "thunderDmg": {
+        "specialType": "direct_lunar_charged",
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
-      "thunderousSymphonyAdditionalDmg": {
+      "thunderAddlDmg": {
+        "specialType": "direct_lunar_charged",
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
       }
     },
@@ -199,12 +201,8 @@
   "buffs": {
     "self_modifiers_json": {
       "lunarcharged_dmg_": 0.2,
-      "eleMas": {
-        "formulaRef": "flins.a4.atk_from_elemas"
-      },
-      "atk_": {
-        "formulaRef": "flins.c4.atk_bonus"
-      },
+      "lunarcharged_baseDmg_": 0.14,
+      "eleMas_from_atk_": 0.08,
       "lunarcharged_specialDmg_": {
         "formulaRef": "flins.c6.lunarcharged_special_dmg"
       }

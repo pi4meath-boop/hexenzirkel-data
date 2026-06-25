@@ -142,9 +142,9 @@
       {
         "conditionKey": "a1Panoramic",
         "source": "avatar_10000116",
-        "description": "A1 Panoramic Permutation Protocol: on Burst, party gains EM equal to 6% of Ineffa's ATK for 20s. Applied statically to teammates (flat 168 EM = 0.06 x assumed 2800 ATK); when Ineffa herself is scored the buff is dynamic (eleMas_from_atk_ in self_modifiers).",
+        "description": "A1 Panoramic Permutation Protocol: on Burst, party gains EM equal to 6% of Ineffa's ATK for 20s. Applied statically to teammates (flat 96.3 EM = 0.06 x assumed 2567 ATK x 20s buff / 16s rot); when Ineffa herself is scored the buff is dynamic (eleMas_from_atk_ in self_modifiers).",
         "modifiers": {
-          "eleMas": 168.0
+          "eleMas": 96.3
         }
       }
     ],
