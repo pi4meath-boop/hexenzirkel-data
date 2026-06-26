@@ -12,10 +12,14 @@
         "description": "4pc: When off-field, Lunar Reaction DMG +20%. With Moonsign Ascendant Gleam, Lunar Reaction DMG further +40% (total +60%). Disappears 3s after taking the field.",
         "states": {
           "off_field": {
-            "reaction_dmg_": 0.2
+            "lunarbloom_dmg_": 0.2,
+            "lunarcharged_dmg_": 0.2,
+            "lunarcrystallize_dmg_": 0.2
           },
           "off_field_gleam": {
-            "reaction_dmg_": 0.6
+            "lunarbloom_dmg_": 0.6,
+            "lunarcharged_dmg_": 0.6,
+            "lunarcrystallize_dmg_": 0.6
           }
         }
       }
