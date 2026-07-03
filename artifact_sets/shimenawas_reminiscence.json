@@ -11,7 +11,9 @@
         "source": "ShimenawasReminiscence",
         "description": "4pc: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
         "modifiers": {
-          "normal_dmg_": 0.5
+          "normal_dmg_": 0.5,
+          "charged_dmg_": 0.5,
+          "plunging_dmg_": 0.5
         }
       }
     ],
