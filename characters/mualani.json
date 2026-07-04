@@ -62,7 +62,33 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "A4Passive",
+        "source": "Mualani",
+        "description": "+15% base dmg per stack",
+        "states": [
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "burst_base_dmg_": 0.15
+            }
+          },
+          {
+            "value": "2 stack",
+            "modifiers": {
+              "burst_base_dmg_": 0.30
+            }
+          },
+          {
+            "value": "3 stack",
+            "modifiers": {
+              "burst_base_dmg_": 0.45
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

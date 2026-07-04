@@ -135,6 +135,38 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "hexPassiveSkill",
+        "source": "Sucrose",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.0571428,
+              "charged_dmg_": 0.0571428,
+              "plunging_dmg_": 0.0571428,
+              "skill_dmg_": 0.0571428,
+              "burst_dmg_": 0.0571428
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "hexPassiveBurst",
+        "source": "Sucrose",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.0714285,
+              "charged_dmg_": 0.0714285,
+              "plunging_dmg_": 0.0714285,
+              "skill_dmg_": 0.0714285,
+              "burst_dmg_": 0.0714285
+            }
+          }
+        ]
       }
     ]
   }
