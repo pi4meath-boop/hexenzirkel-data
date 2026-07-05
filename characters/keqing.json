@@ -213,7 +213,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p2"
+            "multKey": "p2_mult"
           }
         ]
       }
