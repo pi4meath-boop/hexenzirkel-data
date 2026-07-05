@@ -5,7 +5,7 @@
   "character_key": "avatar_10000096",
   "element": "pyro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"normal": 3, "burst": 5},
+  "constellation_talent_boosts": {"auto": 3, "burst": 5},
   "nation": "snezhnaya",
   "base_stats_json": {
     "baseHp": 13103.1246236,

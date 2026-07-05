@@ -6,7 +6,7 @@
   "element": "hydro",
   "weapon_type": "catalyst",
   "nation": "fontaine",
-  "constellation_talent_boosts": {"normal": 3, "burst": 5},
+  "constellation_talent_boosts": {"auto": 3, "burst": 5},
   "base_stats_json": {
     "baseHp": 14695.0932,
     "baseAtk": 208.3244,
