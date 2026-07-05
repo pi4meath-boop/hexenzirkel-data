@@ -57,7 +57,7 @@
           }
         ]
       },
-      "hit_4": {
+      "hit_4(1)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -71,7 +71,7 @@
           }
         ]
       },
-      "hit_5": {
+      "hit_4(2)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -82,6 +82,20 @@
           {
             "scalingKey": "atk",
             "multKey": "p4_mult"
+          }
+        ]
+      },
+      "hit_5": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
           }
         ]
       },
@@ -155,7 +169,7 @@
           }
         ]
       },
-      "normal4": {
+      "normal4(1)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -169,7 +183,7 @@
           }
         ]
       },
-      "normal5": {
+      "normal4(2)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -180,6 +194,20 @@
           {
             "scalingKey": "atk",
             "multKey": "p4_mult"
+          }
+        ]
+      },
+      "normal5": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
           }
         ]
       },
@@ -225,7 +253,7 @@
           }
         ]
       },
-      "normal4Dmg": {
+      "normal4Dmg(1)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -239,7 +267,7 @@
           }
         ]
       },
-      "normal5Dmg": {
+      "normal4Dmg(2)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -250,6 +278,20 @@
           {
             "scalingKey": "atk",
             "multKey": "p4_mult"
+          }
+        ]
+      },
+      "normal5Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
           }
         ]
       },
@@ -323,7 +365,7 @@
           }
         ]
       },
-      "hit4Dmg": {
+      "hit4Dmg(1)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -337,7 +379,7 @@
           }
         ]
       },
-      "hit5Dmg": {
+      "hit4Dmg(2)": {
         "element": "physical",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -348,6 +390,20 @@
           {
             "scalingKey": "atk",
             "multKey": "p4_mult"
+          }
+        ]
+      },
+      "hit5Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
           }
         ]
       },
@@ -784,7 +840,7 @@
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
       "assumptions": {
-        "constellation": 0,
+        "constellation": 6,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "burstTalentLevel": 13,
