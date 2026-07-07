@@ -194,6 +194,62 @@
             "multKey": "dmg_mult"
           }
         ]
+      },
+      "companionDmg1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "companionDmg1_mult"
+          }
+        ]
+      },
+      "companionDmg2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "companionDmg2_mult"
+          }
+        ]
+      },
+      "companionDmg3": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "companionDmg3_mult"
+          }
+        ]
+      },
+      "companionDmg4": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "companionDmg4_mult"
+          }
+        ]
       }
     }
   },
@@ -218,11 +274,15 @@
       "hold_mult": 6.273
     },
     "burst": {
-      "dmg_mult": 3.4
+      "dmg_mult": 3.4,
+      "companionDmg1_mult": 0.872763,
+      "companionDmg2_mult": 0.7518573,
+      "companionDmg3_mult": 0.9400218,
+      "companionDmg4_mult": 1.2378822
     },
     "source": {
       "goCharacterKey": "Razor",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.companionDmg1: custom formula skipped', 'burst.companionDmg2: custom formula skipped', 'burst.companionDmg3: custom formula skipped', 'burst.companionDmg4: custom formula skipped'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). burst.companionDmg1-4 (Wolf's Bite lightning strikes proc'd on Normal Attack hits 1-4) manually derived from GO's actual sheet formula (libs/gi/sheets/src/Characters/Razor/index.tsx): companionDmg{n}_mult = normal.{n}_mult (Lv10) x burst companionDmg scalar (skillParam_gen.burst[1], Lv13 = 0.51); the formula/data.ts stub for Razor is an unmigrated placeholder and was not the source.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
