@@ -5,7 +5,10 @@
   "character_key": "avatar_10000111",
   "element": "electro",
   "weapon_type": "catalyst",
-  "constellation_talent_boosts": {"burst": 3, "auto": 5},
+  "constellation_talent_boosts": {
+    "burst": 3,
+    "auto": 5
+  },
   "base_stats_json": {
     "baseHp": 12699.01,
     "baseAtk": 356.38,
@@ -15,7 +18,7 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "0" : {
+      "0": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -23,11 +26,13 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"0_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
         ]
       },
-      "1" : {
+      "1": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -35,11 +40,13 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"1_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
         ]
       },
-      "2" : {
+      "2": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -47,11 +54,13 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"2_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
         ]
       },
-      "fp0" : {
+      "fp0": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -59,11 +68,13 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fp0_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fp0_mult"
+          }
         ]
       },
-      "fp1" : {
+      "fp1": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -71,11 +82,13 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fp1_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fp1_mult"
+          }
         ]
       },
-      "fp2" : {
+      "fp2": {
         "element": "electro",
         "dmgBonusKeys": [
           "normal_dmg_",
@@ -83,8 +96,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fp2_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fp2_mult"
+          }
         ]
       }
     },
@@ -97,8 +112,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"dmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
         ]
       },
       "fpDmg": {
@@ -109,8 +126,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fpDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fpDmg_mult"
+          }
         ]
       }
     },
@@ -123,8 +142,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"dmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
         ]
       },
       "low": {
@@ -135,8 +156,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"low_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
         ]
       },
       "high": {
@@ -147,8 +170,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"high_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
         ]
       },
       "fpdmg": {
@@ -159,8 +184,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fpdmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fpdmg_mult"
+          }
         ]
       },
       "fplow": {
@@ -171,8 +198,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fplow_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fplow_mult"
+          }
         ]
       },
       "fphigh": {
@@ -183,8 +212,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fphigh_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fphigh_mult"
+          }
         ]
       }
     },
@@ -197,8 +228,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"rushDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "rushDmg_mult"
+          }
         ]
       },
       "fpRushDmg": {
@@ -209,8 +242,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fpRushDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fpRushDmg_mult"
+          }
         ]
       }
     },
@@ -223,8 +258,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"kickDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "kickDmg_mult"
+          }
         ]
       },
       "fpKickDmg": {
@@ -235,8 +272,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"fpKickDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "fpKickDmg_mult"
+          }
         ]
       },
       "volcanoDmg": {
@@ -247,8 +286,10 @@
           "all_dmg_"
         ],
         "components": [
-          "scalingKey":"atk",
-          "multKey":"volcanoDmg_mult"
+          {
+            "scalingKey": "atk",
+            "multKey": "volcanoDmg_mult"
+          }
         ]
       }
     }
@@ -264,7 +305,7 @@
     },
     "charged": {
       "dmg_mult": 1.60704,
-      "sta_cost":50,
+      "sta_cost": 50,
       "fpDmg_mult": 1.66752,
       "fpSta_cost": 50
     },
@@ -314,22 +355,26 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "a1afterskill",
-        "source": "avatar_10000111",
-        "description": "A1: 5s after skill, additional plunging multiplier (50% atk, 180% atk fp) (added manually in config)"
-      {
         "conditionKey": "a4NSBurst_stacks",
         "source": "avatar_10000111",
         "description": "A4: 35% atk per stack",
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.35}},
-          {"value": "2", "modifiers": {"atk_": 0.7}},
+          {
+            "value": "1",
+            "modifiers": {
+              "atk_": 0.35
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "atk_": 0.7
+            }
+          }
         ]
       }
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
-      }
-    ]
   }
 }
