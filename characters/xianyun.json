@@ -206,12 +206,34 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1AloofFromTheWorld",
+        "source": "Xianyun",
+        "gating": {"constellationMin": 1},
+        "description": "C1 Aloof From the World: after using a Skyladder from White Clouds at Dawn, Xianyun's ATK is increased by 20% for 15s.",
+        "states": [
+          {"value": "on", "modifiers": {"atk_": 0.20}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
+        "conditionKey": "a1GalefeatherPursuit",
+        "source": "Xianyun",
+        "description": "A1 Galefeather Pursuit: each opponent hit by a Driftcloud Wave grants nearby party members 1 stack of Storm Pinion (max 4, independent durations), increasing their Plunging Attack CRIT Rate by 4%/6%/8%/10% at 1/2/3/4 stacks.",
+        "states": [
+          {"value": "1", "modifiers": {"plunging_critRate_": 0.04}},
+          {"value": "2", "modifiers": {"plunging_critRate_": 0.06}},
+          {"value": "3", "modifiers": {"plunging_critRate_": 0.08}},
+          {"value": "4", "modifiers": {"plunging_critRate_": 0.10}}
+        ]
+      },
+      {
         "conditionKey": "a4GalesOfReverie",
         "source": "Xianyun",
+        "description": "A4 Consider, the Adeptus in Her Realm: while the Starwicker (from Stars Gather at Dusk) has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG is increased by 200% of Xianyun's ATK (cap 9,000 DMG, not modeled).",
         "states": [
           {
             "value": "on",
@@ -219,6 +241,15 @@
               "plunging_dmgIncFromAtk_": 2.0
             }
           }
+        ]
+      },
+      {
+        "conditionKey": "c1EnhancesA4",
+        "source": "Xianyun",
+        "gating": {"constellationMin": 1},
+        "description": "C1 Aloof From the World enhances A4: Plunging Attack shockwave DMG bonus increases from 200% to 400% of Xianyun's ATK (cap 18,000 DMG, not modeled). Modeled as an additional +200% on top of the base a4GalesOfReverie entry.",
+        "states": [
+          {"value": "on", "modifiers": {"plunging_dmgIncFromAtk_": 2.0}}
         ]
       }
     ]

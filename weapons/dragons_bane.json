@@ -18,7 +18,8 @@
           {
             "value": "on",
             "modifiers": {
-              "all_dmg_": 0.2
+              "hydro_dmg_": 0.2,
+              "pyro_dmg_": 0.2
             }
           }
         ]

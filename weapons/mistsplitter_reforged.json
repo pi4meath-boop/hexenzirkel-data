@@ -18,7 +18,7 @@
         "description": "Mistsplitter's Emblem stack bonus for the wielder's elemental type.",
         "states": {
           "1": {
-            "all_dmg_": 0.8
+            "all_dmg_": 0.08
           },
           "2": {
             "all_dmg_": 0.16

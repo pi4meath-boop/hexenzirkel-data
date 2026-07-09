@@ -254,7 +254,7 @@
       {
         "conditionKey": "a4ExquisiteThrowRamp",
         "source": "Yelan",
-        "description": "A4 passive: Hydro DMG bonus increases by ~3.5% per second (capped at 50% at 15s+)",
+        "description": "A4 Adapt With Ease: while an Exquisite Throw is in play, the active party member deals 1% more DMG, increasing by a further 3.5% per second (capped at 50% at 15s+). This is a universal DMG bonus for whoever is active (not Hydro-specific), correctly modeled as all_dmg_.",
         "states": [
           {
             "value": "0",
