@@ -208,10 +208,10 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "c1AloofFromTheWorld",
+        "conditionKey": "c2AloofFromTheWorld",
         "source": "Xianyun",
-        "gating": {"constellationMin": 1},
-        "description": "C1 Aloof From the World: after using a Skyladder from White Clouds at Dawn, Xianyun's ATK is increased by 20% for 15s.",
+        "gating": {"constellationMin": 2},
+        "description": "C2 Aloof From the World: after using a Skyladder from White Clouds at Dawn, Xianyun's ATK is increased by 20% for 15s.",
         "states": [
           {"value": "on", "modifiers": {"atk_": 0.20}}
         ]
@@ -233,23 +233,22 @@
       {
         "conditionKey": "a4GalesOfReverie",
         "source": "Xianyun",
-        "description": "A4 Consider, the Adeptus in Her Realm: while the Starwicker (from Stars Gather at Dusk) has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG is increased by 200% of Xianyun's ATK (cap 9,000 DMG, not modeled).",
+        "description": "A4 Consider, the Adeptus in Her Realm: while the Starwicker (from Stars Gather at Dusk) has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG is increased by 200% of Xianyun's ATK, capped at 9,000 DMG (cap reached at 4,500 ATK). Modeled as flat plunging_dmgInc at fixed ATK breakpoints since the evaluator has no generic ratio-with-cap mechanism; pick the state matching Xianyun's actual ATK.",
         "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "plunging_dmgIncFromAtk_": 2.0
-            }
-          }
+          {"value": "3500atk", "modifiers": {"plunging_dmgInc": 7000}},
+          {"value": "4000atk", "modifiers": {"plunging_dmgInc": 8000}},
+          {"value": "capped", "modifiers": {"plunging_dmgInc": 9000}}
         ]
       },
       {
-        "conditionKey": "c1EnhancesA4",
+        "conditionKey": "c2EnhancesA4",
         "source": "Xianyun",
-        "gating": {"constellationMin": 1},
-        "description": "C1 Aloof From the World enhances A4: Plunging Attack shockwave DMG bonus increases from 200% to 400% of Xianyun's ATK (cap 18,000 DMG, not modeled). Modeled as an additional +200% on top of the base a4GalesOfReverie entry.",
+        "gating": {"constellationMin": 2},
+        "description": "C2 enhances A4: Plunging Attack shockwave DMG bonus increases from 200% to 400% of Xianyun's ATK, cap increases from 9,000 to 18,000 DMG (cap still reached at 4,500 ATK). Modeled as an additional copy of the same capped flat plunging_dmgInc breakpoints on top of the base a4GalesOfReverie entry (200%+200% = 400%, 9,000+9,000 = 18,000 cap) — select the same ATK-breakpoint state as a4GalesOfReverie.",
         "states": [
-          {"value": "on", "modifiers": {"plunging_dmgIncFromAtk_": 2.0}}
+          {"value": "3500atk", "modifiers": {"plunging_dmgInc": 7000}},
+          {"value": "4000atk", "modifiers": {"plunging_dmgInc": 8000}},
+          {"value": "capped", "modifiers": {"plunging_dmgInc": 9000}}
         ]
       }
     ]
