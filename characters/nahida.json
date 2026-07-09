@@ -213,7 +213,7 @@
         "skillTalentLevel": 10
       },
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
-      "note": "2026-07: rebuilt hit_definitions_json to match GO's actual sheet (libs/gi/sheets/src/Characters/Nahida/index.tsx) target paths: normal.0-3, charged.dmg, plunging.dmg/low/high, skill.pressDmg/holdDmg/karmaDmg (karmaDmg = Tri-Karma Purification, the atk+eleMas split-scale periodic hit). Removed a fabricated burst hit — Illusory Heart deals no direct damage in GO's sheet (dmgFormulas has no burst entry); its skillParam.burst array (kept below for reference/future buff work) is all non-damage values: dmg_1/dmg_2 (Pyro/Electro synergy amounts, not modeled yet), intervalDec_1/2, durationInc1/2, duration, cd, energyCost. The previous 'skillDmg'/'hit1' hits incorrectly combined skill.pressDmg (p0) and skill.holdDmg (p1) into one fake atk+eleMas hit."
+      "note": "2026-07: rebuilt hit_definitions_json to match GO's actual sheet (libs/gi/sheets/src/Characters/Nahida/index.tsx) target paths: normal.0-3, charged.dmg, plunging.dmg/low/high, skill.pressDmg/holdDmg/karmaDmg (karmaDmg = Tri-Karma Purification, the atk+eleMas split-scale periodic hit). Removed a fabricated burst hit — Illusory Heart deals no direct damage in GO's sheet (dmgFormulas has no burst entry); its skillParam.burst array (kept below for reference/future buff work) is all non-damage values: dmg_1/dmg_2 (Pyro/Electro synergy amounts, not modeled yet), intervalDec_1/2, durationInc1/2, duration, cd, energyCost. The previous 'skillDmg'/'hit1' hits incorrectly combined skill.pressDmg (p0) and skill.holdDmg (p1) into one fake atk+eleMas hit. 2026-07 correction: Compassion Illuminated (EM to active character) is her A1 passive, not A4 — fixed conditionKeys/descriptions. Awakening Elucidated (the karmadmg_*_from_eleMas_excess200_ keys in self_modifiers_json below) is her A4 passive."
     },
     "burstRawSkillParam": {
       "dmg_1": 0.26784,
@@ -246,9 +246,9 @@
     },
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "a4CompassionIlluminatedSelf",
+        "conditionKey": "a1CompassionIlluminatedSelf",
         "source": "avatar_10000073",
-        "description": "A4 Compassion Illuminated (dynamic, self): the active character in the Shrine of Maya gains EM equal to 25% of the party's highest EM, capped at 250. When Nahida is the scored character we approximate 'highest EM party member' as her own EM (the common case for an EM-support Nahida), so this scales dynamically with her build instead of always assuming the 250 cap.",
+        "description": "A1 Compassion Illuminated (dynamic, self): the active character in the Shrine of Maya gains EM equal to 25% of the party's highest EM, capped at 250. When Nahida is the scored character we approximate 'highest EM party member' as her own EM (the common case for an EM-support Nahida), so this scales dynamically with her build instead of always assuming the 250 cap.",
         "states": [
           {
             "value": "active",
@@ -303,9 +303,9 @@
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": [
       {
-        "conditionKey": "a4CompassionIlluminatedTeam",
+        "conditionKey": "a1CompassionIlluminatedTeam",
         "source": "avatar_10000073",
-        "description": "A4 Compassion Illuminated (flat estimate, as a support): the active character in the Shrine of Maya gains EM equal to 25% of the party's highest EM, capped at 250. Modeled at the 250 cap for teammates (others-only, so it doesn't double-count with the dynamic self entry when Nahida is the scored character).",
+        "description": "A1 Compassion Illuminated (flat estimate, as a support): the active character in the Shrine of Maya gains EM equal to 25% of the party's highest EM, capped at 250. Modeled at the 250 cap for teammates (others-only, so it doesn't double-count with the dynamic self entry when Nahida is the scored character).",
         "states": [
           {
             "value": "active",
