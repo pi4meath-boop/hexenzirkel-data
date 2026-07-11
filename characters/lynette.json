@@ -240,7 +240,7 @@
     },
     "reaction": {
       "pyroSwirl": {
-        "specialType": "pyroSwirl_reaction"
+        "specialType": "swirl_reaction"
       }
     }
   },
