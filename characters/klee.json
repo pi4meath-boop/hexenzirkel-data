@@ -70,6 +70,48 @@
             "multKey": "p3_mult"
           }
         ]
+      },
+      "plungeDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "plungeLow": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
+          }
+        ]
+      },
+      "plungeHigh": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p6_mult"
+          }
+        ]
       }
     },
     "skill": {
@@ -121,19 +163,23 @@
   },
   "talent_multipliers_json": {
     "burst": {
-      "p0_mult": 0.7168
+      "p0_mult": 0.76752
     },
     "skill": {
-      "p0_mult": 1.8592,
-      "p1_mult": 0.576
+      "p0_mult": 1.7136,
+      "p1_mult": 0.5904
     },
     "normal": {
-      "p0_mult": 0.9602,
-      "p1_mult": 0.8318,
-      "p2_mult": 1.1987,
-      "p3_mult": 2.101
+      "p0_mult": 1.29888,
+      "p1_mult": 1.1232,
+      "p2_mult": 1.61856,
+      "p3_mult": 2.83248,
+      "p4_mult": 1.12336,
+      "p5_mult": 2.246244,
+      "p6_mult": 2.80568
     },
     "source": {
+      "note": "2026-07 audit: prior p0-p3/skill/burst values did not match GO/Amber Lv10 data at all (each hit off by a different, non-level-aligned ratio -- likely stale/hand-entered before the goCommit pointer was added). Re-derived from allStat_gen.json skillParam.Klee at commit 2937f8a80846b18c3495b7657c0bae5c78c82606, cross-checked against Amber avatar/10000029 talent[0].promote['10'] (identical). Added plunging (p4-p6), previously missing entirely from both hit_definitions_json and here.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,

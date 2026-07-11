@@ -228,6 +228,14 @@
         ]
       },
       {
+        "conditionKey": "afterBurstEleMas",
+        "source": "avatar_10000071",
+        "description": "A4 Authority Over the Nine Bows: while transformed into Pactsworn Pathclearer, Cyno gains 100 Elemental Mastery. (2026-07 audit: was missing entirely -- only the A4 EM-scaled DMG-increase ratios for Duststalker Bolt/Starsame/Pathclearer Normal ATK were modeled, not this separate flat EM grant. Confirmed against GO's dm.burst.eleMas = 100, gated by condAfterBurst / Pathclearer state.)",
+        "states": [
+          {"value": "on", "modifiers": {"eleMas": 100}}
+        ]
+      },
+      {
         "conditionKey": "c2CeremonyElectroDmg",
         "source": "avatar_10000071",
         "gating": {"constellationMin": 2},

@@ -124,17 +124,12 @@
       {
         "conditionKey": "a4MollisFavonius",
         "source": "Sucrose",
+        "description": "Mollis Favonius: nearby party members gain EM equal to 20% of Sucrose's own EM on swirl. The LB builder UI lets the admin type Sucrose's actual EM directly (0.2 * enteredEM) instead of relying on this approximation.",
         "states": [
           {
-            "value": "844 EM",
+            "value": "active",
             "modifiers": {
               "eleMas": 168.8
-            }
-          },
-          {
-            "value": "1019 EM",
-            "modifiers": {
-              "eleMas": 203.8
             }
           }
         ]

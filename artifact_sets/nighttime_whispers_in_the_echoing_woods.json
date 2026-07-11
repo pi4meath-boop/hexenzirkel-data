@@ -5,7 +5,18 @@
     "self_modifiers_json": {
       "atk_": 0.18
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "artifact_set:NighttimeWhispersInTheEchoingWoods",
+        "conditionKey": "afterSkillCrystallizeGeoDmg",
+        "description": "4pc: After using an Elemental Skill, gain 20% Geo DMG Bonus for 10s. While under a Crystallize-reaction shield or near Lunar-Crystallize Moondrifts during that window, the bonus is increased by 150% (to 50% Geo DMG total); the additional increase disappears 1s after the condition is no longer met.",
+        "states": [
+          {"value": "off", "modifiers": {}},
+          {"value": "afterSkill", "modifiers": {"geo_dmg_": 0.20}},
+          {"value": "afterSkillCrystallize", "modifiers": {"geo_dmg_": 0.50}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -5,7 +5,20 @@
     "self_modifiers_json": {
       "def_": 0.3
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "artifact_set:HuskOfOpulentDreams",
+        "conditionKey": "curiosityStacks",
+        "description": "4pc: When the wearer hits an opponent with a Geo attack, they gain 1 stack of Curiosity (max 4, triggers once per 0.3s). Each stack grants DEF +6% and Geo DMG Bonus +6% (up to +24%/+24% at 4 stacks). Removed if the wearer is off-field for more than 10s or takes DMG.",
+        "states": [
+          {"value": "0", "modifiers": {}},
+          {"value": "1", "modifiers": {"def_": 0.06, "geo_dmg_": 0.06}},
+          {"value": "2", "modifiers": {"def_": 0.12, "geo_dmg_": 0.12}},
+          {"value": "3", "modifiers": {"def_": 0.18, "geo_dmg_": 0.18}},
+          {"value": "4", "modifiers": {"def_": 0.24, "geo_dmg_": 0.24}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
