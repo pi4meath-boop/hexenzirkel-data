@@ -8,7 +8,7 @@
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "DPCafterCharged",
-        "Source": "DesertPavilionChronicle",
+        "source": "DesertPavilionChronicle",
         "states": [
           {
             "value": "on",
