@@ -10,8 +10,9 @@
         "conditionKey": "4pc_when_a_character_attacks_an_opponent_affected_by_cryo_their_",
         "source": "BlizzardStrayer",
         "description": "4pc: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
-        "modifiers": {
-          "critRate_": 0.2
+        "states": {
+          "cryo": {"critRate_": 0.2},
+          "frozen": {"critRate_": 0.4}
         }
       }
     ],

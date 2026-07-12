@@ -249,7 +249,25 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1CeremonialCrystalshot",
+        "source": "avatar_10000091",
+        "description": "A1 Undisclosed Distribution Channels: For 4s after using Ceremonial Crystalshot, the DMG dealt by Navia's Normal, Charged, and Plunging Attacks will be converted into Geo DMG which cannot be overridden by other Elemental infusions, and increased by 40%.",
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmg_": 0.4, "charged_dmg_": 0.4, "plunging_dmg_": 0.4}}
+        ]
+      },
+      {
+        "conditionKey": "a4MutualAssistanceNetwork",
+        "source": "avatar_10000091",
+        "description": "A4 Mutual Assistance Network: For each Pyro/Electro/Cryo/Hydro party member, Navia gains 20% increased ATK. This effect can stack up to 2 times (select how many qualifying members are in the team).",
+        "states": [
+          {"value": "1", "modifiers": {"atk_": 0.2}},
+          {"value": "2", "modifiers": {"atk_": 0.4}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
