@@ -69,7 +69,27 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1DarkShatteringFlame",
+        "source": "avatar_10000098",
+        "description": "A1 Dark-Shattering Flame: After a nearby party member triggers an Electro-related reaction against an opponent, Electro DMG dealt by Clorinde's Normal Attacks and Last Lightfall (Burst) is increased by 20% of ATK for 15s. Max 3 stacks, each counted independently (select active stacks).",
+        "states": [
+          {"value": "1", "modifiers": {"normal_dmgIncFromAtk_": 0.2, "burst_dmgIncFromAtk_": 0.2}},
+          {"value": "2", "modifiers": {"normal_dmgIncFromAtk_": 0.4, "burst_dmgIncFromAtk_": 0.4}},
+          {"value": "3", "modifiers": {"normal_dmgIncFromAtk_": 0.6, "burst_dmgIncFromAtk_": 0.6}}
+        ]
+      },
+      {
+        "conditionKey": "a4BondOfLifeCritRate",
+        "source": "avatar_10000098",
+        "description": "A4: If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate is increased by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks, each counted independently (select active stacks; assumes Bond of Life is kept at/above 100% Max HP).",
+        "states": [
+          {"value": "1", "modifiers": {"critRate_": 0.1}},
+          {"value": "2", "modifiers": {"critRate_": 0.2}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
