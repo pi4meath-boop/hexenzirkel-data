@@ -237,12 +237,6 @@
           }
         ]
       }
-    },
-    "reaction": {
-      "pyroSwirl": {
-        "element": "pyro",
-        "specialType": "swirl_reaction"
-      }
     }
   },
   "talent_multipliers_json": {

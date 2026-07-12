@@ -88,13 +88,6 @@
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       }
-    },
-    "reaction": {
-      "lunarcharged": {
-        "element": "electro",
-        "specialType": "lunar_charged_reaction",
-        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"]
-      }
     }
   },
   "talent_multipliers_json": {

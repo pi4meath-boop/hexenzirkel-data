@@ -81,23 +81,6 @@
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
       }
-    },
-    "reaction": {
-      "bloom": {
-        "specialType": "bloomreaction",
-        "element": "dendro",
-        "dmgBonusKeys": ["reaction_dmg_", "all_dmg_"]
-      },
-      "lunarcharged": {
-        "specialType": "lunar_charged_reaction",
-        "element": "electro",
-        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"]
-      },
-      "lunarcrystallize": {
-        "specialType": "lunar_crystallization_reaction",
-        "element": "geo",
-        "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"]
-      }
     }
   },
   "talent_multipliers_json": {

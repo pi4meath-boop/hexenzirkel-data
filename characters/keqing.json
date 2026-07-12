@@ -277,11 +277,6 @@
           }
         ]
       }
-    },
-    "reaction": {
-      "overloaded": {
-        "specialType": "overloaded_reaction"
-      }
     }
   },
   "talent_multipliers_json": {

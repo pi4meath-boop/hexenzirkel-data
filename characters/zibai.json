@@ -114,13 +114,6 @@
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "def", "multKey": "p1_mult"}]
       }
-    },
-    "reaction": {
-      "lunarcrystallize": {
-        "specialType": "lunarcrystallizationreaction",
-        "element": "geo",
-        "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"]
-      }
     }
   },
   "talent_multipliers_json": {
