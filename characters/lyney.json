@@ -325,7 +325,7 @@
       {
         "conditionKey": "SkillPropStackIncrease",
         "source": "Lyney",
-        "states": {
+        "states": [
           {
             "value": "1",
             "modifiers": {"skill_dmgIncFromAtk": 0.958}
@@ -346,7 +346,7 @@
             "value": "5",
             "modifiers": {"skill_dmgIncFromAtk": 4.790}
           }
-        }
+        ]
       }
     ],
     "team_modifiers_json": {},
