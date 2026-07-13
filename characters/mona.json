@@ -106,7 +106,8 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "hydro_dmg_from_enerRech_": 0.2
+      "hydro_dmg_from_enerRech_": 0.2,
+      "hydro_dmg_from_enerRech_cap_": 0.8
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},

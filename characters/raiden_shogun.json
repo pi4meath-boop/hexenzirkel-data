@@ -163,6 +163,206 @@
           }
         ]
       }
+    },
+    "skill": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "coorDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "coorDmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "hit1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "hit2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "hit3": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3_mult"
+          }
+        ]
+      },
+      "hit41": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit41_mult"
+          }
+        ]
+      },
+      "hit42": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit42_mult"
+          }
+        ]
+      },
+      "hit5": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit5_mult"
+          }
+        ]
+      },
+      "charged1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged1_mult"
+          }
+        ]
+      },
+      "charged2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged2_mult"
+          }
+        ]
+      },
+      "plunge": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_mult"
+          }
+        ]
+      },
+      "plungeLow": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plungeLow_mult"
+          }
+        ]
+      },
+      "plungeHigh": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plungeHigh_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -182,24 +382,136 @@
       "low_mult": 2.527025,
       "high_mult": 3.15639
     },
+    "skill": {
+      "dmg_mult": 2.1096,
+      "coorDmg_mult": 0.756
+    },
+    "burst": {
+      "dmg_mult": 11.41344,
+      "hit1_mult": 1.582417,
+      "hit2_mult": 1.568475,
+      "hit3_mult": 1.744488,
+      "hit41_mult": 1.33533,
+      "hit42_mult": 1.3369,
+      "hit5_mult": 2.103484,
+      "charged1_mult": 1.88326,
+      "charged2_mult": 2.11091,
+      "plunge_mult": 2.04804,
+      "plungeLow_mult": 3.311285,
+      "plungeHigh_mult": 3.94065
+    },
     "source": {
       "goCharacterKey": "RaidenShogun",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.charged1: skipped (helper/cond formula)', 'burst.charged2: skipped (helper/cond formula)', 'burst.dmg: skipped (helper/cond formula)', 'burst.energyGen: skipped (helper/cond formula)', 'burst.hit1: skipped (helper/cond formula)', 'burst.hit2: skipped (helper/cond formula)', 'burst.hit3: skipped (helper/cond formula)', 'burst.hit41: skipped (helper/cond formula)', 'burst.hit42: skipped (helper/cond formula)', 'burst.hit5: skipped (helper/cond formula)', 'burst.plunge: skipped (helper/cond formula)', 'burst.plungeHigh: skipped (helper/cond formula)', 'burst.plungeLow: skipped (helper/cond formula)', 'skill.coorDmg: skipped (helper/cond formula)', 'skill.dmg: skipped (helper/cond formula)'].",
+      "note": "Normal/charged/plunging generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. skill.dmg/coorDmg and burst.* parsed by hand from libs/gi/sheets/src/Characters/RaidenShogun/index.tsx (2026-07 fix for the previously-unparsed resolve-scaled burst). burst.dmg/hit1-5/charged1-2/plunge/plungeLow/plungeHigh are Musou no Hitotachi + Musou Isshin-infused NA/CA/Plunge; each pre-bakes the 'Resolve' DMG% bonus (Chakra Desiderata) at its max of 60 stacks: burst.dmg uses skillParam.burst[9][1]*60 (resolveBonus1, 'Musou no Hitotachi DMG Bonus Scaling'), the other 11 hits use skillParam.burst[9][2]*60 (resolveBonus2, 'Musou Isshin DMG Bonus Scaling'). Max Resolve is chosen unconditionally because reaching it only requires ~30 elemental particle/orb pickups (2 stacks each, one proc/3s) over a rotation, standard for optimal-play leaderboard modeling. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, C0.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "skillTalentLevel": 10,
-        "burstTalentLevel": 10
+        "burstTalentLevel": 10,
+        "resolveStacks": 60
       }
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "electro_dmg_from_enerRech_": 0.4,
+      "electro_dmg_from_enerRech_cap_": 0.8
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillEyeSelf",
+        "source": "avatar_10000052",
+        "description": "Eye of Stormy Judgment (Elemental Skill) triggers on Raiden herself before she uses her Burst: grants Elemental Burst DMG Bonus equal to her own Burst's Energy Cost (90) x 0.3%/point (skill Lv10) = 27%.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "burst_dmg_": 0.27
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2DefIgnore",
+        "source": "avatar_10000052",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Steelbreaker: while using Musou no Hitotachi and in the Musou Isshin state, Raiden's attacks ignore 60% of opponents' DEF. Applies to the burst.dmg nuke and the Musou Isshin-infused NA/CA/Plunge hits (burst.hit1-5/charged1-2/plunge*).",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "defIgnore_": 0.6
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillEyeTeam",
+        "source": "avatar_10000052",
+        "description": "Eye of Stormy Judgment (Elemental Skill) triggers on a teammate before they use their own Burst: grants that teammate Elemental Burst DMG Bonus equal to their own Burst's Energy Cost x 0.3%/point (skill Lv10). Select the teammate's Burst Energy Cost.",
+        "states": [
+          {
+            "value": "40 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.12
+            }
+          },
+          {
+            "value": "50 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.15
+            }
+          },
+          {
+            "value": "60 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.18
+            }
+          },
+          {
+            "value": "70 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.21
+            }
+          },
+          {
+            "value": "80 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.24
+            }
+          },
+          {
+            "value": "90 Energy Cost",
+            "modifiers": {
+              "burst_dmg_": 0.27
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4AtkBonus",
+        "source": "avatar_10000052",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Pledge of Propriety: when the Musou Isshin state expires, all nearby party members (excluding Raiden herself) gain 30% bonus ATK for 10s.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          }
+        ]
+      }
+    ]
   }
 }
