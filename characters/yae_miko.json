@@ -172,7 +172,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "skillDmg_from_eleMas": 0.0015
+      "skill_dmg_from_eleMas": 0.0015
     },
     "self_conditional_modifiers_json": [
       {
