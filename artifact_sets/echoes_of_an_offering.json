@@ -5,7 +5,16 @@
     "self_modifiers_json": {
       "atk_": 0.18
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_valley_rite_avg",
+        "source": "EchoesOfAnOffering",
+        "description": "4pc (Valley Rite, averaged): each Normal Attack hit has a 36% chance to add 70% ATK as Normal Attack DMG (dispelled after the next hit); on a miss the chance rises by +20% (36/56/76/96/100%, so a miss streak is capped at 4), and the check itself is limited to once per 0.2s. This is a Markov chain with expected cycle length E[N] = sum(P(fail first k)) = 1 + 0.64 + 0.64*0.44 + 0.64*0.44*0.24 + 0.64*0.44*0.24*0.04 = 1.99189 checks per proc, i.e. a long-run average trigger rate of 1/E[N] = 50.20% per check. Average Normal ATK DMG bonus = 50.20% * 70% ATK = 35.14% ATK, modeled as a flat pre-crit add (matches the 'increase Normal Attack DMG by X% of ATK' wording, not a %DMG multiplier).",
+        "modifiers": {
+          "normal_dmgIncFromAtk_": 0.35143
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

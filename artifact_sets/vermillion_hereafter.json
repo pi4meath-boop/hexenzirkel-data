@@ -9,10 +9,33 @@
       {
         "conditionKey": "4pc_after_using_an_elemental_burst_this_character_will_gain_the_",
         "source": "VermillionHereafter",
-        "description": "4pc: After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
+        "description": "4pc: After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s.",
         "modifiers": {
           "atk_": 0.08
         }
+      },
+      {
+        "conditionKey": "4pc_after_hp_decreases_stacks",
+        "source": "VermillionHereafter",
+        "description": "4pc: When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times.",
+        "states": [
+          {
+            "value": 1,
+            "modifiers": { "atk_": 0.1 }
+          },
+          {
+            "value": 2,
+            "modifiers": { "atk_": 0.2 }
+          },
+          {
+            "value": 3,
+            "modifiers": { "atk_": 0.3 }
+          },
+          {
+            "value": 4,
+            "modifiers": { "atk_": 0.4 }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
