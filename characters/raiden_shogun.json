@@ -202,6 +202,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolveInitial_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -215,6 +218,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit1_mult_"
         ],
         "components": [
           {
@@ -230,6 +236,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit2_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -243,6 +252,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit3_mult_"
         ],
         "components": [
           {
@@ -258,6 +270,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit41_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -271,6 +286,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit42_mult_"
         ],
         "components": [
           {
@@ -286,6 +304,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolveHit5_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -299,6 +320,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolveCharged1_mult_"
         ],
         "components": [
           {
@@ -314,6 +338,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolveCharged2_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -327,6 +354,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolvePlunge_mult_"
         ],
         "components": [
           {
@@ -342,6 +372,9 @@
           "electro_dmg_",
           "all_dmg_"
         ],
+        "mvMultiplierKeys": [
+          "raiden_resolvePlungeLow_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -355,6 +388,9 @@
           "burst_dmg_",
           "electro_dmg_",
           "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "raiden_resolvePlungeHigh_mult_"
         ],
         "components": [
           {
@@ -387,29 +423,29 @@
       "coorDmg_mult": 0.756
     },
     "burst": {
-      "dmg_mult": 11.41344,
-      "hit1_mult": 1.582417,
-      "hit2_mult": 1.568475,
-      "hit3_mult": 1.744488,
-      "hit41_mult": 1.33533,
-      "hit42_mult": 1.3369,
-      "hit5_mult": 2.103484,
-      "charged1_mult": 1.88326,
-      "charged2_mult": 2.11091,
-      "plunge_mult": 2.04804,
-      "plungeLow_mult": 3.311285,
-      "plungeHigh_mult": 3.94065
+      "dmg_mult": 7.2144,
+      "hit1_mult": 0.798157,
+      "hit2_mult": 0.784215,
+      "hit3_mult": 0.960228,
+      "hit41_mult": 0.55107,
+      "hit42_mult": 0.55264,
+      "hit5_mult": 1.319224,
+      "charged1_mult": 1.099,
+      "charged2_mult": 1.32665,
+      "plunge_mult": 1.26378,
+      "plungeLow_mult": 2.527025,
+      "plungeHigh_mult": 3.15639
     },
     "source": {
       "goCharacterKey": "RaidenShogun",
-      "note": "Normal/charged/plunging generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. skill.dmg/coorDmg and burst.* parsed by hand from libs/gi/sheets/src/Characters/RaidenShogun/index.tsx (2026-07 fix for the previously-unparsed resolve-scaled burst). burst.dmg/hit1-5/charged1-2/plunge/plungeLow/plungeHigh are Musou no Hitotachi + Musou Isshin-infused NA/CA/Plunge; each pre-bakes the 'Resolve' DMG% bonus (Chakra Desiderata) at its max of 60 stacks: burst.dmg uses skillParam.burst[9][1]*60 (resolveBonus1, 'Musou no Hitotachi DMG Bonus Scaling'), the other 11 hits use skillParam.burst[9][2]*60 (resolveBonus2, 'Musou Isshin DMG Bonus Scaling'). Max Resolve is chosen unconditionally because reaching it only requires ~30 elemental particle/orb pickups (2 stacks each, one proc/3s) over a rotation, standard for optimal-play leaderboard modeling. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, C0.",
+      "note": "Normal/charged/plunging generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. skill.dmg/coorDmg parsed by hand from libs/gi/sheets/src/Characters/RaidenShogun/index.tsx. burst.dmg/hit1-5/charged1-2/plunge/plungeLow/plungeHigh are the Musou no Hitotachi nuke + Musou Isshin-infused NA/CA/Plunge base multipliers (Lv10, Amber talent id 3 params 1/5-16 -- 0 Resolve stacks, NOT baked with any Resolve bonus as of 2026-07-15). The Chakra Desiderata Resolve DMG% bonus is modeled as a selectable self_conditional ('burstResolveStacks', see buffs.self_conditional_modifiers_json) instead of a fixed assumption, since GO's own sheet (index.tsx burstResolve()) computes dmg=(mv+resolveBonus)*ATK with resolveBonus = resolveBonus_rate x stacks -- an ABSOLUTE addition to each hit's own mv, not a proportional DMG% bonus, so it can't be a shared 'burst_dmg_'-style key. Each hit instead carries a dedicated mvMultiplierKeys entry (raiden_resolve<Hit>_mult_) read at eval time from stats (default 1.0 = 0 stacks); the conditional's 6 states (10/20/30/40/50/60, matching GO's own UI) set mult = 1 + (resolveBonus_rate x stacks)/mv for that specific hit. resolveBonus1=0.069984/stack (Amber param2, applies only to burst.dmg) and resolveBonus2=0.013071/stack (Amber param3, applies to the other 11 hits) -- verified the 60-stack state reproduces the previous unconditional bake exactly (e.g. hit1: mv 0.798157 x mult 1.982589 = 1.582417). Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, C0.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "skillTalentLevel": 10,
         "burstTalentLevel": 10,
-        "resolveStacks": 60
+        "resolveStacks": "selectable via burstResolveStacks self_conditional (default 0 if unselected)"
       }
     }
   },
@@ -419,6 +455,115 @@
       "electro_dmg_from_enerRech_cap_": 0.8
     },
     "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstResolveStacks",
+        "source": "avatar_10000052",
+        "description": "Chakra Desiderata: consuming Resolve stacks when using Musou Shinsetsu increases Musou no Hitotachi DMG by 6.9984% per stack and Musou Isshin-infused NA/CA/Plunge DMG by 1.3071% per stack (both additive to that hit's own base multiplier, not the usual DMG% bonus bucket). Max 60 stacks. Select the number of Resolve stacks consumed at Burst cast; states match Genshin Optimizer's own UI (10/20/30/40/50/60). Defaults to 0 stacks (no bonus) if left unselected.",
+        "states": [
+          {
+            "value": "10 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.097006,
+              "raiden_resolveHit1_mult_": 1.163765,
+              "raiden_resolveHit2_mult_": 1.166676,
+              "raiden_resolveHit3_mult_": 1.136124,
+              "raiden_resolveHit41_mult_": 1.237193,
+              "raiden_resolveHit42_mult_": 1.236519,
+              "raiden_resolveHit5_mult_": 1.099081,
+              "raiden_resolveCharged1_mult_": 1.118935,
+              "raiden_resolveCharged2_mult_": 1.098526,
+              "raiden_resolvePlunge_mult_": 1.103428,
+              "raiden_resolvePlungeLow_mult_": 1.051725,
+              "raiden_resolvePlungeHigh_mult_": 1.041411
+            }
+          },
+          {
+            "value": "20 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.194012,
+              "raiden_resolveHit1_mult_": 1.327530,
+              "raiden_resolveHit2_mult_": 1.333352,
+              "raiden_resolveHit3_mult_": 1.272248,
+              "raiden_resolveHit41_mult_": 1.474386,
+              "raiden_resolveHit42_mult_": 1.473039,
+              "raiden_resolveHit5_mult_": 1.198162,
+              "raiden_resolveCharged1_mult_": 1.237871,
+              "raiden_resolveCharged2_mult_": 1.197053,
+              "raiden_resolvePlunge_mult_": 1.206856,
+              "raiden_resolvePlungeLow_mult_": 1.103450,
+              "raiden_resolvePlungeHigh_mult_": 1.082822
+            }
+          },
+          {
+            "value": "30 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.291018,
+              "raiden_resolveHit1_mult_": 1.491294,
+              "raiden_resolveHit2_mult_": 1.500029,
+              "raiden_resolveHit3_mult_": 1.408372,
+              "raiden_resolveHit41_mult_": 1.711579,
+              "raiden_resolveHit42_mult_": 1.709558,
+              "raiden_resolveHit5_mult_": 1.297243,
+              "raiden_resolveCharged1_mult_": 1.356806,
+              "raiden_resolveCharged2_mult_": 1.295579,
+              "raiden_resolvePlunge_mult_": 1.310283,
+              "raiden_resolvePlungeLow_mult_": 1.155175,
+              "raiden_resolvePlungeHigh_mult_": 1.124234
+            }
+          },
+          {
+            "value": "40 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.388024,
+              "raiden_resolveHit1_mult_": 1.655059,
+              "raiden_resolveHit2_mult_": 1.666705,
+              "raiden_resolveHit3_mult_": 1.544496,
+              "raiden_resolveHit41_mult_": 1.948772,
+              "raiden_resolveHit42_mult_": 1.946077,
+              "raiden_resolveHit5_mult_": 1.396324,
+              "raiden_resolveCharged1_mult_": 1.475742,
+              "raiden_resolveCharged2_mult_": 1.394105,
+              "raiden_resolvePlunge_mult_": 1.413711,
+              "raiden_resolvePlungeLow_mult_": 1.206899,
+              "raiden_resolvePlungeHigh_mult_": 1.165645
+            }
+          },
+          {
+            "value": "50 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.485030,
+              "raiden_resolveHit1_mult_": 1.818824,
+              "raiden_resolveHit2_mult_": 1.833381,
+              "raiden_resolveHit3_mult_": 1.680620,
+              "raiden_resolveHit41_mult_": 2.185965,
+              "raiden_resolveHit42_mult_": 2.182596,
+              "raiden_resolveHit5_mult_": 1.495405,
+              "raiden_resolveCharged1_mult_": 1.594677,
+              "raiden_resolveCharged2_mult_": 1.492632,
+              "raiden_resolvePlunge_mult_": 1.517139,
+              "raiden_resolvePlungeLow_mult_": 1.258624,
+              "raiden_resolvePlungeHigh_mult_": 1.207056
+            }
+          },
+          {
+            "value": "60 stacks",
+            "modifiers": {
+              "raiden_resolveInitial_mult_": 1.582036,
+              "raiden_resolveHit1_mult_": 1.982589,
+              "raiden_resolveHit2_mult_": 2.000057,
+              "raiden_resolveHit3_mult_": 1.816744,
+              "raiden_resolveHit41_mult_": 2.423159,
+              "raiden_resolveHit42_mult_": 2.419116,
+              "raiden_resolveHit5_mult_": 1.594486,
+              "raiden_resolveCharged1_mult_": 1.713612,
+              "raiden_resolveCharged2_mult_": 1.591158,
+              "raiden_resolvePlunge_mult_": 1.620567,
+              "raiden_resolvePlungeLow_mult_": 1.310349,
+              "raiden_resolvePlungeHigh_mult_": 1.248467
+            }
+          }
+        ]
+      },
       {
         "conditionKey": "skillEyeSelf",
         "source": "avatar_10000052",

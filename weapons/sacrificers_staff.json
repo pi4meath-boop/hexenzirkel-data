@@ -8,7 +8,10 @@
     "subStatValue": 0.09188
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "atk_": 0.48,
+      "enerRech_": 0.36
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []

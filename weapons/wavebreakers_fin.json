@@ -9,7 +9,63 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "13416",
+        "conditionKey": "partyEnergyCapacity",
+        "description": "Watatsumi Wavewalker (R5): for every point of the entire party's combined maximum Energy capacity, the wielder's Elemental Burst DMG is increased by 0.24%, up to a max of 80% (reached at ~333 combined Energy capacity across all 4 party members). Sum each equipped character's Burst Energy Cost and pick the closest state.",
+        "states": [
+          {
+            "value": "10%",
+            "modifiers": {
+              "burst_dmg_": 0.1
+            }
+          },
+          {
+            "value": "20%",
+            "modifiers": {
+              "burst_dmg_": 0.2
+            }
+          },
+          {
+            "value": "30%",
+            "modifiers": {
+              "burst_dmg_": 0.3
+            }
+          },
+          {
+            "value": "40%",
+            "modifiers": {
+              "burst_dmg_": 0.4
+            }
+          },
+          {
+            "value": "50%",
+            "modifiers": {
+              "burst_dmg_": 0.5
+            }
+          },
+          {
+            "value": "60%",
+            "modifiers": {
+              "burst_dmg_": 0.6
+            }
+          },
+          {
+            "value": "70%",
+            "modifiers": {
+              "burst_dmg_": 0.7
+            }
+          },
+          {
+            "value": "80%",
+            "modifiers": {
+              "burst_dmg_": 0.8
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
