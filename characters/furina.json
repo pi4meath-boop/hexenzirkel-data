@@ -191,6 +191,70 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "c2FanfareOverflowHp",
+        "source": "avatar_10000089",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 (A Woman Adapts Like a Duckweed in Water): while Let the People Rejoice (burst) lasts, Furina's Fanfare gain from nearby characters' HP fluctuations is increased by 250%, letting Fanfare exceed the base 400-point cap. Each point of Fanfare above 400 grants Furina +0.35% Max HP, capping at +140% Max HP (400 excess points). Select excess Fanfare stacks (points above 400).",
+        "states": [
+          {
+            "value": "0",
+            "modifiers": {
+              "hp_": 0.0
+            }
+          },
+          {
+            "value": "50",
+            "modifiers": {
+              "hp_": 0.175
+            }
+          },
+          {
+            "value": "100",
+            "modifiers": {
+              "hp_": 0.35
+            }
+          },
+          {
+            "value": "150",
+            "modifiers": {
+              "hp_": 0.525
+            }
+          },
+          {
+            "value": "200",
+            "modifiers": {
+              "hp_": 0.7
+            }
+          },
+          {
+            "value": "250",
+            "modifiers": {
+              "hp_": 0.875
+            }
+          },
+          {
+            "value": "300",
+            "modifiers": {
+              "hp_": 1.05
+            }
+          },
+          {
+            "value": "350",
+            "modifiers": {
+              "hp_": 1.225
+            }
+          },
+          {
+            "value": "400",
+            "modifiers": {
+              "hp_": 1.4
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
