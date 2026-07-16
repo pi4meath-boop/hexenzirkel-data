@@ -5,7 +5,7 @@
   "character_key": "avatar_10000041",
   "element": "hydro",
   "weapon_type": "catalyst",
-  "constellation_talent_boosts": {"skill": 5, "burst": 3},
+  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
   "base_stats_json": {
     "baseHp": 10409.023958000002,
     "baseAtk": 287.01405600000004,
@@ -17,11 +17,7 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -33,11 +29,7 @@
     "skill": {
       "skillDmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
     "burst": {
       "hit1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,8 +94,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "hydro_dmg_from_enerRech_": 0.2,
-      "hydro_dmg_from_enerRech_cap_": 0.8
+      "hydro_dmg_from_enerRech_": 0.2
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
@@ -139,7 +126,7 @@
           {
             "value": "2 stack",
             "modifiers": {
-              "vaporize_dmg_": 0.10
+              "vaporize_dmg_": 0.1
             }
           },
           {
@@ -209,7 +196,8 @@
             "modifiers": {
               "critRate_": 0.15
             }
-          },{
+          },
+          {
             "value": "hexerei",
             "modifiers": {
               "critRate_": 0.15,
