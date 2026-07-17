@@ -72,6 +72,11 @@
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       },
+      "riteDmg": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
       "duststalkerBoltDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
@@ -81,6 +86,16 @@
         ]
       },
       "duststalkerBoltStarsameDmg": {
+        "element": "electro",
+        "dmgBonusKeys": ["electro_dmg_", "stellarconduct_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p4_mult"},
+          {"scalingKey": "eleMas", "multKey": "p5_mult"}
+        ]
+      }
+    },
+    "passive1": {
+      "boltStellarDmg": {
         "element": "electro",
         "dmgBonusKeys": ["electro_dmg_", "stellarconduct_dmg_", "all_dmg_"],
         "components": [
@@ -138,6 +153,47 @@
           {"scalingKey": "eleMas", "multKey": "p9_mult"}
         ]
       },
+      "normal_0": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p0_mult"},
+          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+        ]
+      },
+      "normal_1": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p1_mult"},
+          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+        ]
+      },
+      "normal_2": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p2_mult"},
+          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+        ]
+      },
+      "normal_3": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p3_mult"},
+          {"scalingKey": "atk", "multKey": "p3_mult"},
+          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+        ]
+      },
+      "normal_4": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {"scalingKey": "atk", "multKey": "p4_mult"},
+          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+        ]
+      },
       "chargedDmg": {
         "element": "electro",
         "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
@@ -176,6 +232,10 @@
       "p1_mult": 2.8224,
       "p2_mult": 1.0,
       "p3_mult": 2.5,
+      "p4_mult": 2.0,
+      "p5_mult": 6.0
+    },
+    "passive1": {
       "p4_mult": 2.0,
       "p5_mult": 6.0
     },

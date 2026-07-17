@@ -943,6 +943,17 @@
     },
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "c4EmanareSourceBurstDmg",
+        "source": "avatar_10000123",
+        "description": "C4: Emanare's Source — Durin's Elemental Burst DMG is increased by 40%.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {"value": "on", "modifiers": {"burst_dmg_": 0.4}}
+        ]
+      },
+      {
         "conditionKey": "durinDarkDecayMode",
         "source": "avatar_10000123",
         "states": [
@@ -965,6 +976,17 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2UngroundVisions",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — for 20s after Durin uses his Elemental Burst, nearby party members who trigger Vaporize/Melt/Burning/Overloaded/Pyro Swirl/Pyro Crystallize (or deal Pyro/Dendro DMG to a Burning-affected opponent) gain +50% Pyro DMG for 6s (the matching secondary-reaction-element DMG bonus this also grants is not modeled here — pick the state manually per team comp if needed).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {"value": "on", "modifiers": {"pyro_dmg_": 0.5}}
+        ]
+      },
       {
         "conditionKey": "durinA1WhiteFlameResShred",
         "source": "avatar_10000123",

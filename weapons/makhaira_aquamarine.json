@@ -8,9 +8,20 @@
     "subStatValue": 165.38400000000001
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {"atk_from_eleMas_": 0.48},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "r5DesertPavilionTeamAtk",
+        "source": "Makhaira Aquamarine",
+        "description": "R5 Desert Pavilion: every 10s the wielder gains 48% of their own EM as bonus ATK for 12s; nearby party members gain 30% of that buff (=14.4% of the wielder's EM) as flat ATK for the same duration. Modeled as a flat assumption of ~800 EM on the wielder (a representative EM-scaling support baseline) = 115.2 flat ATK; adjust manually for a specific wielder's actual EM. Scoped as 'others' (not 'team') so it only applies when this weapon is on a support, not double-counted alongside the wielder's own self_modifiers_json atk_from_eleMas_ conversion when they're the scored main.",
+        "states": [
+          {"value": "on", "modifiers": {"atk": 115.2}}
+        ]
+      }
+    ]
   }
 }

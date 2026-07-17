@@ -9,7 +9,16 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "r5WayOfSunfire",
+        "source": "Scion of the Blazing Sun",
+        "description": "R5 The Way of Sunfire: after a Charged Attack hits, a Sunfire Arrow deals 120% ATK DMG (approximated as added Charged Attack DMG) and applies Heartsearer, increasing Charged Attack DMG taken by 56% for 10s. CD 10s.",
+        "states": [
+          {"value": "on", "modifiers": {"charged_dmgIncFromAtk_": 1.2, "charged_dmg_": 0.56}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

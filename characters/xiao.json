@@ -20,10 +20,10 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -34,10 +34,10 @@
         ]
       },
       "1": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -48,10 +48,10 @@
         ]
       },
       "2": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -62,10 +62,10 @@
         ]
       },
       "3": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -76,10 +76,10 @@
         ]
       },
       "4": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -90,10 +90,10 @@
         ]
       },
       "5": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -106,10 +106,10 @@
     },
     "charged": {
       "dmg1": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -122,10 +122,10 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -136,10 +136,10 @@
         ]
       },
       "low": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -150,10 +150,10 @@
         ]
       },
       "high": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -203,7 +203,7 @@
     },
     "source": {
       "goCharacterKey": "Xiao",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-07 fix: Xiao's Elemental Burst (Bane of All Evil) permanently infuses his Normal/Charged/Plunging Attacks with Anemo DMG for its duration and cannot be overridden by any other infusion -- since his kit revolves around near-permanent burst uptime, normal/charged/plunging are modeled as anemo (not physical) to match how he's actually played.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,

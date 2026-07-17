@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "r5FlowerFeatherSong",
+        "source": "Chain Breaker",
+        "description": "R5 Flower-Feather Song: +9.6% ATK per party member who is from Natlan or has a different Elemental Type from the wielder (max 3, i.e. all other party members); with 3+ such members also gain 48 Elemental Mastery. Select the number of qualifying party members.",
+        "states": [
+          {"value": "0", "modifiers": {}},
+          {"value": "1", "modifiers": {"atk_": 0.096}},
+          {"value": "2", "modifiers": {"atk_": 0.192}},
+          {"value": "3", "modifiers": {"atk_": 0.288, "eleMas": 48.0}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
