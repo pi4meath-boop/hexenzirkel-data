@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "WaveridingWhirl",
+        "conditionKey": "waveriding_whirl_post_skill",
+        "description": "R5 Fangs Flying To and Fro: For 10s after using an Elemental Skill, Max HP is increased by 40% (additional +24% per Hydro character in party, up to +48%, not modeled here as it is team-comp dependent).",
+        "states": {
+          "active": {
+            "hp_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

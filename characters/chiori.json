@@ -190,7 +190,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4TheFinishingTouch",
+        "source": "Chiori",
+        "description": "A4 The Finishing Touch: when a nearby party member creates a Geo Construct, Chiori gains 20% Geo DMG Bonus for 20s.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "geo_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

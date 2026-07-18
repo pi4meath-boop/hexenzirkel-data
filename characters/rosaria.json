@@ -279,10 +279,51 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1ReginaProbationumCritRate",
+        "source": "Rosaria",
+        "description": "A1 Regina Probationum: when Rosaria strikes an opponent from behind using Ravaging Confession (Elemental Skill), her CRIT Rate increases by 12% for 5s.",
+        "states": [
+          {"value": "on", "modifiers": {"critRate_": 0.12}}
+        ]
+      },
+      {
+        "conditionKey": "c1UnholyRevelationNormalDmg",
+        "source": "Rosaria",
+        "description": "C1 Unholy Revelation: when Rosaria deals a CRIT Hit, her Normal Attack DMG increases by 10% for 4s (the Normal Attack SPD increase is not modeled — attack speed is out of scope for this evaluator).",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmg_": 0.10}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6DivineRetributionPhysicalResShred",
+        "source": "Rosaria",
+        "description": "C6 Divine Retribution: Rites of Termination's (Elemental Burst) attack decreases opponents' Physical RES by 20% for 10s.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {"value": "on", "modifiers": {"physical_enemyRes_": -0.20}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4ShadowSamaritanCritRate",
+        "source": "Rosaria",
+        "description": "A4 Shadow Samaritan: casting Rites of Termination (Elemental Burst) increases the CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s, capped at 15%. Approximated at the 15% cap (reached once Rosaria's own CRIT Rate is at or above 100%, a common target for a battery/support Rosaria build); admin can override via the LB builder UI if Rosaria's CRIT Rate is lower.",
+        "states": [
+          {"value": "on", "modifiers": {"critRate_": 0.15}}
+        ]
+      }
+    ]
   }
 }

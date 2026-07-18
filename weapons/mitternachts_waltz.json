@@ -9,7 +9,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MitternachtsWaltz",
+        "conditionKey": "mitternachts_waltz_after_normal_hit",
+        "description": "R5 Evernight Duet: Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s.",
+        "states": {
+          "active": {
+            "skill_dmg_": 0.4
+          }
+        }
+      },
+      {
+        "source": "MitternachtsWaltz",
+        "conditionKey": "mitternachts_waltz_after_skill_hit",
+        "description": "R5 Evernight Duet: Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

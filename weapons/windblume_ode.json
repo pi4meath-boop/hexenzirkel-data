@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "WindblumeOde",
+        "conditionKey": "windblume_ode_post_skill",
+        "description": "R5 Windblume Wish: After using an Elemental Skill, ATK is increased by 32% for 6s.",
+        "states": {
+          "active": {
+            "atk_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

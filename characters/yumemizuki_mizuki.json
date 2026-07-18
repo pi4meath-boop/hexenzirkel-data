@@ -219,7 +219,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4ThoughtsByDayBringDreamsByNight",
+        "source": "Yumemizuki Mizuki",
+        "description": "A4 Thoughts by Day Bring Dreams by Night: while Yumemizuki Mizuki is in the Dreamdrifter state, when other nearby party members hit opponents with Pyro, Hydro, Cryo, or Electro attacks, her own Elemental Mastery increases by 100 for 4s.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "eleMas": 100
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "FlameForgedInsight",
+        "conditionKey": "flame_forged_insight_mind_in_bloom",
+        "description": "R5 Mind in Bloom: triggering Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Crystallize, or Lunar-Crystallize grants Elemental Mastery +120 for 15s (once per 15s, works off-field); Energy Recharge restoration not modeled.",
+        "states": {
+          "active": {
+            "eleMas": 120
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "JadefallsSplendor",
+        "conditionKey": "jadefalls_splendor_primordial_jade_regalia",
+        "description": "Primordial Jade Regalia (R1): for 3s after using an Elemental Burst or creating a shield (works off-field too), gain 0.3% Elemental DMG Bonus (of the wielder's own element) per 1,000 Max HP, up to 12% (reached at ~40,000 Max HP). Modeled at the 12% cap via all_dmg_, assuming a heavily HP-invested build keeps this window up often. The Energy restore (4.5 every 2.5s) is not modeled (non-combat/utility).",
+        "states": {
+          "active": {
+            "all_dmg_": 0.12
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

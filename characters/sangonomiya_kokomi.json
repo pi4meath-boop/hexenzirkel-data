@@ -188,7 +188,9 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "critRate_": -1.0
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],

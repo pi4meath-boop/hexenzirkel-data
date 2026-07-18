@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SapwoodBlade",
+        "conditionKey": "sapwood_blade_leaf_of_consciousness",
+        "description": "R5 Forest Sanctuary: triggering Burning/Quicken/Aggravate/Spread/Bloom/Lunar-Bloom/Hyperbloom/Burgeon spawns a Leaf of Consciousness; picking it up grants +120 Elemental Mastery for 12s (at most once every 20s).",
+        "states": {
+          "active": {
+            "eleMas": 120
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

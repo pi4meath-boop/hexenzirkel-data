@@ -9,7 +9,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "DodocoTales",
+        "conditionKey": "dodoco_tales_after_normal_hit",
+        "description": "R5 Dodoventure!: Normal Attack hits on opponents increase Charged Attack DMG by 32% for 6s.",
+        "states": {
+          "active": {
+            "charged_dmg_": 0.32
+          }
+        }
+      },
+      {
+        "source": "DodocoTales",
+        "conditionKey": "dodoco_tales_after_charged_hit",
+        "description": "R5 Dodoventure!: Charged Attack hits on opponents increase ATK by 16% for 6s.",
+        "states": {
+          "active": {
+            "atk_": 0.16
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

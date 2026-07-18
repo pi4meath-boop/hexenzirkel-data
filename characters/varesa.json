@@ -372,6 +372,15 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "a1RainbowCrash",
+        "source": "avatar_10000111",
+        "description": "A1 Tag-Team Triple Jump!: after using her Elemental Skill (Riding the Night-Rainbow), Varesa gains Rainbow Crash for 5s -- her next Plunging Attack's ground-impact shockwave DMG is increased by an amount equal to 50% of her ATK (180% of her ATK instead if she is in the Fiery Passion state). Modeled via the ATK-ratio plunge bonus key, which applies uniformly across all plunging hit variants (dmg/low/high and their Fiery Passion fp counterparts).",
+        "states": [
+          { "value": "base", "modifiers": { "plunging_dmgIncFromAtk_": 0.5 } },
+          { "value": "fieryPassion", "modifiers": { "plunging_dmgIncFromAtk_": 1.8 } }
+        ]
       }
     ],
     "team_modifiers_json": {},

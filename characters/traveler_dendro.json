@@ -248,9 +248,27 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerDendroA4VerdantLuxury",
+        "source": "Traveler (Dendro)",
+        "description": "A4 Verdant Luxury: every point of Elemental Mastery the Traveler possesses increases Razorgrass Blade (Elemental Skill) DMG by 0.15% and Surgent Manifestation (Elemental Burst, Lea Lotus Lamp) DMG by 0.1%. Approximated at a representative 200 EM => +30% skill_dmg_ / +20% burst_dmg_; admin can override via the LB builder UI for a different EM assumption.",
+        "states": [
+          { "value": "active", "modifiers": { "skill_dmg_": 0.30, "burst_dmg_": 0.20 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerDendroA1VerdantOvergrowth",
+        "source": "Traveler (Dendro)",
+        "description": "A1 Verdant Overgrowth: Lea Lotus Lamp (Elemental Burst) gains one stack of Overflowing Lotuslight per second it remains on the field (max 10 stacks), each stack increasing the Elemental Mastery of active character(s) within its AoE by 6. Approximated at max stacks (10 x 6 = +60 EM), assuming the Lamp stays active long enough during the rotation to reach full stacks.",
+        "states": [
+          { "value": "active", "modifiers": { "eleMas": 60 } }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

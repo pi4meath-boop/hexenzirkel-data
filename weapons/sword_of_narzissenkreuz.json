@@ -9,7 +9,20 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SwordOfNarzissenkreuz",
+        "conditionKey": "sword_of_narzissenkreuz_heros_blade",
+        "description": "R5 Hero's Blade (equipping character has no Arkhe, the common case): Normal/Charged/Plunging Attack hits unleash a Pneuma or Ousia energy blast dealing 320% ATK as DMG (once every 12s); approximated as bonus Normal/Charged/Plunging Attack DMG.",
+        "states": {
+          "active": {
+            "normal_dmgIncFromAtk_": 3.2,
+            "charged_dmgIncFromAtk_": 3.2,
+            "plunging_dmgIncFromAtk_": 3.2
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

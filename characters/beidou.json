@@ -249,9 +249,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4LightningStormNormalChargedDmg",
+        "source": "Beidou",
+        "description": "A4 Lightning Storm: for 10s after unleashing Tidecaller at maximum DMG Bonus, Normal and Charged Attack DMG is increased by 15% (ATK SPD increase not modeled).",
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmg_": 0.15, "charged_dmg_": 0.15}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6BaneOfEvilElectroResShred",
+        "source": "Beidou",
+        "description": "C6 Bane of Evil: during Stormbreaker's duration, the Electro RES of surrounding opponents is decreased by 15%.",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"electro_enemyRes_": -0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

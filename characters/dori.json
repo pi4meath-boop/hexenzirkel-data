@@ -236,7 +236,24 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4DiscretionarySupplementEnerRech",
+        "source": "Dori",
+        "description": "C4 Discretionary Supplement: the character connected to the Jinni gains 30% Energy Recharge while their Energy is below 50% (the Incoming Healing Bonus branch for HP <50% is not modeled — healing is out of scope for this evaluator).",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "enerRech_": 0.3
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

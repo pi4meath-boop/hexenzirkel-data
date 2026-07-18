@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "CinnabarSpindle",
+        "conditionKey": "spotless_heart_skill_def_scaling",
+        "description": "Spotless Heart (R5): Elemental Skill DMG is increased by 80% of DEF (triggers at most once every 1.5s, cleared 0.1s after the Elemental Skill deals DMG).",
+        "states": {
+          "active": {
+            "skill_dmgIncFromDef_": 0.8
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

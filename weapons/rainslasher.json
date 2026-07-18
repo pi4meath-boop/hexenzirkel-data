@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Rainslasher",
+        "conditionKey": "rainslasher_vs_hydro_electro",
+        "description": "Bane of Storm and Tide (R5): Increases DMG against opponents affected by Hydro or Electro by 36%.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.36
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

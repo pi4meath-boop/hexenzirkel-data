@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "RoyalBow",
+        "conditionKey": "royal_bow_focus_stacks",
+        "description": "Focus (R5): Upon damaging an opponent, increases CRIT Rate by 16%, max 5 stacks; a CRIT Hit removes all stacks. Modeled at a sustained ~3-stack average (48% CRIT Rate) to reflect the self-clearing nature of the effect.",
+        "states": {
+          "active": {
+            "critRate_": 0.48
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

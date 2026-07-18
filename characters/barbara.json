@@ -187,7 +187,17 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2VitalityBurstHydroDmg",
+        "source": "Barbara",
+        "description": "C2 Vitality Burst: while Let the Show Begin♪ is active, the active character gains a 15% Hydro DMG Bonus.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"hydro_dmg_": 0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

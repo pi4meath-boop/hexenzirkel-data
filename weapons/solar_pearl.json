@@ -9,7 +9,29 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SolarPearl",
+        "conditionKey": "solar_pearl_after_normal_attack",
+        "description": "R5 Solar Shine: Normal Attack hits increase Elemental Skill and Elemental Burst DMG by 40% for 6s.",
+        "states": {
+          "active": {
+            "skill_dmg_": 0.4,
+            "burst_dmg_": 0.4
+          }
+        }
+      },
+      {
+        "source": "SolarPearl",
+        "conditionKey": "solar_pearl_after_skill_or_burst",
+        "description": "R5 Solar Shine: Elemental Skill or Elemental Burst hits increase Normal Attack DMG by 40% for 6s.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

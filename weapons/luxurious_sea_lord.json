@@ -8,8 +8,21 @@
     "subStatValue": 0.55128
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "burst_dmg_": 0.24
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "LuxuriousSeaLord",
+        "conditionKey": "luxurious_sea_lord_tuna_rush",
+        "description": "R5 Oceanic Victory: when Elemental Burst hits opponents, 100% chance to summon a tuna dealing 200% ATK AoE DMG (once per 15s); approximated as bonus Burst DMG on the primary target.",
+        "states": {
+          "active": {
+            "burst_dmgIncFromAtk_": 2.0
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

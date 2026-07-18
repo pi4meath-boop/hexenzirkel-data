@@ -204,9 +204,41 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1FiveFortunesHighHp",
+        "source": "Baizhu",
+        "description": "A1 Five Fortunes Forever: when the active character's HP is at least 50%, Baizhu gains 25% Dendro DMG Bonus. (The <50% HP branch instead grants Healing Bonus, which isn't modeled since it doesn't affect outgoing DMG.)",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": { "dendro_dmg_": 0.25 }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4AllThingsAreOfTheEarth",
+        "source": "Baizhu",
+        "description": "A4 All Things Are of the Earth (approximated): characters healed by Baizhu's Seamless Shield gain, per 1,000 of Baizhu's Max HP (capped at 50,000 HP), for 6s: +2% Burning/Bloom/Hyperbloom/Burgeon reaction DMG, +0.7% Lunar-Bloom DMG, and +0.8% Aggravate/Spread DMG bonus. Approximated here at 30,000 Max HP (a representative high-HP Baizhu build) = 30 stacks -> +60% reaction DMG (burning/bloom/hyperbloom/burgeon), +21% Lunar-Bloom DMG, +24% Aggravate/Spread DMG. Admin can override via the LB builder UI for a different Max HP assumption.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "burning_dmg_": 0.6,
+              "bloom_dmg_": 0.6,
+              "hyperbloom_dmg_": 0.6,
+              "burgeon_dmg_": 0.6,
+              "lunarbloom_dmg_": 0.21,
+              "aggravate_dmg_": 0.24,
+              "spread_dmg_": 0.24
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

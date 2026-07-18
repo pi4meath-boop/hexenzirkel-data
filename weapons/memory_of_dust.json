@@ -9,7 +9,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MemoryOfDust",
+        "conditionKey": "memory_of_dust_golden_majesty",
+        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, max 5 stacks (retriggerable every 0.3s). While the wielder is protected by a shield, this ATK increase is doubled. Modeled at max stacks (unshielded +20%, shielded +40%); pick the state matching shield uptime. Shield Strength +20% is not modeled (non-combat).",
+        "states": {
+          "unshielded": {
+            "atk_": 0.2
+          },
+          "shielded": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

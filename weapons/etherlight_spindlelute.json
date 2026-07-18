@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "EtherlightSpindlelute",
+        "conditionKey": "etherlight_spindlelute_last_singer",
+        "description": "R5 Last Singer: for 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 200.",
+        "states": {
+          "active": {
+            "eleMas": 200
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

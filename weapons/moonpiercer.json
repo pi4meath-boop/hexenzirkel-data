@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Moonpiercer",
+        "conditionKey": "moonpiercer_leaf_of_revival",
+        "description": "R5 Stillwood Moonshadow: after triggering Burning/Quicken/Aggravate/Spread/Bloom/Lunar-Bloom/Hyperbloom/Burgeon, a Leaf of Revival appears; picking it up grants ATK +32% for 12s (once per 20s). Modeled assuming the Leaf is picked up.",
+        "states": {
+          "active": {
+            "atk_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

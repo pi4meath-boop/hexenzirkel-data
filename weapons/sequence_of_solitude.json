@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SequenceOfSolitude",
+        "conditionKey": "sequence_of_solitude_silent_trigger_hp_proc",
+        "description": "Silent Trigger (R5): on hit, deal AoE DMG equal to 80% of Max HP at the target's location (triggers at most once every 15s). No eval-time key models a standalone Max-HP-scaled bonus damage instance, so this is approximated as a flat +5% all_dmg_ uplift representing the averaged DPS contribution of the periodic proc for a moderate-HP build; the real value scales with the wielder's actual Max HP and rotation length.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.05
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -219,9 +219,33 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2KingBeeElectroDmg",
+        "source": "Ororon",
+        "description": "C2 King Bee of the Hidden Honeyed Wine: after using Dark Voices Echo (Elemental Burst), Ororon gains 8% Electro DMG Bonus for 9s, plus a further 8% per additional opponent hit by the burst or its Supersonic Oculus, up to +32% this way. Approximated at the fully-stacked total (8% + 32% = 40%), assuming the burst/Oculus hits enough opponents to reach the stacking cap.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {"value": "on", "modifiers": {"electro_dmg_": 0.40}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6OdeToDeepSpringsAtk",
+        "source": "Ororon",
+        "description": "C6 Ode to Deep Springs: after triggering Hypersense (via the A1 Ascension Talent Nightshade Synesthesia), the current active character's ATK is increased by 10% for 9s, up to 3 stacks. Approximated at the fully-stacked 30% cap, assuming a rotation that reliably triggers Hypersense. The A1 Hypersense mechanic itself and this constellation's bonus Hypersense-equivalent burst instance are not modeled — both are standalone Nightsoul-resource damage procs that would require a dedicated hit_definitions_json entry, which is out of scope for this buffs-only pass.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {"value": "on", "modifiers": {"atk_": 0.30}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

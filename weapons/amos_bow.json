@@ -8,8 +8,23 @@
     "subStatValue": 0.49615200000000004
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "normal_dmg_": 0.12,
+      "charged_dmg_": 0.12
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "AmosBow",
+        "conditionKey": "amos_bow_sharpshooter",
+        "description": "Sharpshooter (R1): after a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air, up to 5 times. Modeled at max stacks (+40%).",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.4,
+            "charged_dmg_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

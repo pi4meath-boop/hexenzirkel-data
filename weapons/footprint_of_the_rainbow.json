@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "FootprintOfTheRainbow",
+        "conditionKey": "footprint_of_the_rainbow_skill_def_buff",
+        "description": "R5 Pact of Flowing Springs: using an Elemental Skill increases DEF by 32% for 15s.",
+        "states": {
+          "active": {
+            "def_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

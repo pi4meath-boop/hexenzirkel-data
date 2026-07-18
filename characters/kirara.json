@@ -279,7 +279,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4PupillaryVarianceHpScaling",
+        "source": "avatar_10000061",
+        "description": "Pupillary Variance (A4): every 1,000 Max HP Kirara possesses increases Meow-teor Kick (Skill) DMG by 0.4% and Secret Art: Surprise Dispatch (Burst) DMG by 0.3%. Modeled as a fixed bonus at representative Max HP brackets since no eval-time HP-to-dmg-percent conversion key exists.",
+        "states": [
+          {"value": "20000 HP", "modifiers": {"skill_dmg_": 0.08, "burst_dmg_": 0.06}},
+          {"value": "30000 HP", "modifiers": {"skill_dmg_": 0.12, "burst_dmg_": 0.09}},
+          {"value": "40000 HP", "modifiers": {"skill_dmg_": 0.16, "burst_dmg_": 0.12}},
+          {"value": "50000 HP", "modifiers": {"skill_dmg_": 0.2, "burst_dmg_": 0.15}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {

@@ -8,7 +8,10 @@
     "subStatValue": 165.38400000000001
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "skill_dmg_": 0.48,
+      "burst_dmg_": 0.48
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []

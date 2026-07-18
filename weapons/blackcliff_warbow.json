@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "BlackcliffWarbow",
+        "conditionKey": "press_the_advantage_max_stacks",
+        "description": "Press the Advantage (R5): after defeating an enemy, ATK +24% for 30s, stacking independently up to 3 times. Modeled at max 3 stacks: ATK +72%.",
+        "states": {
+          "active": {
+            "atk_": 0.72
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

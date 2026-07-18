@@ -249,7 +249,36 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1Proviso",
+        "source": "Yanfei",
+        "description": "A1 Proviso: when Yanfei consumes Scarlet Seals via a Charged Attack, each Seal consumed increases her Pyro DMG Bonus by 5% for 6s (base kit max 3 Seals; the 4th-Seal state requires C6 Extra Clause).",
+        "states": [
+          {"value": "1 Seal", "modifiers": {"pyro_dmg_": 0.05}},
+          {"value": "2 Seals", "modifiers": {"pyro_dmg_": 0.1}},
+          {"value": "3 Seals", "modifiers": {"pyro_dmg_": 0.15}},
+          {"value": "4 Seals (needs C6)", "modifiers": {"pyro_dmg_": 0.2}}
+        ]
+      },
+      {
+        "conditionKey": "a4BlazingEye",
+        "source": "Yanfei",
+        "description": "A4 Blazing Eye: when Yanfei's Charged Attack scores a CRIT Hit, she deals an additional AoE Pyro DMG instance equal to 80% of her ATK, counted as Charged Attack DMG. Approximated as an ATK-ratio bonus folded onto her Charged Attack hits (applies to whichever charge-level hit is used in the rotation, since dmgIncFromAtk cannot be scoped to a single named hit without editing hit_definitions_json).",
+        "states": [
+          {"value": "on", "modifiers": {"charged_dmgIncFromAtk_": 0.8}}
+        ]
+      },
+      {
+        "conditionKey": "c2RightOfFinalInterpretation",
+        "source": "Yanfei",
+        "description": "C2 Right of Final Interpretation: increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"charged_critRate_": 0.2}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

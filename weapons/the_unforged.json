@@ -9,7 +9,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "TheUnforged",
+        "conditionKey": "the_unforged_golden_majesty",
+        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, up to 5 stacks (ATK +20% at max). While protected by a shield this bonus is doubled (ATK +40% at max stacks). Shield Strength +20% not modeled (non-combat).",
+        "states": {
+          "active": {
+            "atk_": 0.2
+          },
+          "shielded": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

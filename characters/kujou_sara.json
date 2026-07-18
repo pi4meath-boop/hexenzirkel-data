@@ -251,7 +251,25 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "crowfeatherAtkBonus",
+        "source": "Kujou Sara",
+        "description": "Tengu Juurai crowfeather (Skill Tengu Stormcall / Burst Subjugation: Koukou Sendou): grants the active character within its AoE an ATK Bonus equal to ~91.3% of Kujou Sara's own Base ATK (character + weapon base ATK, talent Lv13; effects from different Tengu Juurai do not stack). Modeled as a flat ATK add sized for a representative ~650 Base ATK (4-star bow), i.e. ~593 bonus ATK.",
+        "states": [
+          {"value": "on", "modifiers": {"atk": 593.0}}
+        ]
+      },
+      {
+        "conditionKey": "c6SinOfPride",
+        "source": "Kujou Sara",
+        "description": "C6 Sin of Pride: the Electro DMG of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%.",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"electro_critDMG_": 0.6}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

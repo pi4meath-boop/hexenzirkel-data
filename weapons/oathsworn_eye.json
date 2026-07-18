@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "OathswornEye",
+        "conditionKey": "oathsworn_eye_post_skill_er",
+        "description": "People of the Faltering Light (R5): using an Elemental Skill increases Energy Recharge by 48% for 10s.",
+        "states": {
+          "active": {
+            "enerRech_": 0.48
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

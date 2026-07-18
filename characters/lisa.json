@@ -264,9 +264,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2ElectromagneticField",
+        "source": "Lisa",
+        "description": "C2 Electromagnetic Field: while holding Violet Arc (during Lightning Rose's Elemental Burst duration), Lisa's DEF is increased by 25% (also grants interrupt resistance, not modeled).",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"def_": 0.25}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a5StaticElectricityField",
+        "source": "Lisa",
+        "description": "A5 Static Electricity Field: opponents hit by Lightning Rose (Elemental Burst) have their DEF decreased by 15% for 10s. Modeled as a party-wide buff so it applies whether Lisa is the scored character or a support.",
+        "states": [
+          {"value": "on", "modifiers": {"defShred_": 0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

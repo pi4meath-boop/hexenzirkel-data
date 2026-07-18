@@ -249,9 +249,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2MoonPiercingBrillianceHp",
+        "source": "Candace",
+        "description": "C2 Moon-Piercing Brilliance: when Sacred Rite: Heron's Sanctum (Hold skill) hits opponents, Candace's Max HP is increased by 20% for 15s.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"hp_": 0.2}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4CelestialDomeOfSandNormalDmg",
+        "source": "Candace",
+        "description": "A4 Celestial Dome of Sand: characters affected by Prayer of the Crimson Crown deal 0.5% increased DMG per 1,000 points of Candace's Max HP when dealing Elemental DMG with Normal Attacks. Approximated at 30,000 Max HP (a common HP-scaling Candace build) for a flat +15% Normal Attack DMG; the LB builder UI lets the admin tune this to Candace's actual Max HP.",
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmg_": 0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "PrototypeStarglitter",
+        "conditionKey": "prototype_starglitter_magic_affinity_max_stacks",
+        "description": "Magic Affinity (R5): after using an Elemental Skill, increases Normal and Charged Attack DMG by 16% for 12s, max 2 stacks. Modeled at max stacks: +32% Normal/Charged Attack DMG.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.32,
+            "charged_dmg_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

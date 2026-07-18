@@ -369,7 +369,69 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4ParallelCondensersSkillDmg",
+        "source": "Freminet",
+        "description": "A4 Parallel Condensers: after Freminet triggers Shatter, DMG dealt by Pressurized Floe: Shattering Pressure is increased by 40% for 5s. Modeled as a skill_dmg_ bonus (broadest available bonus key on his skill hits) since the evaluator has no bonus key scoped to only the Shattering Pressure release hits (level0Dmg/level1-3CryoDmg/level1-3PhysDmg/level4Dmg/thornDmg) excluding the initial thrustDmg/frostDmg hits, so this slightly over-applies to those two hits as an approximation.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_dmg_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1DreamsOfTheFoamyDeepSkillCrit",
+        "source": "Freminet",
+        "description": "C1 Dreams of the Foamy Deep: CRIT Rate of Pressurized Floe: Shattering Pressure increased by 15%. Modeled as skill_critRate_ (same broad-scope approximation as the A4 passive, since no hit-scoped bonus key isolates the Shattering Pressure hits from thrustDmg/frostDmg).",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_critRate_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4DanceOfTheSnowyMoonAtk",
+        "source": "Freminet",
+        "description": "C4 Dance of the Snowy Moon and Flute: after triggering Frozen, Shatter, Superconduct, or Stellar-Conduct, Freminet's ATK increases by 9%, up to 2 stacks (18% max) for 6s. State below represents the 2-stack maximum.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6MomentOfWakingCritDmg",
+        "source": "Freminet",
+        "description": "C6 Moment of Waking and Resolve: after triggering Frozen, Shatter, Superconduct, or Stellar-Conduct, Freminet's CRIT DMG increases by 12%, up to 3 stacks (36% max) for 6s. State below represents the 3-stack maximum.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critDMG_": 0.36
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

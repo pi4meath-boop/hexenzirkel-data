@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "PortablePowerSaw",
+        "conditionKey": "portable_power_saw_roused_full_stacks",
+        "description": "Sea Shanty (R5): consuming 3 Stoic's Symbols (gained from healing/being healed) on Skill or Burst use grants the Roused effect for 10s: +80 Elemental Mastery per Symbol consumed (240 EM at 3 stacks). Triggers at most once every 15s. The accompanying Energy restoration is not modeled (non-combat).",
+        "states": {
+          "active": {
+            "eleMas": 240
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

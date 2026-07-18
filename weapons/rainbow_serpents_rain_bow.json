@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "RainbowSerpentsRainBow",
+        "conditionKey": "rainbow_serpents_rain_bow_off_field_atk",
+        "description": "Astral Whispers Beyond the Sacred Throne (R5): ATK is increased by 56% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+        "states": {
+          "active": {
+            "atk_": 0.56
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

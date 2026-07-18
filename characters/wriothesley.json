@@ -294,7 +294,34 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1PleaForJustice",
+        "source": "Wriothesley",
+        "description": "A1 There Shall Be a Plea for Justice: when Wriothesley's HP is below 60%, he gains a Gracious Rebuke that enhances his next Charged Attack (Rebuke: Vaulting Fist) to deal 50% increased DMG and not consume Stamina. Modeled on the existing charged-attack hit.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "charged_dmg_": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4ReckoningForSin",
+        "source": "Wriothesley",
+        "description": "A4 There Shall Be a Reckoning for Sin: while in the Chilling Penalty state conferred by Icefang Rush (Elemental Burst), each change in Wriothesley's current HP grants a stack of Prosecution Edict (max 5 stacks), each increasing his own ATK by 6%.",
+        "states": [
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "atk_": 0.06 } },
+          { "value": "2", "modifiers": { "atk_": 0.12 } },
+          { "value": "3", "modifiers": { "atk_": 0.18 } },
+          { "value": "4", "modifiers": { "atk_": 0.24 } },
+          { "value": "5", "modifiers": { "atk_": 0.3 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

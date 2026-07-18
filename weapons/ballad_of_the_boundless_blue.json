@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "BalladOfTheBoundlessBlue",
+        "conditionKey": "azure_skies_max_stacks",
+        "description": "Azure Skies (R5): within 6s of a Normal or Charged Attack hit, Normal Attack DMG +16% and Charged Attack DMG +12% per stack, up to 3 stacks (trigger CD 0.3s). Modeled at max stacks: Normal Attack DMG +48%, Charged Attack DMG +36%.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.48,
+            "charged_dmg_": 0.36
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

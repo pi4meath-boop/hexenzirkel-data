@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "PrototypeRancour",
+        "conditionKey": "prototype_rancour_smashed_stone_max_stacks",
+        "description": "Smashed Stone (R5): Normal or Charged Attack hits increase ATK and DEF by 8% for 6s, max 4 stacks (can only occur once every 0.3s). Modeled at max stacks: +32% ATK, +32% DEF.",
+        "states": {
+          "active": {
+            "atk_": 0.32,
+            "def_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

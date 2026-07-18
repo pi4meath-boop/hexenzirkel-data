@@ -8,8 +8,21 @@
     "subStatValue": 0.330768
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "hp_": 0.32
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "BeaconOfTheReedSea",
+        "conditionKey": "beacon_of_the_reed_sea_desert_watch_atk",
+        "description": "Desert Watch (R1): ATK +20% for 8s after the wielder's Elemental Skill hits an opponent, and a further ATK +20% for 8s after the wielder takes DMG (both trigger off-field too). Modeled with both procs active simultaneously (+40%). The Max HP +32% (self_modifiers_json) assumes the wielder is not shielded, per its 'while not protected by a shield' condition.",
+        "states": {
+          "active": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

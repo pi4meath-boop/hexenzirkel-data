@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MappaMare",
+        "conditionKey": "mappa_mare_infusion_scroll",
+        "description": "R5 Infusion Scroll: triggering an Elemental Reaction grants +16% Elemental DMG Bonus for 10s, max 2 stacks. Modeled at max stacks (32% all_dmg_).",
+        "states": {
+          "active": {
+            "all_dmg_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SnowTombedStarsilver",
+        "conditionKey": "snow_tombed_starsilver_frost_burial",
+        "description": "R5 Frost Burial: Normal/Charged Attack hits have a 100% chance (CD 10s) to drop an Everfrost Icicle dealing AoE DMG equal to 140% of ATK (360% instead against Cryo-affected opponents, not modeled here — using the baseline 140% value); approximated as bonus Normal/Charged Attack DMG.",
+        "states": {
+          "active": {
+            "normal_dmgIncFromAtk_": 1.4,
+            "charged_dmgIncFromAtk_": 1.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

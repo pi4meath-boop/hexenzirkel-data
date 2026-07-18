@@ -249,9 +249,43 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2ShakenNotPurredSkillDmg",
+        "source": "Diona",
+        "description": "C2 Shaken, Not Purred: Icy Paws DMG increased by 15% (shield DMG Absorption increase and the extra shield for nearby characters are not modeled — shields are out of scope for this evaluator).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_dmg_": 0.15
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6CatsTailClosingTimeEM",
+        "source": "Diona",
+        "description": "C6 Cat's Tail Closing Time: characters within Signature Mix's radius with HP above 50% gain 200 Elemental Mastery (the Incoming Healing Bonus branch for HP <=50% is not modeled — healing is out of scope for this evaluator).",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 200.0
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

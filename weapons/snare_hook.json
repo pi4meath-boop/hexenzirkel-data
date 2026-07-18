@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SnareHook",
+        "conditionKey": "snare_hook_phantom_flash",
+        "description": "R5 Phantom Flash: causing an Elemental Reaction grants +120 Elemental Mastery for 12s, plus an additional +120 EM (240 total) during Moonsign: Ascendant Gleam. Modeled with the Moonsign bonus included. Works even off-field.",
+        "states": {
+          "active": {
+            "eleMas": 240
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

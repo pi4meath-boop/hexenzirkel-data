@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "ToukabouShigure",
+        "conditionKey": "toukabou_shigure_cursed_parasol",
+        "description": "R5 Kaidan: Rainfall Earthbinder: While the opponent is afflicted with Cursed Parasol (applied on hit, once every 15s), the wielder deals 32% more DMG to them.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

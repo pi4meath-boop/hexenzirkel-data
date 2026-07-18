@@ -279,7 +279,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4BlessingOfPhoenix",
+        "source": "Diluc",
+        "description": "A4 Blessing of Phoenix: the Pyro Infusion provided by Dawn (Elemental Skill) lasts 4s longer, and Diluc gains 20% Pyro DMG Bonus during the duration of this effect.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "pyro_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

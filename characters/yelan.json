@@ -248,7 +248,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1TurnControl",
+        "source": "Yelan",
+        "description": "A1 Turn Control: Yelan's Max HP is increased by 6%/12%/18%/30% when the current party contains 1/2/3/4 different Elemental Types. Select the state matching the scored team's elemental diversity.",
+        "states": [
+          { "value": "1_type", "modifiers": { "hp_": 0.06 } },
+          { "value": "2_types", "modifiers": { "hp_": 0.12 } },
+          { "value": "3_types", "modifiers": { "hp_": 0.18 } },
+          { "value": "4_types", "modifiers": { "hp_": 0.3 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {

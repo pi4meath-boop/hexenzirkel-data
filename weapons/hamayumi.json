@@ -8,8 +8,23 @@
     "subStatValue": 0.55128
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "normal_dmg_": 0.32,
+      "charged_dmg_": 0.24
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Hamayumi",
+        "conditionKey": "hamayumi_full_energy",
+        "description": "R5 Full Draw: when the equipping character's Energy reaches 100%, the Normal/Charged Attack DMG bonus is increased by 100% — an additional Normal Attack DMG +32% and Charged Attack DMG +24% on top of the always-on bonus (total +64%/+48%).",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.32,
+            "charged_dmg_": 0.24
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

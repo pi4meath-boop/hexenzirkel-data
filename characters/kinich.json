@@ -125,6 +125,21 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "a4FlameSpiritPact",
+        "source": "Kinich",
+        "description": "A4 Flame Spirit Pact: after a nearby party member triggers a Nightsoul Burst, Kinich gains 1 stack of Hunter's Experience (lasts 15s, max 2 stacks). Using Canopy Hunter: Riding High's Scalespiker Cannon (the skill's cannonDmg hit) consumes all stacks, increasing that Cannon shot's DMG by 320% of Kinich's ATK per stack consumed. No bespoke bonus key isolates cannonDmg from Loop Shot (shotDmg) in hit_definitions_json, so this is applied via skill_dmgIncFromAtk_ and will also slightly over-buff Loop Shot DMG.",
+        "states": [
+          {
+            "value": "1 stack",
+            "modifiers": { "skill_dmgIncFromAtk_": 3.2 }
+          },
+          {
+            "value": "2 stack",
+            "modifiers": { "skill_dmgIncFromAtk_": 6.4 }
+          }
+        ]
+      },
+      {
         "conditionKey": "c1SkillHit",
         "source": "avatar_10000101",
         "description": "C1: when Kinich's Elemental Skill hits an opponent, it decreases their Dendro RES by 30% for 6s.",

@@ -266,7 +266,19 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4HomuncularNature",
+        "source": "Albedo",
+        "description": "A4 Homuncular Nature: using Elemental Burst Rite of Progeniture: Tectonic Tide increases nearby party members' Elemental Mastery by 125 for 10s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "eleMas": 125 }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

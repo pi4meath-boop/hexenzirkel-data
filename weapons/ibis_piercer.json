@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "IbisPiercer",
+        "conditionKey": "ibis_piercer_secret_wisdom",
+        "description": "R5 Secret Wisdom's Favor: Charged Attack hits grant Elemental Mastery +80 for 6s, max 2 stacks (0.5s internal CD); modeled at max stacks (EM +160).",
+        "states": {
+          "active": {
+            "eleMas": 160
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "AlleyHunter",
+        "conditionKey": "oppidan_ambush_off_field_stacks",
+        "description": "Oppidan Ambush (R5): while in the party but off-field, DMG +4% per second, up to +40% after 10s; once back on-field for more than 4s, the buff decays 8%/s. Modeled at the +40% max-stack value (typical for burst-then-swap rotations) since off-field/on-field timing isn't tracked by the evaluator; real uptime during long on-field windows will be lower.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

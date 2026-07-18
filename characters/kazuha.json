@@ -54,7 +54,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1SoumonSwordsmanship",
+        "source": "Kaedehara Kazuha",
+        "description": "A1 Soumon Swordsmanship: if Chihayaburu (Elemental Skill) comes into contact with Pyro/Hydro/Cryo/Electro when cast, it absorbs that element; if Plunging Attack: Midare Ranzan is used before the effect expires, it deals an additional 200% ATK of the absorbed element as DMG, counted as Plunging Attack DMG. No bespoke hit key isolates this bonus hit from Kazuha's other plunging hits in hit_definitions_json, so it is modeled as a flat ATK-ratio addition applied to all plunging hits (dmg/low/high) via plunging_dmgIncFromAtk_ — a minor over-buff outside of Midare Ranzan itself.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "plunging_dmgIncFromAtk_": 2.0 }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {

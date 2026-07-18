@@ -234,7 +234,17 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1ExcellentBlood",
+        "source": "Kaeya",
+        "description": "C1 Excellent Blood: the CRIT Rate of Kaeya's Normal and Charged Attacks against opponents affected by Cryo is increased by 15%.",
+        "gating": {"constellationMin": 1},
+        "states": [
+          {"value": "on", "modifiers": {"normal_critRate_": 0.15, "charged_critRate_": 0.15}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

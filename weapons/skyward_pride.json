@@ -8,8 +8,22 @@
     "subStatValue": 0.36752
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "all_dmg_": 0.08
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SkywardPride",
+        "conditionKey": "skyward_pride_vacuum_blade",
+        "description": "Sky-ripping Dragon Spine (R1): after using Elemental Burst, Normal or Charged Attack hits create a vacuum blade dealing 80% of ATK as DMG (lasts 20s or 8 blades). Approximated as a flat +80% ATK addition to Normal/Charged hits while active.",
+        "states": {
+          "active": {
+            "normal_dmgIncFromAtk_": 0.8,
+            "charged_dmgIncFromAtk_": 0.8
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

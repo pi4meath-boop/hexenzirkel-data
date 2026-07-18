@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SerenitysCall",
+        "conditionKey": "serenitys_call_solemn_silence",
+        "description": "R5 Solemn Silence: causing an Elemental Reaction grants +32% Max HP for 12s, plus an additional +32% (64% total) during Moonsign: Ascendant Gleam. Modeled with the Moonsign bonus included. Works even off-field.",
+        "states": {
+          "active": {
+            "hp_": 0.64
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

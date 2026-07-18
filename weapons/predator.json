@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Predator",
+        "conditionKey": "predator_cryo_dmg_stacks",
+        "description": "Strong Strike (fixed value — Predator is capped at Refinement 1, only one copy was ever obtainable so there is no R5 tier): dealing Cryo DMG increases Normal and Charged Attack DMG by 10% for 6s, max 2 stacks. Modeled at max stacks (+20%). The Aloy-exclusive flat +66 ATK bonus is not modeled since it only applies when Aloy specifically wields this weapon.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.2,
+            "charged_dmg_": 0.2
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

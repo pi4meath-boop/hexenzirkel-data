@@ -189,9 +189,89 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4MutualAidAgreementEM",
+        "source": "Ifa",
+        "description": "A4 Mutual Aid Agreement: when nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 80.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4DecayedVesselPermutationEM",
+        "source": "Ifa",
+        "description": "C4 Decayed Vessel's Permutation: Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field (the restraining-wind duration extension is not modeled).",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1FieldMedicsVisionReactionDmg",
+        "source": "Ifa",
+        "description": "A1 Field Medic's Vision: while in Nightsoul's Blessing, every Nightsoul point across the whole party grants Ifa 1 Rescue Essentials point (max 150 base), each point increasing nearby party members' Swirl and Electro-Charged DMG by 1.5% and Lunar-Charged DMG by 0.2% (values per KQM/community kit breakdown, not in the raw API text). States below approximate common party Nightsoul totals; pick the one matching the actual team.",
+        "states": [
+          {
+            "value": "50_points",
+            "modifiers": {
+              "swirl_dmg_": 0.75,
+              "electrocharged_dmg_": 0.75,
+              "lunarcharged_dmg_": 0.10
+            }
+          },
+          {
+            "value": "100_points",
+            "modifiers": {
+              "swirl_dmg_": 1.5,
+              "electrocharged_dmg_": 1.5,
+              "lunarcharged_dmg_": 0.20
+            }
+          },
+          {
+            "value": "150_points_max",
+            "modifiers": {
+              "swirl_dmg_": 2.25,
+              "electrocharged_dmg_": 2.25,
+              "lunarcharged_dmg_": 0.30
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2GuidingSpiritExtendedReactionDmg",
+        "source": "Ifa",
+        "description": "C2 Guiding Spirit of Ballistic Prayer: raises Ifa's Rescue Essentials cap to 200 (each point still worth 1.5% Swirl/Electro-Charged DMG and 0.2% Lunar-Charged DMG to nearby party members). State below represents the extended 200-point cap; use the base a1FieldMedicsVisionReactionDmg condition for lower totals.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "200_points_max",
+            "modifiers": {
+              "swirl_dmg_": 3.0,
+              "electrocharged_dmg_": 3.0,
+              "lunarcharged_dmg_": 0.40
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

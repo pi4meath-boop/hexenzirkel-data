@@ -8,8 +8,24 @@
     "subStatValue": 0.165384
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "all_dmg_": 0.12
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "CalamityQueller",
+        "conditionKey": "calamity_queller_consummation",
+        "description": "Consummation (R1): after using an Elemental Skill, ATK increases by 3.2% every second for 20s, max 6 stacks (+19.2% while on-field). The ATK increase is doubled while the wielder is off-field (+38.4%). Modeled at max stacks; pick the state matching the wielder's field presence.",
+        "states": {
+          "on_field": {
+            "atk_": 0.192
+          },
+          "off_field": {
+            "atk_": 0.384
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

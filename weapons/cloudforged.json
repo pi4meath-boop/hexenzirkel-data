@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Cloudforged",
+        "conditionKey": "crag_chiseled_forge_em_stacks",
+        "description": "Crag-Chiseled Forge (R5): after Elemental Energy is spent, Elemental Mastery +80 for 18s, stacking up to 2 times. Modeled at max 2 stacks: Elemental Mastery +160.",
+        "states": {
+          "active": {
+            "eleMas": 160
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Akuoumaru",
+        "conditionKey": "watatsumi_wavewalker_energy_cap",
+        "description": "Watatsumi Wavewalker (R5): Burst DMG is increased by 0.24% for every point of the party's combined max Energy capacity, capped at +80%. Modeled at the 80% cap (reached once the party's combined max Energy exceeds ~333, common with battery/support teams) since there is no eval-time key that tracks party combined max Energy capacity.",
+        "states": {
+          "active": {
+            "burst_dmg_": 0.8
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

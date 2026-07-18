@@ -11,6 +11,17 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "source": "HakushinRing",
+        "conditionKey": "hakushin_ring_sakura_saiguu",
+        "description": "R5 Sakura Saiguu: after the wielder triggers an Electro elemental reaction, nearby party members of the elemental type involved in the reaction gain 20% DMG Bonus for their own element for 6s (non-stacking); approximated here as a flat +20% DMG bonus for affected party members.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.2
+          }
+        }
+      }
+    ]
   }
 }

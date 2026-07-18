@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SilvershowerHeartstrings",
+        "conditionKey": "silvershower_heartstrings_remedy_stacks",
+        "description": "Dryas's Nocturne (R1): at 3 Remedy stacks (gained from Elemental Skill use, Bond of Life increases, or healing), Max HP +40% and Elemental Burst CRIT Rate +28%. Modeled at max stacks.",
+        "states": {
+          "active": {
+            "hp_": 0.4,
+            "burst_critRate_": 0.28
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

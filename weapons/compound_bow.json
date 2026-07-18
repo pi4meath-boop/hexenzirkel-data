@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "CompoundBow",
+        "conditionKey": "compound_bow_infusion_stacks",
+        "description": "R5 Infusion Arrow at max stacks: Normal/Charged Attack hits grant a stacking buff (up to 4 stacks, each lasting 6s) of +8% ATK per stack, for +32% ATK at max stacks. The accompanying +2.4% Normal Attack SPD per stack is not modeled (non-combat stat).",
+        "states": {
+          "active": {
+            "atk_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

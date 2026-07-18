@@ -234,7 +234,29 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4HeartsReposeEmScaling",
+        "source": "Kuki Shinobu",
+        "description": "Heart's Repose (A4): Sanctifying Ring's DMG (Grass Ring of Sanctification's periodic ring tick) is increased by 25% of Shinobu's Elemental Mastery (the Healing Bonus portion of this passive is not modeled). Modeled as a flat skill_dmgInc at representative EM values; note this flat add also applies to the ring's initial pressDmg hit since no hit-specific key exists for ringDmg without touching hit_definitions_json (minor overestimate).",
+        "states": [
+          {"value": "200 EM", "modifiers": {"skill_dmgInc": 50}},
+          {"value": "400 EM", "modifiers": {"skill_dmgInc": 100}},
+          {"value": "600 EM", "modifiers": {"skill_dmgInc": 150}},
+          {"value": "800 EM", "modifiers": {"skill_dmgInc": 200}},
+          {"value": "1000 EM", "modifiers": {"skill_dmgInc": 250}}
+        ]
+      },
+      {
+        "conditionKey": "c6ToWardWeakness",
+        "source": "Kuki Shinobu",
+        "description": "C6 To Ward Weakness: when Shinobu's HP drops below 25%, she gains 150 Elemental Mastery for 15s (triggers once every 60s; the death-prevention effect is not damage-relevant and is not modeled).",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"eleMas": 150}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

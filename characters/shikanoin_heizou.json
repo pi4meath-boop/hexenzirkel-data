@@ -230,10 +230,31 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6CuriousCasefilesHeartstopperCrit",
+        "source": "Shikanoin Heizou",
+        "description": "C6 Curious Casefiles: each Declension stack increases the CRIT Rate of the unleashed Heartstopper Strike (Elemental Skill) by 4%; when Heizou possesses Conviction, that Heartstopper Strike's CRIT DMG is also increased by 32%. Approximated assuming 3 Declension stacks (=12% CRIT Rate) and Conviction active. Note: hit_definitions_json currently has no dedicated hit for Heartstopper Strike (the seed generator skipped skill.dmg as a custom/conditional formula), so this modifier targets the standard skill_critRate_/skill_critDMG_ keys and will only take effect once that hit definition is added.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {"value": "on", "modifiers": {"skill_critRate_": 0.12, "skill_critDMG_": 0.32}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4PenetrativeReasoningEM",
+        "source": "Shikanoin Heizou",
+        "description": "A4 Penetrative Reasoning: after Heizou's Heartstopper Strike (Elemental Skill) hits an opponent, increases all party members' (excluding Heizou) Elemental Mastery by 80 for 10s.",
+        "states": [
+          {"value": "on", "modifiers": {"eleMas": 80.0}}
+        ]
+      }
+    ]
   }
 }

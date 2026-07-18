@@ -279,9 +279,38 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1UndividedHeart",
+        "source": "Ganyu",
+        "description": "A1 Undivided Heart: after firing a Frostflake Arrow (fully-charged Aimed Shot), the CRIT Rate of subsequent Frostflake Arrows and their resulting Frostflake Bloom effects is increased by 20% for 5s. Modeled as always-active for a Frostflake-focused rotation (hit-scoped to the frostflake/frostflakeBloom charged-attack hits only, not regular Aimed Shot).",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "frostflake_critRate_": 0.2,
+              "frostflakebloom_critRate_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4HarmonyBetweenHeavenAndEarth",
+        "source": "Ganyu",
+        "description": "A4 Harmony Between Heaven and Earth: Celestial Shower (Elemental Burst) grants a 20% Cryo DMG Bonus to active party members within its AoE.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "cryo_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

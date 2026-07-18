@@ -264,7 +264,25 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4DominanceOfEarth",
+        "source": "Zhongli",
+        "description": "A4 Dominance of Earth: Zhongli deals bonus DMG based on his Max HP - Normal/Charged/Plunging Attack DMG +1.39% Max HP, Dominus Lapidis (Stone Stele, resonance, hold) DMG +1.9% Max HP, Planet Befall (Elemental Burst) DMG +33% Max HP. No eval-time HP-to-flat-DMG conversion key exists, so this is approximated as flat dmgInc at an assumed 30,000 Max HP (a representative HP-invested Zhongli build): 1.39% -> 417, 1.9% -> 570, 33% -> 9900. Admin can override via the LB builder UI for a different HP assumption.",
+        "states": [
+          {
+            "value": "30000 HP",
+            "modifiers": {
+              "normal_dmgInc": 417,
+              "charged_dmgInc": 417,
+              "plunging_dmgInc": 417,
+              "skill_dmgInc": 570,
+              "burst_dmgInc": 9900
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

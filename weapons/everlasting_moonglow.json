@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "EverlastingMoonglow",
+        "conditionKey": "everlasting_moonglow_byakuya_kougetsu",
+        "description": "Byakuya Kougetsu (R1): Normal Attack DMG is increased by an amount equal to 1% of the wielder's Max HP. Approximated as a flat +300 Normal Attack DMG, assuming ~30,000 Max HP (no eval-time HP-to-flat-dmg conversion key exists). Healing Bonus +10% and the post-Burst Normal Attack Energy restoration are not modeled (non-combat/utility).",
+        "states": {
+          "active": {
+            "normal_dmgInc": 300
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

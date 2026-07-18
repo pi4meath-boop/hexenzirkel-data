@@ -249,7 +249,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4MysteriesLaidBare",
+        "source": "Alhaitham",
+        "description": "A4 Mysteries Laid Bare (approximated, self): each point of Elemental Mastery increases Projection Attack DMG (skill.mirrorDmg1) and Particular Field: Fetters of Phenomena DMG (burst.instanceDmg) by 0.1%, capped at +100% (reached at 1000 EM). No bespoke bonus key isolates mirrorDmg1 from rushDmg (Elemental Skill's Rush hit) in hit_definitions_json, so this is applied via skill_dmg_/burst_dmg_ and will also slightly over-buff Rush DMG. Approximated here at 250 EM (a representative EM-hybrid Alhaitham build) => +25%; admin can override via the LB builder UI for a different EM assumption.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": { "skill_dmg_": 0.25, "burst_dmg_": 0.25 }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

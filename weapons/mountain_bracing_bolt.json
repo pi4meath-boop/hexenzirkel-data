@@ -8,8 +8,21 @@
     "subStatValue": 0.30626819800000005
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "skill_dmg_": 0.24
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MountainBracingBolt",
+        "conditionKey": "mountain_bracing_bolt_ally_skill_proc",
+        "description": "Hope Beyond the Peaks (R5): after nearby party members use Elemental Skills, the wielder's Elemental Skill DMG is further increased by 24% for 8s (stacking on top of the always-on +24%). Climbing Stamina reduction not modeled (non-combat).",
+        "states": {
+          "active": {
+            "skill_dmg_": 0.24
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

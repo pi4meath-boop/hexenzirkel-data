@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "RangeGauge",
+        "conditionKey": "range_gauge_struggle_full_stacks",
+        "description": "Masons' Ditty (R5): Consuming 3 Unity's Symbols (gained from healing/being healed) on Skill or Burst use grants the Struggle effect for 10s: +7% ATK and +13% All Elemental DMG Bonus per Symbol consumed (21% ATK / 39% All DMG at 3 stacks). Triggers at most once every 15s.",
+        "states": {
+          "active": {
+            "atk_": 0.21,
+            "all_dmg_": 0.39
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

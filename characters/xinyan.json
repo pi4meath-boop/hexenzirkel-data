@@ -234,9 +234,46 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2ImpromptuOpening",
+        "source": "Xinyan",
+        "description": "C2 Impromptu Opening: Riff Revolution's (burst) Physical DMG (pressPhysDmg hit) has its CRIT Rate increased by 100%, and forms a Shield Level 3: Rave shield when cast.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"pressphysdmg_critRate_": 1.0}}
+        ]
+      },
+      {
+        "conditionKey": "c6RockinInAFlamingWorld",
+        "source": "Xinyan",
+        "description": "C6 Rockin' in a Flaming World: Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"charged_dmgIncFromDef_": 0.5}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4RockNRoll",
+        "source": "Xinyan",
+        "description": "A4 \"...Now That's Rock 'N' Roll!\": characters shielded by Sweeping Fervor (Elemental Skill) deal 15% increased Physical DMG.",
+        "states": [
+          {"value": "on", "modifiers": {"physical_dmg_": 0.15}}
+        ]
+      },
+      {
+        "conditionKey": "c4WildfireRhythm",
+        "source": "Xinyan",
+        "description": "C4 Wildfire Rhythm: Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.",
+        "gating": {"constellationMin": 4},
+        "states": [
+          {"value": "on", "modifiers": {"physical_enemyRes_": -0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

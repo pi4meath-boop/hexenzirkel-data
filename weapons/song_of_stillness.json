@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SongOfStillness",
+        "conditionKey": "song_of_stillness_benthic_pulse",
+        "description": "R5 Benthic Pulse: after the wielder is healed, they deal 32% more DMG for 8s. Can trigger even when not on the field.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "FruitOfFulfillment",
+        "conditionKey": "fruit_of_fulfillment_wax_and_wane_max",
+        "description": "R5 Full Circle: triggering Elemental Reactions grants stacks of Wax and Wane (gainable roughly every 0.3s while reacting, up to 5) — each stack grants Elemental Mastery +36 while ATK -5%; modeled at max stacks (EM +180, ATK -25%).",
+        "states": {
+          "active": {
+            "eleMas": 180,
+            "atk_": -0.25
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

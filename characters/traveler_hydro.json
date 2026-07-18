@@ -263,7 +263,16 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerHydroA4ClearWaters",
+        "source": "Traveler (Hydro)",
+        "description": "A4 Clear Waters: if HP was consumed via Suffusion while using the Hold Mode of Aquacrest Saber (Elemental Skill), the Torrent Surge at the skill's end deals bonus DMG equal to 45% of the total HP consumed this way, capped at 5,000 DMG. No eval-time conversion tracks HP consumed mid-skill, so this is approximated at the 5,000 DMG cap (reached once ~11,111 HP has been consumed via Suffusion, a realistic full Hold-Mode usage) as a flat add on skill_dmgInc. No bespoke bonus key isolates surgeDmg from dewdropDmg/thornDmg in hit_definitions_json, so this will also slightly over-buff those hits.",
+        "states": [
+          { "value": "active", "modifiers": { "skill_dmgInc": 5000 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

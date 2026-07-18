@@ -233,10 +233,34 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "skill_dmgIncFromDef_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1MountainEchoesGeoDmg",
+        "source": "Kachina",
+        "description": "Mountain Echoes (A1): after nearby party members trigger a Nightsoul Burst, Kachina's Geo DMG Bonus increases by 20% for 12s.",
+        "states": [
+          {"value": "on", "modifiers": {"geo_dmg_": 0.2}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4MoreFoesMoreCaution",
+        "source": "Kachina",
+        "description": "C4 More Foes, More Caution: while there are 1/2/3/4+ opponents within the Turbo Drill Field created by Time to Get Serious!, the active character within the field gains 8%/12%/16%/20% increased DEF.",
+        "gating": {"constellationMin": 4},
+        "states": [
+          {"value": "1 opponent", "modifiers": {"def_": 0.08}},
+          {"value": "2 opponents", "modifiers": {"def_": 0.12}},
+          {"value": "3 opponents", "modifiers": {"def_": 0.16}},
+          {"value": "4+ opponents", "modifiers": {"def_": 0.2}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

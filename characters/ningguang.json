@@ -176,7 +176,16 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a5StrategicReserve",
+        "source": "Ningguang",
+        "description": "A5 Strategic Reserve: a character that passes through the Jade Screen (Elemental Skill construct) gains a 12% Geo DMG Bonus for 10s. Modeled as a party-wide buff since any character can walk through the screen.",
+        "states": [
+          {"value": "on", "modifiers": {"geo_dmg_": 0.12}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

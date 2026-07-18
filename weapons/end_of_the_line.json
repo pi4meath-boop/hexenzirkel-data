@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "EndOfTheLine",
+        "conditionKey": "end_of_the_line_flowrider",
+        "description": "R5 Net Snapper: after using an Elemental Skill, triggers the Flowrider effect (CD 12s) — the next attacks to hit an opponent deal 160% ATK as AoE DMG, up to 3 instances (at most 1 every 2s) within 15s; approximated as bonus DMG on any attack.",
+        "states": {
+          "active": {
+            "all_dmgIncFromAtk_": 1.6
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

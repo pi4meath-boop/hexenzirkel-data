@@ -284,9 +284,60 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4SandKingsBoonScorchingSandshade",
+        "source": "Sethos",
+        "description": "A4 The Sand King's Boon: Sethos gains the Scorching Sandshade effect, increasing the DMG dealt by Shadowpiercing Shots (the burst's dusk_0-3 hits) by 700% of his Elemental Mastery. Modeled as a flat DMG add at 200 EM (a representative crit/EM-hybrid Sethos build) => 7.0*200 = 1400 flat physical DMG, approximated as always active during a Shadowpiercing-Shot-focused rotation. Applied via physical_dmgInc since no hit-specific flat-add key isolates dusk_0-3 from Sethos's ordinary Charged Attacks (aimed/fullyAimed/shadow), which share the same physical_dmg_/charged_dmg_ bonus keys, without touching hit_definitions_json (overestimate on those); admin can override via the LB builder UI for a different EM assumption.",
+        "states": [
+          {"value": "on", "modifiers": {"physical_dmgInc": 1400.0}}
+        ]
+      },
+      {
+        "conditionKey": "c1SealedShrineSpiritsongCritRate",
+        "source": "Sethos",
+        "description": "C1 Sealed Shrine's Spiritsong: the CRIT Rate of Shadowpiercing Shot is increased by 15%.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "dusk_0_critRate_": 0.15,
+              "dusk_1_critRate_": 0.15,
+              "dusk_2_critRate_": 0.15,
+              "dusk_3_critRate_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2PapyrusScriptureElectroDmg",
+        "source": "Sethos",
+        "description": "C2 Papyrus Scripture of Silent Secrets: Sethos gains a 15% Electro DMG Bonus for 10s (stacking up to twice) when consuming Energy via Aimed Shots, regaining Energy via Elemental Reactions with Ancient Rite: The Thundering Sands, or using Secret Rite: Twilight Shadowpiercer. Approximated at the fully-stacked 30% cap.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {"value": "on", "modifiers": {"electro_dmg_": 0.30}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4BeneficentPlumageEM",
+        "source": "Sethos",
+        "description": "C4 Beneficent Plumage: when a Shadowpiercing Shot or Dusk Bolt strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {"value": "on", "modifiers": {"eleMas": 80.0}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

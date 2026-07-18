@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "TheBell",
+        "conditionKey": "the_bell_shielded",
+        "description": "R5 Rebellious Guardian: While protected by the shield generated on taking DMG, the character gains 24% increased DMG.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.24
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

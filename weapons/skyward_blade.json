@@ -8,8 +8,22 @@
     "subStatValue": 0.55128
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "critRate_": 0.04
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SkywardBlade",
+        "conditionKey": "skyward_blade_skypiercing_might",
+        "description": "Sky-Piercing Fang (R1): after using Elemental Burst, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 12s. Movement SPD/ATK SPD bonuses not modeled (non-combat).",
+        "states": {
+          "active": {
+            "normal_dmgIncFromAtk_": 0.2,
+            "charged_dmgIncFromAtk_": 0.2
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

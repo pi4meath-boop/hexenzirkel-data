@@ -219,9 +219,30 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4FlamingAssault",
+        "source": "Thoma",
+        "description": "A4 Flaming Assault: DMG dealt by Crimson Ooyoroi's Fiery Collapse (burst DoT) is increased by 2.2% of Thoma's Max HP. No eval-time Max-HP-to-flat-DMG conversion key exists, so this is approximated as a flat Pyro DMG add at fixed Max HP tiers, targeting only the Pyro-element burst hit (collapseDmg) via pyro_dmgInc, not the Physical burst hit (pressDmg).",
+        "states": [
+          {"value": "~20,000 Max HP", "modifiers": {"pyro_dmgInc": 440}},
+          {"value": "~30,000 Max HP", "modifiers": {"pyro_dmgInc": 660}},
+          {"value": "~40,000 Max HP", "modifiers": {"pyro_dmgInc": 880}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6BurningHeart",
+        "source": "Thoma",
+        "description": "C6 Burning Heart: when a Blazing Barrier is obtained or refreshed, DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmg_": 0.15, "charged_dmg_": 0.15, "plunging_dmg_": 0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

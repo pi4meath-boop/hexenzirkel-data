@@ -75,7 +75,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1BulletTrickShiningShell",
+        "source": "Chasca",
+        "description": "A1 Bullet Trick (approximated): while charging Multitarget Fire, for each distinct eligible elemental type among nearby party members, Chasca has a chance to convert the 3rd shell into a Shining Shadowhunt Shell of that type and gains a stack of Spirit of the Radiant Shadow, raising Shining Shadowhunt Shell DMG by 15%/35%/65% for 1/2/3 stacks (max 3). No bespoke bonus key isolates skill.shellDmg/shiningShellDmg from the other charged-tagged hits (aimed/fullyAimed/c2Muzzle/c4Sparks) in hit_definitions_json, so this is applied via charged_dmg_ and will also slightly over-buff those other hits. Pick the state matching the team's elemental diversity.",
+        "states": [
+          { "value": "1_type", "modifiers": { "charged_dmg_": 0.15 } },
+          { "value": "2_types", "modifiers": { "charged_dmg_": 0.35 } },
+          { "value": "3_types", "modifiers": { "charged_dmg_": 0.65 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

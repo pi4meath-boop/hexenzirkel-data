@@ -200,9 +200,37 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1IceUnleashedNormalDmg",
+        "source": "Chongyun",
+        "description": "C1 Ice Unleashed: the last hit of Chongyun's Normal Attack combo releases 3 ice blades, each dealing 50% of his ATK as Cryo DMG to all opponents in its path. Approximated as a flat +150% ATK bonus DMG on that Normal Attack hit rather than 3 separate crit-eligible instances.",
+        "gating": {"constellationMin": 1},
+        "states": [
+          {"value": "on", "modifiers": {"normal_dmgIncFromAtk_": 1.5}}
+        ]
+      },
+      {
+        "conditionKey": "c6RallyOfFourBladesBurstDmg",
+        "source": "Chongyun",
+        "description": "C6 Rally of Four Blades: Spirit Blade: Cloud-Parting Star (burst) deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun (the additional summoned spirit blade is not modeled as a separate hit).",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"burst_dmg_": 0.15}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4RimechaserBladeCryoResShred",
+        "source": "Chongyun",
+        "description": "A4 Rimechaser Blade: when the field created by Spirit Blade: Chonghua's Layered Frost disappears, a spirit blade strikes nearby opponents and decreases their Cryo RES by 10% for 8s (the blade's own AoE Cryo DMG instance is not modeled as a separate hit).",
+        "states": [
+          {"value": "on", "modifiers": {"cryo_enemyRes_": -0.10}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

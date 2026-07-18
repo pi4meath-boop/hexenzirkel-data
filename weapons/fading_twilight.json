@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "FadingTwilight",
+        "conditionKey": "fading_twilight_dawnblaze",
+        "description": "R5 Radiance of the Deeps: cycles through three states (Evengleam/Afterglow/Dawnblaze) on attack hits, switching once every 7s, granting +12%/20%/28% DMG dealt respectively; modeled at the max Dawnblaze state (+28% all DMG).",
+        "states": {
+          "active": {
+            "all_dmg_": 0.28
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

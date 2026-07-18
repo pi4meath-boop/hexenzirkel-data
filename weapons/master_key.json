@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MasterKey",
+        "conditionKey": "master_key_fall_into_place",
+        "description": "R5 Fall Into Place: causing an Elemental Reaction grants +120 Elemental Mastery for 12s, plus an additional +120 EM (240 total) during Moonsign: Ascendant Gleam. Modeled with the Moonsign bonus included.",
+        "states": {
+          "active": {
+            "eleMas": 240
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

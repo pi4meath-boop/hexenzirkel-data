@@ -9,7 +9,38 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SunnyMorningSleepIn",
+        "conditionKey": "sunny_morning_sleep_in_swirl_em",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +120 for 6s after triggering Swirl.",
+        "states": {
+          "active": {
+            "eleMas": 120.0
+          }
+        }
+      },
+      {
+        "source": "SunnyMorningSleepIn",
+        "conditionKey": "sunny_morning_sleep_in_skill_em",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +96 for 9s after the wielder's Elemental Skill hits an opponent.",
+        "states": {
+          "active": {
+            "eleMas": 96.0
+          }
+        }
+      },
+      {
+        "source": "SunnyMorningSleepIn",
+        "conditionKey": "sunny_morning_sleep_in_burst_em",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +32 for 30s after the wielder's Elemental Burst hits an opponent.",
+        "states": {
+          "active": {
+            "eleMas": 32.0
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

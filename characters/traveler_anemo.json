@@ -278,7 +278,16 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerAnemoA1SlittingWind",
+        "source": "Traveler (Anemo)",
+        "description": "A1 Slitting Wind: the last hit of a Normal Attack combo unleashes a wind blade dealing 60% ATK as Anemo DMG to all opponents in its path. The evaluator has no hit-specific flat-ATK-ratio key (normal_dmgIncFromAtk_ applies uniformly to every Normal Attack hit in the combo, not just the last), so this is approximated by spreading the 60% ATK bonus evenly across all 5 Normal Attack hits (0.60 / 5 = 0.12 ATK-ratio per hit); accurate for full 5-hit combo rotations, will misestimate for partial combos.",
+        "states": [
+          { "value": "active", "modifiers": { "normal_dmgIncFromAtk_": 0.12 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

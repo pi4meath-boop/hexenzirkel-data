@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "ForestRegalia",
+        "conditionKey": "forest_regalia_leaf_of_consciousness",
+        "description": "R5 Forest Sanctuary: triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon spawns a Leaf of Consciousness; picking it up grants Elemental Mastery +120 for 12s (max 1 leaf per 20s, non-stacking, works off-field).",
+        "states": {
+          "active": {
+            "eleMas": 120
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

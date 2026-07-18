@@ -9,7 +9,32 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "LithicBlade",
+        "conditionKey": "lithic_blade_axiom_unity",
+        "description": "R5 Lithic Axiom: Unity: for each party member (including the wielder) who hails from Liyue, ATK +11% and CRIT Rate +7%, max 4 stacks. Select the number of Liyue party members.",
+        "states": {
+          "0": {},
+          "1": {
+            "atk_": 0.11,
+            "critRate_": 0.07
+          },
+          "2": {
+            "atk_": 0.22,
+            "critRate_": 0.14
+          },
+          "3": {
+            "atk_": 0.33,
+            "critRate_": 0.21
+          },
+          "4": {
+            "atk_": 0.44,
+            "critRate_": 0.28
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

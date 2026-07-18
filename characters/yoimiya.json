@@ -245,9 +245,47 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1TricksOfTheTroubleMaker",
+        "source": "Yoimiya",
+        "description": "A1 Tricks of the Trouble-Maker: during Niwabi Fire-Dance (Elemental Skill), each Normal Attack shot that hits an opponent increases Yoimiya's own Pyro DMG Bonus by 2%, for 3s, stacking up to 10 times (+20% max).",
+        "states": [
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "pyro_dmg_": 0.02 } },
+          { "value": "2", "modifiers": { "pyro_dmg_": 0.04 } },
+          { "value": "3", "modifiers": { "pyro_dmg_": 0.06 } },
+          { "value": "4", "modifiers": { "pyro_dmg_": 0.08 } },
+          { "value": "5", "modifiers": { "pyro_dmg_": 0.1 } },
+          { "value": "6", "modifiers": { "pyro_dmg_": 0.12 } },
+          { "value": "7", "modifiers": { "pyro_dmg_": 0.14 } },
+          { "value": "8", "modifiers": { "pyro_dmg_": 0.16 } },
+          { "value": "9", "modifiers": { "pyro_dmg_": 0.18 } },
+          { "value": "10", "modifiers": { "pyro_dmg_": 0.2 } }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4SummerNightsDawn",
+        "source": "Yoimiya",
+        "description": "A4 Summer Night's Dawn: using Ryuukin Saxifrage (Elemental Burst) grants nearby party members a 10% ATK increase for 15s, plus a further 1% ATK per stack of Yoimiya's Tricks of the Trouble-Maker (A1) she had when casting the burst (max 10 stacks, +20% total). Select the state matching the A1 stack count at burst cast time.",
+        "states": [
+          { "value": "0", "modifiers": { "atk_": 0.1 } },
+          { "value": "1", "modifiers": { "atk_": 0.11 } },
+          { "value": "2", "modifiers": { "atk_": 0.12 } },
+          { "value": "3", "modifiers": { "atk_": 0.13 } },
+          { "value": "4", "modifiers": { "atk_": 0.14 } },
+          { "value": "5", "modifiers": { "atk_": 0.15 } },
+          { "value": "6", "modifiers": { "atk_": 0.16 } },
+          { "value": "7", "modifiers": { "atk_": 0.17 } },
+          { "value": "8", "modifiers": { "atk_": 0.18 } },
+          { "value": "9", "modifiers": { "atk_": 0.19 } },
+          { "value": "10", "modifiers": { "atk_": 0.2 } }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

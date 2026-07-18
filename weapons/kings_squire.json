@@ -9,7 +9,18 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "KingsSquire",
+        "conditionKey": "kings_squire_teachings_of_the_forest",
+        "description": "R5 Labyrinth Lord's Instruction: unleashing Elemental Skill/Burst grants Teachings of the Forest, +140 Elemental Mastery for 12s (once per 20s). The ~180% ATK nuke dealt when the effect ends/is removed is not modeled (single non-repeating proc, no attack-type to attach it to).",
+        "states": {
+          "active": {
+            "eleMas": 140
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

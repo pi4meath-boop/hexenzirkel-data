@@ -248,10 +248,40 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "burst_critRate_": 0.1
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4PreciseShotAtk",
+        "source": "Amber",
+        "description": "A4 Precise Shot: hitting a weak point with a fully-charged Aimed Shot increases ATK by 15% for 10s.",
+        "states": [
+          {"value": "on", "modifiers": {"atk_": 0.15}}
+        ]
+      },
+      {
+        "conditionKey": "c2BunnyTriggeredSkillDmg",
+        "source": "Amber",
+        "description": "C2 Bunny Triggered: manually detonating Baron Bunny with a fully-charged Aimed Shot deals 200% additional DMG on that explosion. Approximated as a flat bonus to the existing Explosive Puppet skill-DMG hit rather than a separate detonation hit.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "on", "modifiers": {"skill_dmg_": 2.0}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6WildfireAtk",
+        "source": "Amber",
+        "description": "C6 Wildfire: Fiery Rain increases all party members' ATK by 15% for 10s.",
+        "gating": {"constellationMin": 6},
+        "states": [
+          {"value": "on", "modifiers": {"atk_": 0.15}}
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

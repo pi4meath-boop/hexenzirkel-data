@@ -264,7 +264,38 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4DiversifiedInvestigationCryoDmg",
+        "source": "Charlotte",
+        "description": "A4 Diversified Investigation: when the party contains 1/2/3 non-Fontainians (other than Charlotte), she gains a 5%/10%/15% Cryo DMG Bonus (Healing Bonus branch for Fontainian teammates not modeled).",
+        "states": [
+          {"value": "1", "modifiers": {"cryo_dmg_": 0.05}},
+          {"value": "2", "modifiers": {"cryo_dmg_": 0.10}},
+          {"value": "3", "modifiers": {"cryo_dmg_": 0.15}}
+        ]
+      },
+      {
+        "conditionKey": "c2ADutyToPursueTruthAtk",
+        "source": "Charlotte",
+        "description": "C2 A Duty to Pursue Truth: when using Framing: Freezing Point Composition, if Monsieur Verite hits 1/2/3 (or more) opponents, Charlotte's own ATK is increased by 10%/20%/30% for 12s.",
+        "gating": {"constellationMin": 2},
+        "states": [
+          {"value": "1", "modifiers": {"atk_": 0.10}},
+          {"value": "2", "modifiers": {"atk_": 0.20}},
+          {"value": "3", "modifiers": {"atk_": 0.30}}
+        ]
+      },
+      {
+        "conditionKey": "c4AResponsibilityToOverseeBurstDmg",
+        "source": "Charlotte",
+        "description": "C4 A Responsibility to Oversee: when Still Photo: Comprehensive Confirmation (burst) hits an opponent marked by Snappy Silhouette or Focused Impression, it deals 10% more DMG (Energy restoration not modeled).",
+        "gating": {"constellationMin": 4},
+        "states": [
+          {"value": "on", "modifiers": {"burst_dmg_": 0.10}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

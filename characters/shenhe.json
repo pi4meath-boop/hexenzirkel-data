@@ -251,7 +251,25 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "shenheA1DeificEmbrace",
+        "source": "Shenhe",
+        "description": "A1 Deific Embrace: an active character standing within the field created by Divine Maiden's Deliverance (Elemental Burst) gains a 15% Cryo DMG Bonus.",
+        "states": [
+          { "value": "on", "modifiers": { "cryo_dmg_": 0.15 } }
+        ]
+      },
+      {
+        "conditionKey": "shenheA4SpiritCommunionSeal",
+        "source": "Shenhe",
+        "description": "A4 Spirit Communion Seal: after Shenhe uses Spring Spirit Summoning (Elemental Skill), all nearby party members gain one of two mutually exclusive effects depending on press type: Tap grants Elemental Skill and Elemental Burst DMG +15% for 10s; Hold grants Normal, Charged, and Plunging Attack DMG +15% for 15s.",
+        "states": [
+          { "value": "tap", "modifiers": { "skill_dmg_": 0.15, "burst_dmg_": 0.15 } },
+          { "value": "hold", "modifiers": { "normal_dmg_": 0.15, "charged_dmg_": 0.15, "plunging_dmg_": 0.15 } }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

@@ -234,7 +234,30 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2CombatMaidChargedDmg",
+        "source": "Noelle",
+        "description": "C2 Combat Maid: increases Noelle's Charged Attack DMG by 15% (the Charged Attack Stamina Consumption reduction is not modeled — Stamina is out of scope for this evaluator).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {"value": "on", "modifiers": {"charged_dmg_": 0.15}}
+        ]
+      },
+      {
+        "conditionKey": "c6MustBeSpotlessAtkFromDef",
+        "source": "Noelle",
+        "description": "C6 Must Be Spotless: while Sweeping Time is active, Noelle's ATK is additionally increased by 50% of her DEF (no atk_from_def_ eval-time conversion key exists, so this is approximated as a flat ATK add at ~3,000 total DEF, a representative fully DEF-stacked Noelle build => +1,500 ATK; admin can override via the LB builder UI for a different DEF assumption). The duration-extension-on-kill portion is not modeled.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {"value": "on", "modifiers": {"atk": 1500.0}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

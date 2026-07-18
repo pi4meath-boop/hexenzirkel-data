@@ -246,9 +246,44 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1CombatOverrideSelf",
+        "source": "Aloy",
+        "description": "A1 Combat Override: upon Aloy receiving the Coil effect from Frozen Wilds (Elemental Skill), her own ATK is increased by 16% for 10s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "atk_": 0.16 }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4StrongStrike",
+        "source": "Aloy",
+        "description": "A4 Strong Strike: while in the Rushing Ice state conferred by Frozen Wilds, Aloy's Cryo DMG Bonus increases by 3.5% every 1s, up to a max of +35%. Approximated here at the fully-stacked cap.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": { "cryo_dmg_": 0.35 }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1CombatOverrideTeam",
+        "source": "Aloy",
+        "description": "A1 Combat Override: upon Aloy receiving the Coil effect from Frozen Wilds, nearby party members' ATK is increased by 8% for 10s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "atk_": 0.08 }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

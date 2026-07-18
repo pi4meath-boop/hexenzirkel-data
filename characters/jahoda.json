@@ -221,7 +221,38 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4SweetBerryBountyEM",
+        "source": "Jahoda",
+        "description": "A4 Sweet Berry Bounty: when a Purrsonal Coordinated Assistance Robot heals an active team member above 70% HP, that character's Elemental Mastery increases by 100 for 6s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6TheLittlestLuckCritBuff",
+        "source": "Jahoda",
+        "description": "C6 The Littlest Luck: once the Purr-loined Treasure Flask is full, nearby Moonsign characters in the party gain 5% CRIT Rate and 40% CRIT DMG for 20s. Also requires Moonsign: Ascendant Gleam (2+ Nod-Krai party members, toggled separately via the leaderboard's special team buffs).",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 0.05,
+              "critDMG_": 0.4
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

@@ -9,7 +9,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "MissiveWindspear",
+        "conditionKey": "missive_windspear_wind_unattained",
+        "description": "R5 The Wind Unattained: within 10s after triggering an Elemental Reaction, ATK +24% and Elemental Mastery +96.",
+        "states": {
+          "active": {
+            "atk_": 0.24,
+            "eleMas": 96
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
