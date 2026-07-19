@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
       },
       "5": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
     "charged": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
     "skill": {
       "ringDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
     "burst": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,16 +191,17 @@
         "conditionKey": "a4FourSealingDivinationCharms",
         "source": "Lan Yan",
         "description": "A4 Four Sealing Divination Charms: when the Swallow-Wisp Shield undergoes Elemental Absorption (contact with Hydro/Pyro/Cryo/Electro) via the Elemental Skill's dash, the Feathermoon Rings thrown afterward additionally deal Elemental DMG equal to 50% of the ring's own DMG, in the absorbed element. Approximated as a flat +50% bonus to the skill's ring-throw hit (skill_dmg_), ignoring the elemental-type change of the bonus portion for simplicity. Requires an absorbable element to be present nearby.",
-        "states": [
-          {"value": "on", "modifiers": {"skill_dmg_": 0.5}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "skill_dmg_": 0.5 } }]
       },
       {
         "conditionKey": "a5SkyfeatherEvilSubduingCharm",
         "source": "Lan Yan",
         "description": "A5 Skyfeather Evil-Subduing Charm: Swallow-Wisp Pinion Dance (Elemental Skill) and Lustrous Moonrise (Elemental Burst) deal additional DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively. No confirmed eval-time EM-to-DMG conversion key exists, so this is approximated as a flat DMG add at an assumed 500 Elemental Mastery (a representative EM-invested Lan Yan build): 3.09 x 500 = 1545, 7.74 x 500 = 3870. Admin can override via the LB builder UI for a different EM assumption.",
         "states": [
-          {"value": "active", "modifiers": {"skill_dmgInc": 1545, "burst_dmgInc": 3870}}
+          {
+            "value": "active",
+            "modifiers": { "skill_dmgInc": 1545, "burst_dmgInc": 3870 }
+          }
         ]
       }
     ],
@@ -258,10 +211,8 @@
         "conditionKey": "c4DrakefalconBloodPearls",
         "source": "Lan Yan",
         "description": "C4 With Drakefalcon's Blood-Pearls Adorned: after using Lustrous Moonrise (Elemental Burst), all nearby party members gain +60 Elemental Mastery for 12s.",
-        "gating": {"constellationMin": 4},
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 60}}
-        ]
+        "gating": { "constellationMin": 4 },
+        "states": [{ "value": "on", "modifiers": { "eleMas": 60 } }]
       }
     ],
     "others_modifiers_json": {},

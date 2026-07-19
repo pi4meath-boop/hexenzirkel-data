@@ -20,11 +20,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -34,11 +30,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -48,11 +40,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,11 +50,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -76,11 +60,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -92,11 +72,7 @@
     "charged": {
       "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,11 +82,7 @@
       },
       "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -122,11 +94,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,11 +104,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -150,11 +114,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -166,11 +126,7 @@
     "skill": {
       "surgeDmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -180,11 +136,7 @@
       },
       "dewdropDmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -194,11 +146,7 @@
       },
       "thornDmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -210,11 +158,7 @@
     "burst": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -268,9 +212,7 @@
         "conditionKey": "travelerHydroA4ClearWaters",
         "source": "Traveler (Hydro)",
         "description": "A4 Clear Waters: if HP was consumed via Suffusion while using the Hold Mode of Aquacrest Saber (Elemental Skill), the Torrent Surge at the skill's end deals bonus DMG equal to 45% of the total HP consumed this way, capped at 5,000 DMG. No eval-time conversion tracks HP consumed mid-skill, so this is approximated at the 5,000 DMG cap (reached once ~11,111 HP has been consumed via Suffusion, a realistic full Hold-Mode usage) as a flat add on skill_dmgInc. No bespoke bonus key isolates surgeDmg from dewdropDmg/thornDmg in hit_definitions_json, so this will also slightly over-buff those hits.",
-        "states": [
-          { "value": "active", "modifiers": { "skill_dmgInc": 5000 } }
-        ]
+        "states": [{ "value": "active", "modifiers": { "skill_dmgInc": 5000 } }]
       }
     ],
     "team_modifiers_json": {},

@@ -18,10 +18,10 @@
         "source": "PolarStar",
         "description": "R1 Daylight's Augury: after a Normal/Charged/Skill/Burst hit, gain 1 stack of Ashen Nightstar (12s, tracked independently per attack type, max 4). ATK +10/20/30/48% at 1/2/3/4 stacks.",
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.10}},
-          {"value": "2", "modifiers": {"atk_": 0.20}},
-          {"value": "3", "modifiers": {"atk_": 0.30}},
-          {"value": "4", "modifiers": {"atk_": 0.48}}
+          { "value": "1", "modifiers": { "atk_": 0.1 } },
+          { "value": "2", "modifiers": { "atk_": 0.2 } },
+          { "value": "3", "modifiers": { "atk_": 0.3 } },
+          { "value": "4", "modifiers": { "atk_": 0.48 } }
         ]
       }
     ],

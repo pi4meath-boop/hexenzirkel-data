@@ -9,7 +9,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "atk_": 0.20
+      "atk_": 0.2
     },
     "self_conditional_modifiers_json": [
       {
@@ -17,9 +17,9 @@
         "conditionKey": "seals",
         "description": "Many Oaths of Dawn and Dusk (R1): Increases ATK by 20%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character gains 1 Seal (max 2, 15s duration), each increasing Elemental Skill DMG by 18%. All Seals disappear 0.2s after the equipper's Elemental Skill deals DMG.",
         "states": [
-          {"value": "0", "modifiers": {}},
-          {"value": "1", "modifiers": {"skill_dmg_": 0.18}},
-          {"value": "2", "modifiers": {"skill_dmg_": 0.36}}
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "skill_dmg_": 0.18 } },
+          { "value": "2", "modifiers": { "skill_dmg_": 0.36 } }
         ]
       }
     ],

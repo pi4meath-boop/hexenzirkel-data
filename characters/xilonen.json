@@ -5,7 +5,7 @@
   "character_key": "avatar_10000103",
   "element": "geo",
   "weapon_type": "sword",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 12405.10724307,
     "baseAtk": 275.05513700000006,
@@ -17,11 +17,7 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -33,11 +29,7 @@
     "skill": {
       "skillDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
     "burst": {
       "hit1": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -140,10 +128,10 @@
           "constellationMin": 2
         },
         "states": [
-          {"value": "geo", "modifiers": {"geo_dmg_": 0.5}},
-          {"value": "pyro", "modifiers": {"atk_": 0.45}},
-          {"value": "hydro", "modifiers": {"hp_": 0.45}},
-          {"value": "cryo", "modifiers": {"critDMG_": 0.6}}
+          { "value": "geo", "modifiers": { "geo_dmg_": 0.5 } },
+          { "value": "pyro", "modifiers": { "atk_": 0.45 } },
+          { "value": "hydro", "modifiers": { "hp_": 0.45 } },
+          { "value": "cryo", "modifiers": { "critDMG_": 0.6 } }
         ]
       }
     ]

@@ -9,7 +9,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "hp_": 0.20
+      "hp_": 0.2
     },
     "self_conditional_modifiers_json": [
       {

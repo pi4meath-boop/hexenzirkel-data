@@ -18,15 +18,15 @@
         "states": [
           {
             "value": 1,
-            "modifiers": {"atk_": 0.16}
+            "modifiers": { "atk_": 0.16 }
           },
           {
             "value": 2,
-            "modifiers": {"atk_": 0.32}
+            "modifiers": { "atk_": 0.32 }
           },
           {
             "value": 3,
-            "modifiers": {"atk_": 0.48}
+            "modifiers": { "atk_": 0.48 }
           }
         ]
       }

@@ -15,7 +15,15 @@
         "source": "CalamityOfEshu",
         "description": "Diffusing Boundary: While the wielder is protected by a Shield, Normal and Charged Attack DMG is increased by 40%, and Normal and Charged Attack CRIT Rate is increased by 16%.",
         "states": [
-          {"value": "on", "modifiers": {"normal_dmg_": 0.4, "charged_dmg_": 0.4, "normal_critRate_": 0.16, "charged_critRate_": 0.16}}
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.4,
+              "charged_dmg_": 0.4,
+              "normal_critRate_": 0.16,
+              "charged_critRate_": 0.16
+            }
+          }
         ]
       }
     ],

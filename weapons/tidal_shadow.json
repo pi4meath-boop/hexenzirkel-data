@@ -14,9 +14,7 @@
         "conditionKey": "afterHealed",
         "source": "TidalShadow",
         "description": "White Cruising Wave: After the wielder is healed, ATK is increased by 48% for 8s. This effect can be triggered even when the character is not on the field.",
-        "states": [
-          {"value": "on", "modifiers": {"atk_": 0.48}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "atk_": 0.48 } }]
       }
     ],
     "team_modifiers_json": {},

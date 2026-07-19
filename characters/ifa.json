@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -65,11 +53,7 @@
     "charged": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -81,11 +65,7 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -125,11 +97,7 @@
     "skill": {
       "tonicDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -141,11 +109,7 @@
     "burst": {
       "skillDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -232,7 +196,7 @@
             "modifiers": {
               "swirl_dmg_": 0.75,
               "electrocharged_dmg_": 0.75,
-              "lunarcharged_dmg_": 0.10
+              "lunarcharged_dmg_": 0.1
             }
           },
           {
@@ -240,7 +204,7 @@
             "modifiers": {
               "swirl_dmg_": 1.5,
               "electrocharged_dmg_": 1.5,
-              "lunarcharged_dmg_": 0.20
+              "lunarcharged_dmg_": 0.2
             }
           },
           {
@@ -248,7 +212,7 @@
             "modifiers": {
               "swirl_dmg_": 2.25,
               "electrocharged_dmg_": 2.25,
-              "lunarcharged_dmg_": 0.30
+              "lunarcharged_dmg_": 0.3
             }
           }
         ]
@@ -266,7 +230,7 @@
             "modifiers": {
               "swirl_dmg_": 3.0,
               "electrocharged_dmg_": 3.0,
-              "lunarcharged_dmg_": 0.40
+              "lunarcharged_dmg_": 0.4
             }
           }
         ]

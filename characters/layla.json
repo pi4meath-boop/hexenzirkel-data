@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -65,11 +53,7 @@
     "charged": {
       "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
       },
       "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -139,11 +107,7 @@
     "skill": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
       },
       "starDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -169,11 +129,7 @@
     "burst": {
       "slugDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
@@ -224,17 +180,18 @@
         "conditionKey": "a5SweetSlumberUndisturbed",
         "source": "Layla",
         "description": "A5 Sweet Slumber Undisturbed: DMG dealt by the Shooting Stars fired by Nights of Formal Focus (Elemental Skill) is increased by 1.5% of Layla's Max HP. No confirmed eval-time HP-to-DMG conversion key exists, so this is approximated as a flat DMG add at an assumed 30,000 Max HP (a representative HP-invested Layla build): 0.015 x 30000 = 450. Applied via skill_dmgInc, which also slightly over-buffs the initial Nights of Formal Focus cast hit (skillDmg) since no bespoke bonus key isolates starDmg. Admin can override via the LB builder UI for a different HP assumption.",
-        "states": [
-          {"value": "active", "modifiers": {"skill_dmgInc": 450}}
-        ]
+        "states": [{ "value": "active", "modifiers": { "skill_dmgInc": 450 } }]
       },
       {
         "conditionKey": "c6RadiantSoulfire",
         "source": "Layla",
         "description": "C6 Radiant Soulfire: Shooting Stars from Nights of Formal Focus and Starlight Slugs from Dream of the Star-Stream Shaker (Elemental Burst) deal 40% increased DMG. Applied via skill_dmg_/burst_dmg_, which also slightly over-buffs the initial Nights of Formal Focus cast hit since no bespoke bonus key isolates starDmg from skillDmg.",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "states": [
-          {"value": "on", "modifiers": {"skill_dmg_": 0.4, "burst_dmg_": 0.4}}
+          {
+            "value": "on",
+            "modifiers": { "skill_dmg_": 0.4, "burst_dmg_": 0.4 }
+          }
         ]
       }
     ],
@@ -244,9 +201,12 @@
         "conditionKey": "c4StarryIllumination",
         "source": "Layla",
         "description": "C4 Starry Illumination: when Nights of Formal Focus starts firing Shooting Stars, all nearby party members gain the Dawn Star effect, increasing their Normal and Charged Attack DMG based on 5% of Layla's Max HP for up to 3s. No confirmed eval-time HP-to-DMG conversion key exists, so this is approximated as a flat DMG add at an assumed 30,000 Max HP: 0.05 x 30000 = 1500. Admin can override via the LB builder UI for a different HP assumption.",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "states": [
-          {"value": "on", "modifiers": {"normal_dmgInc": 1500, "charged_dmgInc": 1500}}
+          {
+            "value": "on",
+            "modifiers": { "normal_dmgInc": 1500, "charged_dmgInc": 1500 }
+          }
         ]
       }
     ],

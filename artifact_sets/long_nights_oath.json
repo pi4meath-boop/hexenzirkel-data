@@ -13,23 +13,23 @@
         "states": [
           {
             "value": "1",
-            "modifiers": {"plunging_dmg_": 0.15}
+            "modifiers": { "plunging_dmg_": 0.15 }
           },
           {
             "value": "2",
-            "modifiers": {"plunging_dmg_": 0.30}
+            "modifiers": { "plunging_dmg_": 0.3 }
           },
           {
             "value": "3",
-            "modifiers": {"plunging_dmg_": 0.45}
+            "modifiers": { "plunging_dmg_": 0.45 }
           },
           {
             "value": "4",
-            "modifiers": {"plunging_dmg_": 0.6}
+            "modifiers": { "plunging_dmg_": 0.6 }
           },
           {
             "value": "5",
-            "modifiers": {"plunging_dmg_": 0.75}
+            "modifiers": { "plunging_dmg_": 0.75 }
           }
         ]
       }

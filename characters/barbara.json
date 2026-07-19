@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
     "plunging": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "low": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "high": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -139,11 +107,7 @@
     "skill": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -192,10 +156,8 @@
         "conditionKey": "c2VitalityBurstHydroDmg",
         "source": "Barbara",
         "description": "C2 Vitality Burst: while Let the Show Begin♪ is active, the active character gains a 15% Hydro DMG Bonus.",
-        "gating": {"constellationMin": 2},
-        "states": [
-          {"value": "on", "modifiers": {"hydro_dmg_": 0.15}}
-        ]
+        "gating": { "constellationMin": 2 },
+        "states": [{ "value": "on", "modifiers": { "hydro_dmg_": 0.15 } }]
       }
     ],
     "others_modifiers_json": {},

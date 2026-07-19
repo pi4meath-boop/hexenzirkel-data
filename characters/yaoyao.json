@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "dmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -169,11 +129,7 @@
     "burst": {
       "skillDmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
       },
       "radish": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,20 +191,23 @@
         "conditionKey": "c4Winsome",
         "source": "Yaoyao",
         "description": "C4 Winsome: after using Raphanus Sky Cluster (burst) or Moonjade Descent (skill), Yaoyao's Elemental Mastery increases based on 0.3% of her Max HP for 8s, capped at 120 EM. No eval-time Max-HP-to-EM conversion key exists, so this is approximated at fixed Max HP tiers.",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "states": [
-          {"value": "~20,000 Max HP (60 EM)", "modifiers": {"eleMas": 60}},
-          {"value": "~30,000 Max HP (90 EM)", "modifiers": {"eleMas": 90}},
-          {"value": "Capped (120 EM, ~40,000+ Max HP)", "modifiers": {"eleMas": 120}}
+          { "value": "~20,000 Max HP (60 EM)", "modifiers": { "eleMas": 60 } },
+          { "value": "~30,000 Max HP (90 EM)", "modifiers": { "eleMas": 90 } },
+          {
+            "value": "Capped (120 EM, ~40,000+ Max HP)",
+            "modifiers": { "eleMas": 120 }
+          }
         ]
       },
       {
         "conditionKey": "c6Beneficent",
         "source": "Yaoyao",
         "description": "C6 Beneficent: every 2 White Jade Radishes thrown during Yuegui: Throwing Mode (burst), the next (3rd) throw is a Mega Radish dealing AoE Dendro DMG equal to 75% of Yaoyao's ATK (max 2 Mega Radishes per use). Approximated as a continuous ATK-ratio bonus averaged across throws (0.75 / 3 ~= 0.25) folded onto the burst hits; this also lightly affects the non-Radish burst press hit since both share the burst_dmg_ bonus key and hit_definitions_json cannot be edited to isolate the Radish hit only.",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "states": [
-          {"value": "on", "modifiers": {"burst_dmgIncFromAtk_": 0.25}}
+          { "value": "on", "modifiers": { "burst_dmgIncFromAtk_": 0.25 } }
         ]
       }
     ],
@@ -262,10 +217,8 @@
         "conditionKey": "c1AdeptusTutelage",
         "source": "Yaoyao",
         "description": "C1 Adeptus' Tutelage: when White Jade Radishes explode, active characters within their AoE gain 15% Dendro DMG Bonus for 8s.",
-        "gating": {"constellationMin": 1},
-        "states": [
-          {"value": "on", "modifiers": {"dendro_dmg_": 0.15}}
-        ]
+        "gating": { "constellationMin": 1 },
+        "states": [{ "value": "on", "modifiers": { "dendro_dmg_": 0.15 } }]
       }
     ],
     "others_modifiers_json": {},

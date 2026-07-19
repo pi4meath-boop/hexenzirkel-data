@@ -5,7 +5,7 @@
   "character_key": "avatar_10000101",
   "element": "dendro",
   "weapon_type": "claymore",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "nation": "natlan",
   "base_stats_json": {
     "baseHp": 12858.206654,
@@ -19,70 +19,70 @@
       "0": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       }
     },
     "plunging": {
       "plunge": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeLow": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "plungeHigh": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       }
     },
     "skill": {
       "cannonDmg": {
         "element": "dendro",
         "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "shotDmg": {
         "element": "dendro",
         "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     },
     "burst": {
       "dmg": {
         "element": "dendro",
         "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "dragonBreath": {
         "element": "dendro",
         "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     }
   },

@@ -5,7 +5,7 @@
   "character_key": "avatar_10000112",
   "element": "cryo",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 13348.0427932,
     "baseAtk": 346.808651,
@@ -17,11 +17,7 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -33,11 +29,7 @@
     "skill": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -47,11 +39,7 @@
       },
       "parfaitDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,11 +49,7 @@
       },
       "bladeDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
     "burst": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -144,10 +124,22 @@
         "source": "Escoffier",
         "description": "A1 Low-Temperature Cooking: for 1/2/3/4 Hydro or Cryo party members (counting Escoffier), enemies hit by her Elemental Skill or Burst have their Cryo RES and Hydro RES decreased by 5%/10%/15%/55% for 12s.",
         "states": [
-          {"value": "1 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.05, "cryo_enemyRes_": -0.05}},
-          {"value": "2 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.10, "cryo_enemyRes_": -0.10}},
-          {"value": "3 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.15, "cryo_enemyRes_": -0.15}},
-          {"value": "4 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.55, "cryo_enemyRes_": -0.55}}
+          {
+            "value": "1 cryo/hydro",
+            "modifiers": { "hydro_enemyRes_": -0.05, "cryo_enemyRes_": -0.05 }
+          },
+          {
+            "value": "2 cryo/hydro",
+            "modifiers": { "hydro_enemyRes_": -0.1, "cryo_enemyRes_": -0.1 }
+          },
+          {
+            "value": "3 cryo/hydro",
+            "modifiers": { "hydro_enemyRes_": -0.15, "cryo_enemyRes_": -0.15 }
+          },
+          {
+            "value": "4 cryo/hydro",
+            "modifiers": { "hydro_enemyRes_": -0.55, "cryo_enemyRes_": -0.55 }
+          }
         ]
       }
     ]

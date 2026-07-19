@@ -5,7 +5,7 @@
   "character_key": "avatar_10000023",
   "element": "pyro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"burst": 3, "skill": 5},
+  "constellation_talent_boosts": { "burst": 3, "skill": 5 },
   "nation": "liyue",
   "base_stats_json": {
     "baseHp": 10874.9149,
@@ -35,7 +35,7 @@
         "source": "avatar_10000023",
         "description": "A4 Beware, It's Super Hot!: when Guoba Attack's effects end, Guoba leaves a chili pepper; picking it up increases ATK by 10% for 10s.",
         "modifiers": {
-          "atk_": 0.10
+          "atk_": 0.1
         }
       },
       {

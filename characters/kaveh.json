@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "spin": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "final": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "dmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -169,11 +129,7 @@
     "burst": {
       "dmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -225,28 +181,38 @@
         "source": "Kaveh",
         "description": "A Craftsman's Curious Conceptions (A4): during Painted Dome, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery increases by 25 (once every 0.1s, max 4 stacks / 100 EM). Select the stack count maintained.",
         "states": [
-          {"value": "1 stack", "modifiers": {"eleMas": 25}},
-          {"value": "2 stacks", "modifiers": {"eleMas": 50}},
-          {"value": "3 stacks", "modifiers": {"eleMas": 75}},
-          {"value": "4 stacks", "modifiers": {"eleMas": 100}}
+          { "value": "1 stack", "modifiers": { "eleMas": 25 } },
+          { "value": "2 stacks", "modifiers": { "eleMas": 50 } },
+          { "value": "3 stacks", "modifiers": { "eleMas": 75 } },
+          { "value": "4 stacks", "modifiers": { "eleMas": 100 } }
         ]
       },
       {
         "conditionKey": "c4FeastOfApadana",
         "source": "Kaveh",
         "description": "C4 Feast of Apadana: Dendro Cores created from Bloom and Lunar-Bloom reactions Kaveh triggers deal 60% more DMG when they burst.",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "states": [
-          {"value": "on", "modifiers": {"bloom_dmg_": 0.6, "lunarbloom_dmg_": 0.6}}
+          {
+            "value": "on",
+            "modifiers": { "bloom_dmg_": 0.6, "lunarbloom_dmg_": 0.6 }
+          }
         ]
       },
       {
         "conditionKey": "c6PairidaezasDreams",
         "source": "Kaveh",
         "description": "C6 Pairidaeza's Dreams: when Kaveh's Normal, Charged, or Plunging Attacks hit opponents during Painted Dome, they unleash Pairidaeza's Light, dealing 61.8% of Kaveh's ATK as AoE Dendro DMG. Modeled as an ATK-ratio bonus folded onto those attacks (Arlecchino masqueBondOfLife-style approximation); the accompanying Dendro Core burst trigger is not modeled.",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "states": [
-          {"value": "on", "modifiers": {"normal_dmgIncFromAtk_": 0.618, "charged_dmgIncFromAtk_": 0.618, "plunging_dmgIncFromAtk_": 0.618}}
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmgIncFromAtk_": 0.618,
+              "charged_dmgIncFromAtk_": 0.618,
+              "plunging_dmgIncFromAtk_": 0.618
+            }
+          }
         ]
       }
     ],

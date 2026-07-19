@@ -19,7 +19,7 @@
         "states": [
           {
             "value": "3 stacks",
-            "modifiers": {"stellarconduct_dmg_": 0.48}
+            "modifiers": { "stellarconduct_dmg_": 0.48 }
           }
         ]
       }

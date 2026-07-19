@@ -5,7 +5,7 @@
   "character_key": "avatar_10000130",
   "element": "geo",
   "weapon_type": "bow",
-  "constellation_talent_boosts": {"skill": 3},
+  "constellation_talent_boosts": { "skill": 3 },
   "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 9894.69552967,
@@ -19,61 +19,61 @@
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit3Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "aimedDmg": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "fullyAimedDmg": {
         "element": "geo",
         "dmgBonusKeys": ["charged_dmg_", "geo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "plungeDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeLowDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "plungeHighDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       }
     },
     "skill": {
       "pummelerDmg": {
         "element": "geo",
         "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "def", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "def", "multKey": "p0_mult" }]
       },
       "hammerDmg": {
         "specialType": "direct_lunar_crystallization",
         "element": "geo",
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "def", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "def", "multKey": "p1_mult" }]
       },
       "crushDmg": {
         "specialType": "direct_lunar_crystallization",
         "element": "geo",
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "def", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "def", "multKey": "p2_mult" }]
       }
     }
   },

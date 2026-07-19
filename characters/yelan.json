@@ -20,11 +20,7 @@
     "normal": {
       "hit_1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -34,11 +30,7 @@
       },
       "hit_2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -48,11 +40,7 @@
       },
       "hit_3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,11 +50,7 @@
       },
       "hit_4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -78,11 +62,7 @@
     "charged": {
       "charged_1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -92,11 +72,7 @@
       },
       "charged_aimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -108,11 +84,7 @@
     "plunging": {
       "plunging_dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -122,11 +94,7 @@
       },
       "plunging_low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,11 +104,7 @@
       },
       "plunging_high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -152,11 +116,7 @@
     "skill": {
       "breakthrough_barb": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
@@ -168,11 +128,7 @@
     "burst": {
       "burst_1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
@@ -182,11 +138,7 @@
       },
       "exquisite_throw": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",

@@ -14,17 +14,17 @@
         "conditionKey": "SplendorSkillDmgStacks",
         "source": "SplendorofTranquilWaters",
         "states": {
-          "1": {"skill_dmg_": 0.08},
-          "2": {"skill_dmg_": 0.16},
-          "3": {"skill_dmg_": 0.24}
+          "1": { "skill_dmg_": 0.08 },
+          "2": { "skill_dmg_": 0.16 },
+          "3": { "skill_dmg_": 0.24 }
         }
       },
       {
         "conditionKey": "SplendorHPstacks",
         "source": "SplendorofTranquilWaters",
         "states": {
-          "1": {"hp_": 0.14},
-          "2": {"hp_": 0.28}
+          "1": { "hp_": 0.14 },
+          "2": { "hp_": 0.28 }
         }
       }
     ],

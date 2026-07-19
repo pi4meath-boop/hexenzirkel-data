@@ -14,19 +14,19 @@
         "conditionKey": "widisith_em",
         "source": "TheWidsith",
         "description": "full em buff from widsith",
-        "modifiers": {"em": 480}
+        "modifiers": { "em": 480 }
       },
       {
         "conditionKey": "widisith_atk",
         "source": "TheWidsith",
         "description": "full atk buff from widsith",
-        "modifiers": {"atk_": 1.2}
+        "modifiers": { "atk_": 1.2 }
       },
       {
         "conditionKey": "widisith_dmg",
         "source": "TheWidsith",
         "description": "full elemental dmg bonus buff from widsith",
-        "modifiers": {"all_dmg_": 0.96}
+        "modifiers": { "all_dmg_": 0.96 }
       },
       {
         "conditionKey": "widsith_averaged_1/6",

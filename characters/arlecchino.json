@@ -5,7 +5,7 @@
   "character_key": "avatar_10000096",
   "element": "pyro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"auto": 3, "burst": 5},
+  "constellation_talent_boosts": { "auto": 3, "burst": 5 },
   "nation": "snezhnaya",
   "base_stats_json": {
     "baseHp": 13103.1246236,
@@ -19,83 +19,83 @@
       "0": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "atk", "multKey": "p4_mult"}
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "atk", "multKey": "p4_mult" }
         ]
       },
       "4": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "5": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       }
     },
     "plunging": {
       "plunge": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p8_mult" }]
       },
       "plungeLow": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p9_mult" }]
       },
       "plungeHigh": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p10_mult" }]
       }
     },
     "skill": {
       "sigilDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "spikeDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "finalDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       }
     },
     "burst": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     }
   },
@@ -164,26 +164,26 @@
         "source": "avatar_10000096",
         "description": "Masque of the Red Death: while her Bond of Life is >= 30% of Max HP, Arlecchino's Normal Attacks deal extra DMG equal to ATK x 2.38 x (current Bond of Life %) (NA talent Lv.10). Select the average Bond of Life % maintained during the rotation. Her Bond of Life cap from Blood-Debt Directives is 145% of Max HP.",
         "states": [
-          {"value": "10%", "modifiers": {"normal_dmgIncFromAtk_": 0.238}},
-          {"value": "20%", "modifiers": {"normal_dmgIncFromAtk_": 0.476}},
-          {"value": "30%", "modifiers": {"normal_dmgIncFromAtk_": 0.714}},
-          {"value": "40%", "modifiers": {"normal_dmgIncFromAtk_": 0.952}},
-          {"value": "50%", "modifiers": {"normal_dmgIncFromAtk_": 1.19}},
-          {"value": "60%", "modifiers": {"normal_dmgIncFromAtk_": 1.428}},
-          {"value": "70%", "modifiers": {"normal_dmgIncFromAtk_": 1.666}},
-          {"value": "80%", "modifiers": {"normal_dmgIncFromAtk_": 1.904}},
-          {"value": "90%", "modifiers": {"normal_dmgIncFromAtk_": 2.142}},
-          {"value": "100%", "modifiers": {"normal_dmgIncFromAtk_": 2.38}},
-          {"value": "110%", "modifiers": {"normal_dmgIncFromAtk_": 2.618}},
-          {"value": "120%", "modifiers": {"normal_dmgIncFromAtk_": 2.856}},
-          {"value": "130%", "modifiers": {"normal_dmgIncFromAtk_": 3.094}},
-          {"value": "140%", "modifiers": {"normal_dmgIncFromAtk_": 3.332}},
-          {"value": "150%", "modifiers": {"normal_dmgIncFromAtk_": 3.57}},
-          {"value": "160%", "modifiers": {"normal_dmgIncFromAtk_": 3.808}},
-          {"value": "170%", "modifiers": {"normal_dmgIncFromAtk_": 4.046}},
-          {"value": "180%", "modifiers": {"normal_dmgIncFromAtk_": 4.284}},
-          {"value": "190%", "modifiers": {"normal_dmgIncFromAtk_": 4.522}},
-          {"value": "200%", "modifiers": {"normal_dmgIncFromAtk_": 4.76}}
+          { "value": "10%", "modifiers": { "normal_dmgIncFromAtk_": 0.238 } },
+          { "value": "20%", "modifiers": { "normal_dmgIncFromAtk_": 0.476 } },
+          { "value": "30%", "modifiers": { "normal_dmgIncFromAtk_": 0.714 } },
+          { "value": "40%", "modifiers": { "normal_dmgIncFromAtk_": 0.952 } },
+          { "value": "50%", "modifiers": { "normal_dmgIncFromAtk_": 1.19 } },
+          { "value": "60%", "modifiers": { "normal_dmgIncFromAtk_": 1.428 } },
+          { "value": "70%", "modifiers": { "normal_dmgIncFromAtk_": 1.666 } },
+          { "value": "80%", "modifiers": { "normal_dmgIncFromAtk_": 1.904 } },
+          { "value": "90%", "modifiers": { "normal_dmgIncFromAtk_": 2.142 } },
+          { "value": "100%", "modifiers": { "normal_dmgIncFromAtk_": 2.38 } },
+          { "value": "110%", "modifiers": { "normal_dmgIncFromAtk_": 2.618 } },
+          { "value": "120%", "modifiers": { "normal_dmgIncFromAtk_": 2.856 } },
+          { "value": "130%", "modifiers": { "normal_dmgIncFromAtk_": 3.094 } },
+          { "value": "140%", "modifiers": { "normal_dmgIncFromAtk_": 3.332 } },
+          { "value": "150%", "modifiers": { "normal_dmgIncFromAtk_": 3.57 } },
+          { "value": "160%", "modifiers": { "normal_dmgIncFromAtk_": 3.808 } },
+          { "value": "170%", "modifiers": { "normal_dmgIncFromAtk_": 4.046 } },
+          { "value": "180%", "modifiers": { "normal_dmgIncFromAtk_": 4.284 } },
+          { "value": "190%", "modifiers": { "normal_dmgIncFromAtk_": 4.522 } },
+          { "value": "200%", "modifiers": { "normal_dmgIncFromAtk_": 4.76 } }
         ]
       },
       {
@@ -194,26 +194,26 @@
           "constellationMin": 1
         },
         "states": [
-          {"value": "10%", "modifiers": {"normal_dmgIncFromAtk_": 0.238}},
-          {"value": "20%", "modifiers": {"normal_dmgIncFromAtk_": 0.476}},
-          {"value": "30%", "modifiers": {"normal_dmgIncFromAtk_": 0.714}},
-          {"value": "40%", "modifiers": {"normal_dmgIncFromAtk_": 0.952}},
-          {"value": "50%", "modifiers": {"normal_dmgIncFromAtk_": 1.19}},
-          {"value": "60%", "modifiers": {"normal_dmgIncFromAtk_": 1.428}},
-          {"value": "70%", "modifiers": {"normal_dmgIncFromAtk_": 1.666}},
-          {"value": "80%", "modifiers": {"normal_dmgIncFromAtk_": 1.904}},
-          {"value": "90%", "modifiers": {"normal_dmgIncFromAtk_": 2.142}},
-          {"value": "100%", "modifiers": {"normal_dmgIncFromAtk_": 2.38}},
-          {"value": "110%", "modifiers": {"normal_dmgIncFromAtk_": 2.618}},
-          {"value": "120%", "modifiers": {"normal_dmgIncFromAtk_": 2.856}},
-          {"value": "130%", "modifiers": {"normal_dmgIncFromAtk_": 3.094}},
-          {"value": "140%", "modifiers": {"normal_dmgIncFromAtk_": 3.332}},
-          {"value": "150%", "modifiers": {"normal_dmgIncFromAtk_": 3.57}},
-          {"value": "160%", "modifiers": {"normal_dmgIncFromAtk_": 3.808}},
-          {"value": "170%", "modifiers": {"normal_dmgIncFromAtk_": 4.046}},
-          {"value": "180%", "modifiers": {"normal_dmgIncFromAtk_": 4.284}},
-          {"value": "190%", "modifiers": {"normal_dmgIncFromAtk_": 4.522}},
-          {"value": "200%", "modifiers": {"normal_dmgIncFromAtk_": 4.76}}
+          { "value": "10%", "modifiers": { "normal_dmgIncFromAtk_": 0.238 } },
+          { "value": "20%", "modifiers": { "normal_dmgIncFromAtk_": 0.476 } },
+          { "value": "30%", "modifiers": { "normal_dmgIncFromAtk_": 0.714 } },
+          { "value": "40%", "modifiers": { "normal_dmgIncFromAtk_": 0.952 } },
+          { "value": "50%", "modifiers": { "normal_dmgIncFromAtk_": 1.19 } },
+          { "value": "60%", "modifiers": { "normal_dmgIncFromAtk_": 1.428 } },
+          { "value": "70%", "modifiers": { "normal_dmgIncFromAtk_": 1.666 } },
+          { "value": "80%", "modifiers": { "normal_dmgIncFromAtk_": 1.904 } },
+          { "value": "90%", "modifiers": { "normal_dmgIncFromAtk_": 2.142 } },
+          { "value": "100%", "modifiers": { "normal_dmgIncFromAtk_": 2.38 } },
+          { "value": "110%", "modifiers": { "normal_dmgIncFromAtk_": 2.618 } },
+          { "value": "120%", "modifiers": { "normal_dmgIncFromAtk_": 2.856 } },
+          { "value": "130%", "modifiers": { "normal_dmgIncFromAtk_": 3.094 } },
+          { "value": "140%", "modifiers": { "normal_dmgIncFromAtk_": 3.332 } },
+          { "value": "150%", "modifiers": { "normal_dmgIncFromAtk_": 3.57 } },
+          { "value": "160%", "modifiers": { "normal_dmgIncFromAtk_": 3.808 } },
+          { "value": "170%", "modifiers": { "normal_dmgIncFromAtk_": 4.046 } },
+          { "value": "180%", "modifiers": { "normal_dmgIncFromAtk_": 4.284 } },
+          { "value": "190%", "modifiers": { "normal_dmgIncFromAtk_": 4.522 } },
+          { "value": "200%", "modifiers": { "normal_dmgIncFromAtk_": 4.76 } }
         ]
       },
       {
@@ -224,26 +224,26 @@
           "constellationMin": 6
         },
         "states": [
-          {"value": "10%", "modifiers": {"burst_dmgIncFromAtk_": 0.7}},
-          {"value": "20%", "modifiers": {"burst_dmgIncFromAtk_": 1.4}},
-          {"value": "30%", "modifiers": {"burst_dmgIncFromAtk_": 2.1}},
-          {"value": "40%", "modifiers": {"burst_dmgIncFromAtk_": 2.8}},
-          {"value": "50%", "modifiers": {"burst_dmgIncFromAtk_": 3.5}},
-          {"value": "60%", "modifiers": {"burst_dmgIncFromAtk_": 4.2}},
-          {"value": "70%", "modifiers": {"burst_dmgIncFromAtk_": 4.9}},
-          {"value": "80%", "modifiers": {"burst_dmgIncFromAtk_": 5.6}},
-          {"value": "90%", "modifiers": {"burst_dmgIncFromAtk_": 6.3}},
-          {"value": "100%", "modifiers": {"burst_dmgIncFromAtk_": 7.0}},
-          {"value": "110%", "modifiers": {"burst_dmgIncFromAtk_": 7.7}},
-          {"value": "120%", "modifiers": {"burst_dmgIncFromAtk_": 8.4}},
-          {"value": "130%", "modifiers": {"burst_dmgIncFromAtk_": 9.1}},
-          {"value": "140%", "modifiers": {"burst_dmgIncFromAtk_": 9.8}},
-          {"value": "150%", "modifiers": {"burst_dmgIncFromAtk_": 10.5}},
-          {"value": "160%", "modifiers": {"burst_dmgIncFromAtk_": 11.2}},
-          {"value": "170%", "modifiers": {"burst_dmgIncFromAtk_": 11.9}},
-          {"value": "180%", "modifiers": {"burst_dmgIncFromAtk_": 12.6}},
-          {"value": "190%", "modifiers": {"burst_dmgIncFromAtk_": 13.3}},
-          {"value": "200%", "modifiers": {"burst_dmgIncFromAtk_": 14.0}}
+          { "value": "10%", "modifiers": { "burst_dmgIncFromAtk_": 0.7 } },
+          { "value": "20%", "modifiers": { "burst_dmgIncFromAtk_": 1.4 } },
+          { "value": "30%", "modifiers": { "burst_dmgIncFromAtk_": 2.1 } },
+          { "value": "40%", "modifiers": { "burst_dmgIncFromAtk_": 2.8 } },
+          { "value": "50%", "modifiers": { "burst_dmgIncFromAtk_": 3.5 } },
+          { "value": "60%", "modifiers": { "burst_dmgIncFromAtk_": 4.2 } },
+          { "value": "70%", "modifiers": { "burst_dmgIncFromAtk_": 4.9 } },
+          { "value": "80%", "modifiers": { "burst_dmgIncFromAtk_": 5.6 } },
+          { "value": "90%", "modifiers": { "burst_dmgIncFromAtk_": 6.3 } },
+          { "value": "100%", "modifiers": { "burst_dmgIncFromAtk_": 7.0 } },
+          { "value": "110%", "modifiers": { "burst_dmgIncFromAtk_": 7.7 } },
+          { "value": "120%", "modifiers": { "burst_dmgIncFromAtk_": 8.4 } },
+          { "value": "130%", "modifiers": { "burst_dmgIncFromAtk_": 9.1 } },
+          { "value": "140%", "modifiers": { "burst_dmgIncFromAtk_": 9.8 } },
+          { "value": "150%", "modifiers": { "burst_dmgIncFromAtk_": 10.5 } },
+          { "value": "160%", "modifiers": { "burst_dmgIncFromAtk_": 11.2 } },
+          { "value": "170%", "modifiers": { "burst_dmgIncFromAtk_": 11.9 } },
+          { "value": "180%", "modifiers": { "burst_dmgIncFromAtk_": 12.6 } },
+          { "value": "190%", "modifiers": { "burst_dmgIncFromAtk_": 13.3 } },
+          { "value": "200%", "modifiers": { "burst_dmgIncFromAtk_": 14.0 } }
         ]
       }
     ],

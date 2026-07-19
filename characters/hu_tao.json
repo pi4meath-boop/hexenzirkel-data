@@ -5,7 +5,7 @@
   "character_key": "avatar_10000046",
   "element": "pyro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 15552.3066196,
     "baseAtk": 106.4343801,
@@ -18,78 +18,78 @@
       "0": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "atk", "multKey": "p4_mult"}
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "atk", "multKey": "p4_mult" }
         ]
       },
       "4": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "5": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       }
     },
     "plunging": {
       "plunge": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p9_mult" }]
       },
       "plungeLow": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p10_mult" }]
       },
       "plungeHigh": {
         "element": "pyro",
         "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p11_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p11_mult" }]
       }
     },
     "skill": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     },
     "burst": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "lowHpDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     }
   },

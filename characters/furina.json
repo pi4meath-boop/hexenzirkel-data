@@ -5,7 +5,7 @@
   "character_key": "avatar_10000089",
   "element": "hydro",
   "weapon_type": "sword",
-  "constellation_talent_boosts": {"skill": 5, "burst": 3},
+  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
   "base_stats_json": {
     "baseHp": 15307.388350000001,
     "baseAtk": 243.96194960000003,
@@ -17,11 +17,7 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -33,11 +29,7 @@
     "skill": {
       "bubbleDmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
@@ -94,11 +86,7 @@
     "burst": {
       "hit1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",

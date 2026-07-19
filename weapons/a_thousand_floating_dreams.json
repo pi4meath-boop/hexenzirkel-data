@@ -15,9 +15,9 @@
         "source": "AThousandFloatingDreams",
         "description": "R1 A Thousand Nights' Dawnsong: for each party member (other than the wielder) sharing the wielder's Elemental Type, the wielder gains 32 EM (max 3 stacks = 96 EM). The counterpart effect for different-element allies (+10% of the wielder's own Elemental DMG Bonus per stack, max 3) is not modeled — it requires knowing the wielder's own element dynamically, which isn't supported yet.",
         "states": [
-          {"value": "1", "modifiers": {"eleMas": 32.0}},
-          {"value": "2", "modifiers": {"eleMas": 64.0}},
-          {"value": "3", "modifiers": {"eleMas": 96.0}}
+          { "value": "1", "modifiers": { "eleMas": 32.0 } },
+          { "value": "2", "modifiers": { "eleMas": 64.0 } },
+          { "value": "3", "modifiers": { "eleMas": 96.0 } }
         ]
       }
     ],

@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "fullyAimed": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
       },
       "prop": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -121,11 +93,7 @@
       },
       "pyrotechnic": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -135,11 +103,7 @@
       },
       "spiritbreath": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -165,11 +125,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -179,11 +135,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -195,11 +147,7 @@
     "skill": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -211,11 +159,7 @@
     "burst": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -225,11 +169,7 @@
       },
       "fireworkDmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -241,10 +181,7 @@
     "weapon:SkywardHarp": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -328,23 +265,23 @@
         "states": [
           {
             "value": "1",
-            "modifiers": {"skill_dmgIncFromAtk_": 0.958}
+            "modifiers": { "skill_dmgIncFromAtk_": 0.958 }
           },
           {
             "value": "2",
-            "modifiers": {"skill_dmgIncFromAtk_": 1.916}
+            "modifiers": { "skill_dmgIncFromAtk_": 1.916 }
           },
           {
             "value": "3",
-            "modifiers": {"skill_dmgIncFromAtk_": 2.874}
+            "modifiers": { "skill_dmgIncFromAtk_": 2.874 }
           },
           {
             "value": "4",
-            "modifiers": {"skill_dmgIncFromAtk_": 3.832}
+            "modifiers": { "skill_dmgIncFromAtk_": 3.832 }
           },
           {
             "value": "5",
-            "modifiers": {"skill_dmgIncFromAtk_": 4.790}
+            "modifiers": { "skill_dmgIncFromAtk_": 4.79 }
           }
         ]
       }

@@ -6,7 +6,7 @@
   "element": "hydro",
   "weapon_type": "catalyst",
   "nation": "fontaine",
-  "constellation_talent_boosts": {"auto": 3, "burst": 5},
+  "constellation_talent_boosts": { "auto": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 14695.0932,
     "baseAtk": 208.3244,
@@ -19,70 +19,70 @@
       "0": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_charged_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_charged_mult" }]
       },
       "judgmentDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p_equitable_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p_equitable_mult" }]
       }
     },
     "plunging": {
       "plunge": {
         "element": "hydro",
         "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_mult" }]
       },
       "low": {
         "element": "hydro",
         "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_low_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_low_mult" }]
       },
       "high": {
         "element": "hydro",
         "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_high_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_high_mult" }]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p0_mult" }]
       },
       "spiritbreathThornDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p_spiritbreath_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p_spiritbreath_mult" }]
       }
     },
     "burst": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p0_mult" }]
       },
       "waterfallDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p_waterfall_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p_waterfall_mult" }]
       }
     }
   },
@@ -129,9 +129,9 @@
         "source": "avatar_10000087",
         "description": "A1 improve base dmg from CA",
         "states": [
-          {"value": "1", "modifiers": {"charged_base_dmg_": 0.10}},
-          {"value": "2", "modifiers": {"charged_base_dmg_": 0.25}},
-          {"value": "3", "modifiers": {"charged_base_dmg_": 0.60}}
+          { "value": "1", "modifiers": { "charged_base_dmg_": 0.1 } },
+          { "value": "2", "modifiers": { "charged_base_dmg_": 0.25 } },
+          { "value": "3", "modifiers": { "charged_base_dmg_": 0.6 } }
         ]
       },
       {
@@ -139,27 +139,27 @@
         "source": "avatar_10000087",
         "description": "A4 Discipline of the Supreme Arbitration: +0.6% Hydro DMG for each 1% of current HP above 30% of Max HP, up to +30% (full value at high HP).",
         "states": [
-          {"value": "35% HP", "modifiers": {"hydro_dmg_": 0.3}},
-          {"value": "40% HP", "modifiers": {"hydro_dmg_": 0.6}},
-          {"value": "45% HP", "modifiers": {"hydro_dmg_": 0.9}},
-          {"value": "50% HP", "modifiers": {"hydro_dmg_": 0.12}},
-          {"value": "55% HP", "modifiers": {"hydro_dmg_": 0.15}},
-          {"value": "60% HP", "modifiers": {"hydro_dmg_": 0.18}},
-          {"value": "65% HP", "modifiers": {"hydro_dmg_": 0.21}},
-          {"value": "70% HP", "modifiers": {"hydro_dmg_": 0.24}},
-          {"value": "75% HP", "modifiers": {"hydro_dmg_": 0.27}},
-          {"value": "80% HP", "modifiers": {"hydro_dmg_": 0.30}}
+          { "value": "35% HP", "modifiers": { "hydro_dmg_": 0.3 } },
+          { "value": "40% HP", "modifiers": { "hydro_dmg_": 0.6 } },
+          { "value": "45% HP", "modifiers": { "hydro_dmg_": 0.9 } },
+          { "value": "50% HP", "modifiers": { "hydro_dmg_": 0.12 } },
+          { "value": "55% HP", "modifiers": { "hydro_dmg_": 0.15 } },
+          { "value": "60% HP", "modifiers": { "hydro_dmg_": 0.18 } },
+          { "value": "65% HP", "modifiers": { "hydro_dmg_": 0.21 } },
+          { "value": "70% HP", "modifiers": { "hydro_dmg_": 0.24 } },
+          { "value": "75% HP", "modifiers": { "hydro_dmg_": 0.27 } },
+          { "value": "80% HP", "modifiers": { "hydro_dmg_": 0.3 } }
         ]
       },
       {
         "conditionKey": "pastDraconicGlories",
         "source": "avatar_10000087",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "description": "C2 Juridical Exhortation: each Past Draconic Glories stack grants +14% CRIT DMG to Charged Attack: Equitable Judgment (max 3 stacks). Select how many stacks are active.",
         "states": [
-          {"value": "1", "modifiers": {"charged_critDMG_": 0.14}},
-          {"value": "2", "modifiers": {"charged_critDMG_": 0.28}},
-          {"value": "3", "modifiers": {"charged_critDMG_": 0.42}}
+          { "value": "1", "modifiers": { "charged_critDMG_": 0.14 } },
+          { "value": "2", "modifiers": { "charged_critDMG_": 0.28 } },
+          { "value": "3", "modifiers": { "charged_critDMG_": 0.42 } }
         ]
       }
     ],

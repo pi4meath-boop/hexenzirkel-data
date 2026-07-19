@@ -20,11 +20,7 @@
     "normal": {
       "0": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -34,11 +30,7 @@
       },
       "1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -48,11 +40,7 @@
       },
       "2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,11 +50,7 @@
       },
       "fp0": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -76,11 +60,7 @@
       },
       "fp1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -90,11 +70,7 @@
       },
       "fp2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,11 +82,7 @@
     "charged": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -120,11 +92,7 @@
       },
       "fpDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,11 +104,7 @@
     "plunging": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -150,11 +114,7 @@
       },
       "low": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -164,11 +124,7 @@
       },
       "high": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -178,11 +134,7 @@
       },
       "fpdmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -192,11 +144,7 @@
       },
       "fplow": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -206,11 +154,7 @@
       },
       "fphigh": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -222,11 +166,7 @@
     "skill": {
       "rushDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -236,11 +176,7 @@
       },
       "fpRushDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -252,11 +188,7 @@
     "burst": {
       "kickDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -266,11 +198,7 @@
       },
       "fpKickDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -280,11 +208,7 @@
       },
       "volcanoDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -379,7 +303,10 @@
         "description": "A1 Tag-Team Triple Jump!: after using her Elemental Skill (Riding the Night-Rainbow), Varesa gains Rainbow Crash for 5s -- her next Plunging Attack's ground-impact shockwave DMG is increased by an amount equal to 50% of her ATK (180% of her ATK instead if she is in the Fiery Passion state). Modeled via the ATK-ratio plunge bonus key, which applies uniformly across all plunging hit variants (dmg/low/high and their Fiery Passion fp counterparts).",
         "states": [
           { "value": "base", "modifiers": { "plunging_dmgIncFromAtk_": 0.5 } },
-          { "value": "fieryPassion", "modifiers": { "plunging_dmgIncFromAtk_": 1.8 } }
+          {
+            "value": "fieryPassion",
+            "modifiers": { "plunging_dmgIncFromAtk_": 1.8 }
+          }
         ]
       }
     ],

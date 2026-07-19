@@ -15,12 +15,54 @@
         "source": "TheDaybreakChronicles",
         "description": "R1 Ode Beyond Time: Normal/Skill/Burst hits each independently build their own DMG Bonus by 10% per hit (20% with Hexerei: Secret Rite — faster ramp only, same 60% cap), up to 60%, decaying 10%/s in combat. Modeled as a single synchronized stack count (1-6) applied to all three DMG types at once, assuming a sustained rotation keeps them all near the same stack level; the Hexerei variant only changes ramp speed, not the steady-state cap, so it isn't modeled separately.",
         "states": [
-          {"value": "1", "modifiers": {"normal_dmg_": 0.10, "skill_dmg_": 0.10, "burst_dmg_": 0.10}},
-          {"value": "2", "modifiers": {"normal_dmg_": 0.20, "skill_dmg_": 0.20, "burst_dmg_": 0.20}},
-          {"value": "3", "modifiers": {"normal_dmg_": 0.30, "skill_dmg_": 0.30, "burst_dmg_": 0.30}},
-          {"value": "4", "modifiers": {"normal_dmg_": 0.40, "skill_dmg_": 0.40, "burst_dmg_": 0.40}},
-          {"value": "5", "modifiers": {"normal_dmg_": 0.50, "skill_dmg_": 0.50, "burst_dmg_": 0.50}},
-          {"value": "6", "modifiers": {"normal_dmg_": 0.60, "skill_dmg_": 0.60, "burst_dmg_": 0.60}}
+          {
+            "value": "1",
+            "modifiers": {
+              "normal_dmg_": 0.1,
+              "skill_dmg_": 0.1,
+              "burst_dmg_": 0.1
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "normal_dmg_": 0.2,
+              "skill_dmg_": 0.2,
+              "burst_dmg_": 0.2
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "normal_dmg_": 0.3,
+              "skill_dmg_": 0.3,
+              "burst_dmg_": 0.3
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "normal_dmg_": 0.4,
+              "skill_dmg_": 0.4,
+              "burst_dmg_": 0.4
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "normal_dmg_": 0.5,
+              "skill_dmg_": 0.5,
+              "burst_dmg_": 0.5
+            }
+          },
+          {
+            "value": "6",
+            "modifiers": {
+              "normal_dmg_": 0.6,
+              "skill_dmg_": 0.6,
+              "burst_dmg_": 0.6
+            }
+          }
         ]
       }
     ],

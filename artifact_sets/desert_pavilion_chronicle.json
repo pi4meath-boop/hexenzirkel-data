@@ -12,7 +12,11 @@
         "states": [
           {
             "value": "on",
-            "modifiers": {"normal_dmg_": 0.4, "charged_dmg_": 0.4, "plunging_dmg_": 0.4}
+            "modifiers": {
+              "normal_dmg_": 0.4,
+              "charged_dmg_": 0.4,
+              "plunging_dmg_": 0.4
+            }
           }
         ]
       }

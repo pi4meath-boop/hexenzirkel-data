@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "rideDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -167,11 +127,7 @@
       },
       "independentDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -183,11 +139,7 @@
     "burst": {
       "skillDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -241,9 +193,7 @@
         "conditionKey": "a1MountainEchoesGeoDmg",
         "source": "Kachina",
         "description": "Mountain Echoes (A1): after nearby party members trigger a Nightsoul Burst, Kachina's Geo DMG Bonus increases by 20% for 12s.",
-        "states": [
-          {"value": "on", "modifiers": {"geo_dmg_": 0.2}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "geo_dmg_": 0.2 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -252,12 +202,12 @@
         "conditionKey": "c4MoreFoesMoreCaution",
         "source": "Kachina",
         "description": "C4 More Foes, More Caution: while there are 1/2/3/4+ opponents within the Turbo Drill Field created by Time to Get Serious!, the active character within the field gains 8%/12%/16%/20% increased DEF.",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "states": [
-          {"value": "1 opponent", "modifiers": {"def_": 0.08}},
-          {"value": "2 opponents", "modifiers": {"def_": 0.12}},
-          {"value": "3 opponents", "modifiers": {"def_": 0.16}},
-          {"value": "4+ opponents", "modifiers": {"def_": 0.2}}
+          { "value": "1 opponent", "modifiers": { "def_": 0.08 } },
+          { "value": "2 opponents", "modifiers": { "def_": 0.12 } },
+          { "value": "3 opponents", "modifiers": { "def_": 0.16 } },
+          { "value": "4+ opponents", "modifiers": { "def_": 0.2 } }
         ]
       }
     ],

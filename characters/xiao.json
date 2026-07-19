@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
       },
       "5": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
     "charged": {
       "dmg1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
     "skill": {
       "press": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -231,23 +187,23 @@
         "states": [
           {
             "value": 1,
-            "modifiers": {"all_dmg_": 0.05}
+            "modifiers": { "all_dmg_": 0.05 }
           },
           {
             "value": 2,
-            "modifiers": {"all_dmg_": 0.10}
+            "modifiers": { "all_dmg_": 0.1 }
           },
           {
             "value": 3,
-            "modifiers": {"all_dmg_": 0.15}
+            "modifiers": { "all_dmg_": 0.15 }
           },
           {
             "value": 4,
-            "modifiers": {"all_dmg_": 0.20}
+            "modifiers": { "all_dmg_": 0.2 }
           },
           {
             "value": 5,
-            "modifiers": {"all_dmg_": 0.25}
+            "modifiers": { "all_dmg_": 0.25 }
           }
         ]
       },
@@ -257,15 +213,15 @@
         "states": [
           {
             "value": 1,
-            "modifiers": {"skill_dmg_": 0.15}
+            "modifiers": { "skill_dmg_": 0.15 }
           },
           {
             "value": 2,
-            "modifiers": {"skill_dmg_": 0.30}
+            "modifiers": { "skill_dmg_": 0.3 }
           },
           {
             "value": 3,
-            "modifiers": {"skill_dmg_": 0.45}
+            "modifiers": { "skill_dmg_": 0.45 }
           }
         ]
       }

@@ -16,8 +16,8 @@
         "conditionKey": "HaranWavespikeStacks",
         "source": "HaranGeppakuFutsu",
         "states": {
-          "1": {"normal_dmg_": 0.2},
-          "2": {"normal_dmg_": 0.4}
+          "1": { "normal_dmg_": 0.2 },
+          "2": { "normal_dmg_": 0.4 }
         }
       }
     ],

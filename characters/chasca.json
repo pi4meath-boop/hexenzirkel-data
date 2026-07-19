@@ -5,7 +5,7 @@
   "character_key": "avatar_10000104",
   "element": "anemo",
   "weapon_type": "bow",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "nation": "natlan",
   "base_stats_json": {
     "baseHp": 9796.728784,
@@ -16,32 +16,108 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "hit1Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit1_mult"}]},
-      "hit2Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit2_mult"}]},
-      "hit3Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit3_mult"}]},
-      "hit4Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit4_mult"}]}
+      "hit1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "hit1_mult" }]
+      },
+      "hit2Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "hit2_mult" }]
+      },
+      "hit3Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "hit3_mult" }]
+      },
+      "hit4Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "hit4_mult" }]
+      }
     },
     "charged": {
-      "aimed": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "aimed_mult"}]},
-      "fullyAimed": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "fullyAimed_mult"}]}
+      "aimed": {
+        "element": "physical",
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "aimed_mult" }]
+      },
+      "fullyAimed": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "fullyAimed_mult" }]
+      }
     },
     "plunging": {
-      "plunge": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plunge_mult"}]},
-      "plungeLow": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeLow_mult"}]},
-      "plungeHigh": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeHigh_mult"}]}
+      "plunge": {
+        "element": "physical",
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "plunge_mult" }]
+      },
+      "plungeLow": {
+        "element": "physical",
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "plungeLow_mult" }]
+      },
+      "plungeHigh": {
+        "element": "physical",
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "plungeHigh_mult" }]
+      }
     },
     "skill": {
-      "activationDmg": {"element": "anemo", "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "activationDmg_mult"}]},
-      "pressDmg": {"element": "anemo", "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "pressDmg_mult"}]},
-      "shellDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "shellDmg_mult"}]},
-      "shiningShellDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "shiningShellDmg_mult"}]},
-      "c2MuzzleDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "c2Muzzle_mult"}]}
+      "activationDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "activationDmg_mult" }]
+      },
+      "pressDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "pressDmg_mult" }]
+      },
+      "shellDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "shellDmg_mult" }]
+      },
+      "shiningShellDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
+        ]
+      },
+      "c2MuzzleDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c2Muzzle_mult" }]
+      }
     },
     "burst": {
-      "galeSplittingDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "galeSplittingDmg_mult"}]},
-      "shellDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "burstShellDmg_mult"}]},
-      "radiantDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "radiantDmg_mult"}]},
-      "c4SparksDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "c4Sparks_mult"}]}
+      "galeSplittingDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "galeSplittingDmg_mult" }
+        ]
+      },
+      "shellDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "burstShellDmg_mult" }]
+      },
+      "radiantDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
+      },
+      "c4SparksDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4Sparks_mult" }]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -51,8 +127,12 @@
       "hit3_mult": 0.587044,
       "hit4_mult": 0.503421
     },
-    "charged": {"aimed_mult": 0.867, "fullyAimed_mult": 2.232},
-    "plunging": {"plunge_mult": 1.12336, "plungeLow_mult": 2.246244, "plungeHigh_mult": 2.80568},
+    "charged": { "aimed_mult": 0.867, "fullyAimed_mult": 2.232 },
+    "plunging": {
+      "plunge_mult": 1.12336,
+      "plungeLow_mult": 2.246244,
+      "plungeHigh_mult": 2.80568
+    },
     "skill": {
       "activationDmg_mult": 1.08,
       "pressDmg_mult": 0.648,
@@ -70,7 +150,13 @@
       "provider": "GenshinOptimizer+ProjectAmber",
       "goSheet": "libs/gi/sheets/src/Characters/Chasca",
       "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo. In-game Shining Shells convert to an absorbed element (pyro/hydro/electro/cryo) when 2+ such party members are present; per-element variants can be added if needed. 2026-07: added C2 'Muzzle, the Searing Smoke' (skill.c2MuzzleDmg) and C4 'Sparks, the Sudden Shot' (burst.c4SparksDmg) -- each is a separate 400% ATK AoE elemental-DMG instance (counted as Charged Attack DMG) triggered once per Multitarget Fire / Soul Reaper's Fatal Round use respectively. Modelled as base Anemo like the other Shell hits pending a per-element variant. These require Chasca to actually be at C2/C4 -- there's no in-file constellation gate on hit_definitions, so only include these rotation targets in leaderboards that assume the matching constellation.",
-      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10}
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      }
     }
   },
   "buffs": {

@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
       },
       "fullyAimed": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
     "skill": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
     "burst": {
       "titanbreaker": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -197,11 +149,7 @@
       },
       "stormcluster": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -256,18 +204,14 @@
         "conditionKey": "crowfeatherAtkBonus",
         "source": "Kujou Sara",
         "description": "Tengu Juurai crowfeather (Skill Tengu Stormcall / Burst Subjugation: Koukou Sendou): grants the active character within its AoE an ATK Bonus equal to ~91.3% of Kujou Sara's own Base ATK (character + weapon base ATK, talent Lv13; effects from different Tengu Juurai do not stack). Modeled as a flat ATK add sized for a representative ~650 Base ATK (4-star bow), i.e. ~593 bonus ATK.",
-        "states": [
-          {"value": "on", "modifiers": {"atk": 593.0}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "atk": 593.0 } }]
       },
       {
         "conditionKey": "c6SinOfPride",
         "source": "Kujou Sara",
         "description": "C6 Sin of Pride: the Electro DMG of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%.",
-        "gating": {"constellationMin": 6},
-        "states": [
-          {"value": "on", "modifiers": {"electro_critDMG_": 0.6}}
-        ]
+        "gating": { "constellationMin": 6 },
+        "states": [{ "value": "on", "modifiers": { "electro_critDMG_": 0.6 } }]
       }
     ],
     "others_modifiers_json": {},

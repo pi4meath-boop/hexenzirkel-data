@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "fullyAimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
       },
       "shadow": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -127,11 +99,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -141,11 +109,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -155,11 +119,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -171,11 +131,7 @@
     "skill": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -187,11 +143,7 @@
     "burst": {
       "dusk_0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -201,11 +153,7 @@
       },
       "dusk_1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -215,11 +163,7 @@
       },
       "dusk_2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -229,11 +173,7 @@
       },
       "dusk_3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -290,7 +230,7 @@
         "source": "Sethos",
         "description": "A4 The Sand King's Boon: Sethos gains the Scorching Sandshade effect, increasing the DMG dealt by Shadowpiercing Shots (the burst's dusk_0-3 hits) by 700% of his Elemental Mastery. Modeled as a flat DMG add at 200 EM (a representative crit/EM-hybrid Sethos build) => 7.0*200 = 1400 flat physical DMG, approximated as always active during a Shadowpiercing-Shot-focused rotation. Applied via physical_dmgInc since no hit-specific flat-add key isolates dusk_0-3 from Sethos's ordinary Charged Attacks (aimed/fullyAimed/shadow), which share the same physical_dmg_/charged_dmg_ bonus keys, without touching hit_definitions_json (overestimate on those); admin can override via the LB builder UI for a different EM assumption.",
         "states": [
-          {"value": "on", "modifiers": {"physical_dmgInc": 1400.0}}
+          { "value": "on", "modifiers": { "physical_dmgInc": 1400.0 } }
         ]
       },
       {
@@ -319,9 +259,7 @@
         "gating": {
           "constellationMin": 2
         },
-        "states": [
-          {"value": "on", "modifiers": {"electro_dmg_": 0.30}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "electro_dmg_": 0.3 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -333,9 +271,7 @@
         "gating": {
           "constellationMin": 4
         },
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 80.0}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "eleMas": 80.0 } }]
       }
     ],
     "others_modifiers_json": {},

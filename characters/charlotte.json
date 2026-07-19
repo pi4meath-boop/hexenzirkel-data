@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -65,11 +53,7 @@
     "charged": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
       },
       "thornDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
     "plunging": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "low": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "high": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -139,11 +107,7 @@
     "skill": {
       "photoPressDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
       },
       "photoHoldDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
       },
       "snapMarkDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
       },
       "focusMarkDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -197,11 +149,7 @@
     "burst": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -211,11 +159,7 @@
       },
       "kameraDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -270,30 +214,28 @@
         "source": "Charlotte",
         "description": "A4 Diversified Investigation: when the party contains 1/2/3 non-Fontainians (other than Charlotte), she gains a 5%/10%/15% Cryo DMG Bonus (Healing Bonus branch for Fontainian teammates not modeled).",
         "states": [
-          {"value": "1", "modifiers": {"cryo_dmg_": 0.05}},
-          {"value": "2", "modifiers": {"cryo_dmg_": 0.10}},
-          {"value": "3", "modifiers": {"cryo_dmg_": 0.15}}
+          { "value": "1", "modifiers": { "cryo_dmg_": 0.05 } },
+          { "value": "2", "modifiers": { "cryo_dmg_": 0.1 } },
+          { "value": "3", "modifiers": { "cryo_dmg_": 0.15 } }
         ]
       },
       {
         "conditionKey": "c2ADutyToPursueTruthAtk",
         "source": "Charlotte",
         "description": "C2 A Duty to Pursue Truth: when using Framing: Freezing Point Composition, if Monsieur Verite hits 1/2/3 (or more) opponents, Charlotte's own ATK is increased by 10%/20%/30% for 12s.",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.10}},
-          {"value": "2", "modifiers": {"atk_": 0.20}},
-          {"value": "3", "modifiers": {"atk_": 0.30}}
+          { "value": "1", "modifiers": { "atk_": 0.1 } },
+          { "value": "2", "modifiers": { "atk_": 0.2 } },
+          { "value": "3", "modifiers": { "atk_": 0.3 } }
         ]
       },
       {
         "conditionKey": "c4AResponsibilityToOverseeBurstDmg",
         "source": "Charlotte",
         "description": "C4 A Responsibility to Oversee: when Still Photo: Comprehensive Confirmation (burst) hits an opponent marked by Snappy Silhouette or Focused Impression, it deals 10% more DMG (Energy restoration not modeled).",
-        "gating": {"constellationMin": 4},
-        "states": [
-          {"value": "on", "modifiers": {"burst_dmg_": 0.10}}
-        ]
+        "gating": { "constellationMin": 4 },
+        "states": [{ "value": "on", "modifiers": { "burst_dmg_": 0.1 } }]
       }
     ],
     "team_modifiers_json": {},

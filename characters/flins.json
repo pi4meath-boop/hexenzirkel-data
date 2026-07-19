@@ -5,7 +5,7 @@
   "character_key": "avatar_10000120",
   "element": "electro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"skill": 5, "burst": 3},
+  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
   "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 12490.8290496,
@@ -19,115 +19,115 @@
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit3Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "hit4Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "hit5Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "chargedDmg": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       },
       "plungeLowDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p8_mult" }]
       },
       "plungeHighDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p9_mult" }]
       }
     },
     "skill": {
       "na1": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "na2": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "na3": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "na4": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "na5": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "ca": {
         "element": "electro",
         "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "spearDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     },
     "burst": {
       "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "middleLunarDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "finalLunarDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "thunderDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "thunderAddlDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     }
   },

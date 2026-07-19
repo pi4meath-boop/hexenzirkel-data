@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -65,11 +53,7 @@
     "charged": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -81,11 +65,7 @@
     "plunging": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
       },
       "low": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "high": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -125,11 +97,7 @@
     "skill": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -141,11 +109,7 @@
     "burst": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "hydro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",

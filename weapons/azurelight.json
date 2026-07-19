@@ -14,13 +14,13 @@
         "source": "Azurelight",
         "conditionKey": "skill_active",
         "description": "R1 Whitehill's Bestowal: within 12s after using an Elemental Skill, ATK +24%.",
-        "states": {"active": {"atk_": 0.24}}
+        "states": { "active": { "atk_": 0.24 } }
       },
       {
         "source": "Azurelight",
         "conditionKey": "zero_energy",
         "description": "R1 Whitehill's Bestowal: while the skill buff is active and the character has 0 Energy, ATK +24% more and CRIT DMG +40%.",
-        "states": {"active": {"atk_": 0.24, "critDMG_": 0.40}}
+        "states": { "active": { "atk_": 0.24, "critDMG_": 0.4 } }
       }
     ],
     "team_modifiers_json": {},

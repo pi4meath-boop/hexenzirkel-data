@@ -5,7 +5,7 @@
   "character_key": "avatar_10000042",
   "element": "electro",
   "weapon_type": "sword",
-  "constellation_talent_boosts": {"skill": 5, "burst": 3},
+  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
   "base_stats_json": {
     "baseHp": 13103.1246236,
     "baseAtk": 322.89081300000004,
@@ -17,11 +17,7 @@
     "normal": {
       "0": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -31,11 +27,7 @@
       },
       "1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -45,11 +37,7 @@
       },
       "2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -59,11 +47,7 @@
       },
       "3": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -73,11 +57,7 @@
       },
       "4": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -87,11 +67,7 @@
       },
       "5": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,11 +79,7 @@
     "charged": {
       "dmg1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -117,11 +89,7 @@
       },
       "dmg2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -133,11 +101,7 @@
     "plunging": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -147,11 +111,7 @@
       },
       "low": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -161,11 +121,7 @@
       },
       "high": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -177,11 +133,7 @@
     "skill": {
       "stiletto": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -191,11 +143,7 @@
       },
       "slash": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -205,11 +153,7 @@
       },
       "thunderclap": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -221,11 +165,7 @@
     "burst": {
       "initial": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -235,11 +175,7 @@
       },
       "slash": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -249,11 +185,7 @@
       },
       "final": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -265,11 +197,7 @@
     "constellation1": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",

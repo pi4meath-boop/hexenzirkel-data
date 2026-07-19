@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
     "plunging": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "low": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "high": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -139,11 +107,7 @@
     "skill": {
       "stack0": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
       },
       "stack1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
       },
       "stack2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
       },
       "stack3": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -195,11 +147,7 @@
       },
       "press": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -211,11 +159,7 @@
     "burst": {
       "tick": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -269,10 +213,8 @@
         "conditionKey": "c2ElectromagneticField",
         "source": "Lisa",
         "description": "C2 Electromagnetic Field: while holding Violet Arc (during Lightning Rose's Elemental Burst duration), Lisa's DEF is increased by 25% (also grants interrupt resistance, not modeled).",
-        "gating": {"constellationMin": 2},
-        "states": [
-          {"value": "on", "modifiers": {"def_": 0.25}}
-        ]
+        "gating": { "constellationMin": 2 },
+        "states": [{ "value": "on", "modifiers": { "def_": 0.25 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -281,9 +223,7 @@
         "conditionKey": "a5StaticElectricityField",
         "source": "Lisa",
         "description": "A5 Static Electricity Field: opponents hit by Lightning Rose (Elemental Burst) have their DEF decreased by 15% for 10s. Modeled as a party-wide buff so it applies whether Lisa is the scored character or a support.",
-        "states": [
-          {"value": "on", "modifiers": {"defShred_": 0.15}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "defShred_": 0.15 } }]
       }
     ],
     "others_modifiers_json": {},

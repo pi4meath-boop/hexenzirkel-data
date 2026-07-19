@@ -5,7 +5,7 @@
   "character_key": "avatar_10000125",
   "element": "hydro",
   "weapon_type": "catalyst",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 14695.093175999998,
@@ -19,67 +19,67 @@
       "hit1Dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2Dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit3Dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "dmg_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }]
       },
       "dewDmg": {
         "specialType": "direct_lunarbloom",
         "element": "dendro",
         "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "dew_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "dew_mult" }]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p0_mult" }]
       },
       "continuousDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p1_mult" }]
       },
       "lunarchargedDmg": {
         "specialType": "direct_lunar_charged",
         "element": "electro",
         "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p2_mult" }]
       },
       "lunarbloomDmg": {
         "specialType": "direct_lunarbloom",
         "element": "dendro",
         "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p3_mult" }]
       },
       "lunarcrystallizeDmg": {
         "specialType": "direct_lunar_crystallization",
         "element": "geo",
         "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p4_mult" }]
       }
     },
     "burst": {
       "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "hp", "multKey": "p0_mult" }]
       }
     }
   },
@@ -174,9 +174,9 @@
           "ascMin": 1
         },
         "states": [
-          {"value": "1", "modifiers": {"critRate_": 0.05}},
-          {"value": "2", "modifiers": {"critRate_": 0.10}},
-          {"value": "3", "modifiers": {"critRate_": 0.15}}
+          { "value": "1", "modifiers": { "critRate_": 0.05 } },
+          { "value": "2", "modifiers": { "critRate_": 0.1 } },
+          { "value": "3", "modifiers": { "critRate_": 0.15 } }
         ]
       }
     ],

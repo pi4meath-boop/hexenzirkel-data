@@ -5,7 +5,7 @@
   "character_key": "avatar_10000114",
   "element": "cryo",
   "weapon_type": "sword",
-  "constellation_talent_boosts": {"burst": 3, "skill": 5},
+  "constellation_talent_boosts": { "burst": 3, "skill": 5 },
   "base_stats_json": {
     "baseHp": 12417.3538,
     "baseAtk": 358.7676,
@@ -18,100 +18,100 @@
       "0": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "4": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     },
     "plunging": {
       "plunge": {
         "element": "cryo",
         "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_mult" }]
       },
       "low": {
         "element": "cryo",
         "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_low_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_low_mult" }]
       },
       "high": {
         "element": "cryo",
         "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_plunge_high_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_high_mult" }]
       }
     },
     "skill": {
       "0": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "4": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "5": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "chargedDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p_charged_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p_charged_mult" }]
       }
     },
     "burst": {
       "ruin": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "extinction": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     }
   },
@@ -165,9 +165,18 @@
         "source": "avatar_10000114",
         "description": "A4 Return to Oblivion: each Death's Crossing stack makes Seven-Phase Flash Normal Attacks deal 110%/120%/170% (1/2/3 stacks) and Havoc: Ruin deal 105%/115%/160% of their original DMG. Applied as a base-DMG multiplier: +10%/+20%/+70% Normal Attack base DMG and +5%/+15%/+60% Burst base DMG.",
         "states": [
-          {"value": "1", "modifiers": {"normal_base_dmg_": 0.10, "burst_base_dmg_": 0.05}},
-          {"value": "2", "modifiers": {"normal_base_dmg_": 0.20, "burst_base_dmg_": 0.15}},
-          {"value": "3", "modifiers": {"normal_base_dmg_": 0.70, "burst_base_dmg_": 0.60}}
+          {
+            "value": "1",
+            "modifiers": { "normal_base_dmg_": 0.1, "burst_base_dmg_": 0.05 }
+          },
+          {
+            "value": "2",
+            "modifiers": { "normal_base_dmg_": 0.2, "burst_base_dmg_": 0.15 }
+          },
+          {
+            "value": "3",
+            "modifiers": { "normal_base_dmg_": 0.7, "burst_base_dmg_": 0.6 }
+          }
         ]
       },
       {
@@ -175,21 +184,21 @@
         "source": "avatar_10000114",
         "description": "Burst (Havoc: Extinction) All Shall Wither: while active, Seven-Phase Flash Normal Attacks deal increased DMG, further increased by the number of Void Rifts absorbed: +8%/+12%/+16%/+20% for 0/1/2/3 Rifts.",
         "states": [
-          {"value": "0", "modifiers": {"normal_dmg_": 0.08}},
-          {"value": "1", "modifiers": {"normal_dmg_": 0.12}},
-          {"value": "2", "modifiers": {"normal_dmg_": 0.16}},
-          {"value": "3", "modifiers": {"normal_dmg_": 0.20}}
+          { "value": "0", "modifiers": { "normal_dmg_": 0.08 } },
+          { "value": "1", "modifiers": { "normal_dmg_": 0.12 } },
+          { "value": "2", "modifiers": { "normal_dmg_": 0.16 } },
+          { "value": "3", "modifiers": { "normal_dmg_": 0.2 } }
         ]
       },
       {
         "conditionKey": "deathsCrossingAtk",
         "source": "avatar_10000114",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "description": "C4 Fractured Flow: each Death's Crossing stack increases Skirk's ATK by 10%/20%/40% (1/2/3 stacks). Requires A2 Return to Oblivion.",
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.10}},
-          {"value": "2", "modifiers": {"atk_": 0.20}},
-          {"value": "3", "modifiers": {"atk_": 0.40}}
+          { "value": "1", "modifiers": { "atk_": 0.1 } },
+          { "value": "2", "modifiers": { "atk_": 0.2 } },
+          { "value": "3", "modifiers": { "atk_": 0.4 } }
         ]
       }
     ],

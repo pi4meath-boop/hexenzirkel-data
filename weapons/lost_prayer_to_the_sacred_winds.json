@@ -17,10 +17,10 @@
         "source": "LostPrayertotheSacredWinds",
         "description": "8% all elemental dmg per 4s",
         "states": {
-          "1": {"all_dmg_":0.08},
-          "2": {"all_dmg_":0.16},
-          "3": {"all_dmg_":0.24},
-          "4": {"all_dmg_":0.32}
+          "1": { "all_dmg_": 0.08 },
+          "2": { "all_dmg_": 0.16 },
+          "3": { "all_dmg_": 0.24 },
+          "4": { "all_dmg_": 0.32 }
         }
       }
     ],

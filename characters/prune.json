@@ -20,11 +20,7 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -36,11 +32,7 @@
     "skill": {
       "skillDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -52,11 +44,7 @@
     "burst": {
       "hit1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -98,9 +86,7 @@
         "conditionKey": "hexereiAtkSelf",
         "source": "avatar_10000132",
         "description": "Witch's Eve Rite: Witchseeker's Vow (Hexerei: Secret Rite, requires >=2 Hexerei party members): after a Hexerei character affected by Tolling Rally triggers any Elemental Reaction, Prune's ATK is increased by 60% for 5s.",
-        "states": [
-          {"value": "on", "modifiers": {"atk_": 0.60}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "atk_": 0.6 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -109,9 +95,7 @@
         "conditionKey": "hexereiSwirlAtkBonus",
         "source": "avatar_10000132",
         "description": "Witch's Eve Rite: Witchseeker's Vow (Hexerei: Secret Rite, requires >=2 Hexerei party members): if the Elemental Reaction triggered by a Hexerei character affected by Tolling Rally is specifically a Swirl, the triggering character's ATK is additionally increased by 30% for 5s.",
-        "states": [
-          {"value": "on", "modifiers": {"atk_": 0.30}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "atk_": 0.3 } }]
       },
       {
         "conditionKey": "tollingRally",

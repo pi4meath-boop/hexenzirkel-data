@@ -15,13 +15,13 @@
         "source": "Flower-Wreathed Feathers",
         "description": "R5 Inflorescence Unattainable: while using Aimed Shots, Charged Attack DMG +12% every 0.5s, stacking up to 6 times (max +72%); removed 10s after leaving Aiming Mode. Gliding stamina reduction is not damage-relevant and is not modeled. Select the stack count.",
         "states": [
-          {"value": "0", "modifiers": {}},
-          {"value": "1", "modifiers": {"charged_dmg_": 0.12}},
-          {"value": "2", "modifiers": {"charged_dmg_": 0.24}},
-          {"value": "3", "modifiers": {"charged_dmg_": 0.36}},
-          {"value": "4", "modifiers": {"charged_dmg_": 0.48}},
-          {"value": "5", "modifiers": {"charged_dmg_": 0.60}},
-          {"value": "6", "modifiers": {"charged_dmg_": 0.72}}
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "charged_dmg_": 0.12 } },
+          { "value": "2", "modifiers": { "charged_dmg_": 0.24 } },
+          { "value": "3", "modifiers": { "charged_dmg_": 0.36 } },
+          { "value": "4", "modifiers": { "charged_dmg_": 0.48 } },
+          { "value": "5", "modifiers": { "charged_dmg_": 0.6 } },
+          { "value": "6", "modifiers": { "charged_dmg_": 0.72 } }
         ]
       }
     ],

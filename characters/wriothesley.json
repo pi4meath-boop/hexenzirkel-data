@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
     "charged": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "enhanced_0": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
       },
       "enhanced_1": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
       },
       "enhanced_2": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -195,11 +147,7 @@
       },
       "enhanced_3": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -209,11 +157,7 @@
       },
       "enhanced_4": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -225,11 +169,7 @@
     "burst": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,11 +179,7 @@
       },
       "bladeDmg": {
         "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",

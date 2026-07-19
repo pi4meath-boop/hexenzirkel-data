@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "spinningDmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "finalDmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "press": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
       },
       "hold": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
     "burst": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -197,11 +149,7 @@
       },
       "companionDmg1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -212,11 +160,7 @@
       },
       "companionDmg2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -227,11 +171,7 @@
       },
       "companionDmg3": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -242,11 +182,7 @@
       },
       "companionDmg4": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -259,10 +195,7 @@
     "lockedPassive": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -274,10 +207,7 @@
     "constellation6": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -339,43 +269,40 @@
         "conditionKey": "a4Hunger",
         "source": "avatar_10000020",
         "description": "A4 Hunger: when Razor's Energy is below 50%, his Energy Recharge is increased by 30%.",
-        "states": [
-          {"value": "on", "modifiers": {"enerRech_": 0.30}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "enerRech_": 0.3 } }]
       },
       {
         "conditionKey": "c1WolfsInstinctDmg",
         "source": "avatar_10000020",
-        "gating": {"constellationMin": 1},
+        "gating": { "constellationMin": 1 },
         "description": "C1 Wolf's Instinct: picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
-        "states": [
-          {"value": "on", "modifiers": {"all_dmg_": 0.10}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "all_dmg_": 0.1 } }]
       },
       {
         "conditionKey": "c2SuppressionCritRate",
         "source": "avatar_10000020",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "description": "C2 Suppression: increases CRIT Rate against opponents with less than 30% HP by 10%.",
-        "states": [
-          {"value": "on", "modifiers": {"critRate_": 0.03}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "critRate_": 0.03 } }]
       },
       {
         "conditionKey": "hexereiWolfWithinDmgInc",
         "source": "avatar_10000020",
         "description": "v6.2 Hexerei: Secret Rite (requires 2+ Hexerei characters in the party and completing Witch's Homework: Of the Little Wolf Pack): while The Wolf Within (burst) is active, its coordinated-attack hits (companionDmg1-4) deal bonus DMG equal to 70% of Razor's ATK.",
         "states": [
-          {"value": "on", "modifiers": {"razorWolfWithinDmgIncFromAtk_": 0.70}}
+          {
+            "value": "on",
+            "modifiers": { "razorWolfWithinDmgIncFromAtk_": 0.7 }
+          }
         ]
       },
       {
         "conditionKey": "c6LupusFulgurisSigilBuff",
         "source": "avatar_10000020",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "description": "C6 Lupus Fulguris: for 15s after Razor consumes Electro Sigils (gained from Claw and Thunder or the periodic lightning-charged Normal Attack), his CRIT Rate is increased by 10% and CRIT DMG by 50%. The periodic lightning strike itself (100% ATK Electro DMG every 10s) is modeled separately as the constellation6.dmg hit.",
         "states": [
-          {"value": "on", "modifiers": {"critRate_": 0.10, "critDMG_": 0.50}}
+          { "value": "on", "modifiers": { "critRate_": 0.1, "critDMG_": 0.5 } }
         ]
       }
     ],
@@ -384,11 +311,9 @@
       {
         "conditionKey": "c4BiteDefShred",
         "source": "avatar_10000020",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "description": "C4 Bite: when casting Claw and Thunder (Press), opponents hit have their DEF decreased by 15% for 7s. Modeled as a party-wide buff so it applies whether Razor is the scored character or a support.",
-        "states": [
-          {"value": "on", "modifiers": {"defShred_": 0.15}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "defShred_": 0.15 } }]
       }
     ],
     "others_modifiers_json": {},

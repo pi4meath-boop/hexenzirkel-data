@@ -17,12 +17,12 @@
         "source": "UltimateOverlordsMegaMagicSword",
         "description": "Melussistance!: ATK increased by 24%. Additionally, the support from all Melusines you've helped in Merusea Village fills you with strength, increasing ATK by a further 4% per Melusine helped, up to 24% at 6 Melusines helped (select how many Melusines have been helped).",
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.04}},
-          {"value": "2", "modifiers": {"atk_": 0.08}},
-          {"value": "3", "modifiers": {"atk_": 0.12}},
-          {"value": "4", "modifiers": {"atk_": 0.16}},
-          {"value": "5", "modifiers": {"atk_": 0.2}},
-          {"value": "6", "modifiers": {"atk_": 0.24}}
+          { "value": "1", "modifiers": { "atk_": 0.04 } },
+          { "value": "2", "modifiers": { "atk_": 0.08 } },
+          { "value": "3", "modifiers": { "atk_": 0.12 } },
+          { "value": "4", "modifiers": { "atk_": 0.16 } },
+          { "value": "5", "modifiers": { "atk_": 0.2 } },
+          { "value": "6", "modifiers": { "atk_": 0.24 } }
         ]
       }
     ],

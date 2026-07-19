@@ -18,156 +18,156 @@
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2aDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit2bDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "hit3aDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "hit3bDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "hit4aDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "hit4bDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "hit5aDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       },
       "hit5bDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p8_mult" }]
       },
       "chargedDmg1": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p9_mult" }]
       },
       "chargedDmg2": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p10_mult" }]
       },
       "plungeDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p12_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p12_mult" }]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "anemo",
         "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "na1": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "na21": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "na22": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "na31": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "na32": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "na41": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       },
       "na42": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p8_mult" }]
       },
       "na51": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p9_mult" }]
       },
       "na52": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p10_mult" }]
       },
       "ca1": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p11_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p11_mult" }]
       },
       "ca2": {
         "element": "anemo",
         "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p12_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p12_mult" }]
       },
       "fourWindsAscensionDmg1": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p13_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p13_mult" }]
       },
       "fourWindsAscensionDmg2": {
         "element": "anemo",
         "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p14_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p14_mult" }]
       },
       "azure1": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p15_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p15_mult" }]
       },
       "azure2": {
         "element": "anemo",
         "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p16_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p16_mult" }]
       }
     },
     "burst": {
       "dmg1": {
         "element": "pyro",
         "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "dmg2": {
         "element": "anemo",
         "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     }
   },

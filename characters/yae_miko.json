@@ -5,7 +5,7 @@
   "character_key": "avatar_10000058",
   "element": "electro",
   "weapon_type": "catalyst",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 10372.2864676,
     "baseAtk": 339.6332956,
@@ -18,105 +18,105 @@
       "hit1Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit3Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "chargedDmg": {
         "element": "electro",
         "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "plungeDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "plungeLow": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeHigh": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     },
     "skill": {
       "dmg1": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "dmg2": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "dmg3": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "dmg4": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       }
     },
     "burst": {
       "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "tenkoThunderboltDmg": {
         "element": "electro",
         "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     },
     "lockedPassive": {
       "dmg1": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "dmg2": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "dmg3": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "dmg4": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "dmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       }
     },
     "passive1": {
       "stellarDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     }
   },
@@ -178,12 +178,12 @@
       {
         "conditionKey": "c6SakuraDefIgnore",
         "source": "avatar_10000058",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "description": "C6 Forbidden Art: Daisesshou: the Sesshou Sakura's attacks ignore 60% of opponents' DEF. Applied as defIgnore_ (affects the skill/Sakura hits).",
         "states": [
           {
             "value": "on",
-            "modifiers": {"defIgnore_": 0.6}
+            "modifiers": { "defIgnore_": 0.6 }
           }
         ]
       }
@@ -193,18 +193,21 @@
       {
         "conditionKey": "c1RadianceStellarConduct",
         "source": "avatar_10000058",
-        "gating": {"constellationMin": 1},
+        "gating": { "constellationMin": 1 },
         "description": "C1 (6.7 Stellar-Conduct): after Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members gain +40% Electro DMG and +40% Stellar-Conduct DMG for 8s.",
         "states": [
-          {"value": "on", "modifiers": {"electro_dmg_": 0.5, "stellarconduct_dmg_": 0.5}}
+          {
+            "value": "on",
+            "modifiers": { "electro_dmg_": 0.5, "stellarconduct_dmg_": 0.5 }
+          }
         ]
       },
       {
         "conditionKey": "c4SakuraChanneling",
         "source": "avatar_10000058",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "description": "C4 Sakura Channeling: when Sesshou Sakura lightning hits opponents, all nearby party members gain +20% Electro DMG Bonus for 5s.",
-        "modifiers": {"electro_dmg_": 0.2}
+        "modifiers": { "electro_dmg_": 0.2 }
       }
     ]
   }

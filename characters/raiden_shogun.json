@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
       },
       "5": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -107,11 +83,7 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
     "skill": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
       },
       "coorDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -197,14 +149,8 @@
     "burst": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveInitial_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveInitial_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -214,14 +160,8 @@
       },
       "hit1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit1_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit1_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -231,14 +171,8 @@
       },
       "hit2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit2_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit2_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -248,14 +182,8 @@
       },
       "hit3": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit3_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit3_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -265,14 +193,8 @@
       },
       "hit41": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit41_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit41_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -282,14 +204,8 @@
       },
       "hit42": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit42_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit42_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -299,14 +215,8 @@
       },
       "hit5": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveHit5_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveHit5_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -316,14 +226,8 @@
       },
       "charged1": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveCharged1_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveCharged1_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -333,14 +237,8 @@
       },
       "charged2": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolveCharged2_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolveCharged2_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -350,14 +248,8 @@
       },
       "plunge": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolvePlunge_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolvePlunge_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -367,14 +259,8 @@
       },
       "plungeLow": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolvePlungeLow_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolvePlungeLow_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -384,14 +270,8 @@
       },
       "plungeHigh": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "raiden_resolvePlungeHigh_mult_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["raiden_resolvePlungeHigh_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -480,7 +360,7 @@
             "value": "20 stacks",
             "modifiers": {
               "raiden_resolveInitial_mult_": 1.194012,
-              "raiden_resolveHit1_mult_": 1.327530,
+              "raiden_resolveHit1_mult_": 1.32753,
               "raiden_resolveHit2_mult_": 1.333352,
               "raiden_resolveHit3_mult_": 1.272248,
               "raiden_resolveHit41_mult_": 1.474386,
@@ -489,7 +369,7 @@
               "raiden_resolveCharged1_mult_": 1.237871,
               "raiden_resolveCharged2_mult_": 1.197053,
               "raiden_resolvePlunge_mult_": 1.206856,
-              "raiden_resolvePlungeLow_mult_": 1.103450,
+              "raiden_resolvePlungeLow_mult_": 1.10345,
               "raiden_resolvePlungeHigh_mult_": 1.082822
             }
           },
@@ -530,10 +410,10 @@
           {
             "value": "50 stacks",
             "modifiers": {
-              "raiden_resolveInitial_mult_": 1.485030,
+              "raiden_resolveInitial_mult_": 1.48503,
               "raiden_resolveHit1_mult_": 1.818824,
               "raiden_resolveHit2_mult_": 1.833381,
-              "raiden_resolveHit3_mult_": 1.680620,
+              "raiden_resolveHit3_mult_": 1.68062,
               "raiden_resolveHit41_mult_": 2.185965,
               "raiden_resolveHit42_mult_": 2.182596,
               "raiden_resolveHit5_mult_": 1.495405,

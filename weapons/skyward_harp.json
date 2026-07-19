@@ -9,7 +9,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "critDMG_": 0.20
+      "critDMG_": 0.2
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},

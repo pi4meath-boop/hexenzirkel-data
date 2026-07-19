@@ -17,10 +17,10 @@
         "conditionKey": "stacks",
         "description": "R1: gain stacks (via Nightsoul points / bites): Normal Attack DMG +12% per stack, max 4 stacks.",
         "states": [
-          {"value": "1", "modifiers": {"normal_dmg_": 0.12}},
-          {"value": "2", "modifiers": {"normal_dmg_": 0.24}},
-          {"value": "3", "modifiers": {"normal_dmg_": 0.36}},
-          {"value": "4", "modifiers": {"normal_dmg_": 0.48}}
+          { "value": "1", "modifiers": { "normal_dmg_": 0.12 } },
+          { "value": "2", "modifiers": { "normal_dmg_": 0.24 } },
+          { "value": "3", "modifiers": { "normal_dmg_": 0.36 } },
+          { "value": "4", "modifiers": { "normal_dmg_": 0.48 } }
         ]
       }
     ],

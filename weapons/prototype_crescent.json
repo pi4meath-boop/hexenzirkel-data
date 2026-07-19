@@ -13,7 +13,7 @@
       {
         "conditionKey": "CrescentCAweakPointHit",
         "source": "PrototypeCrescent",
-        "modifiers":{
+        "modifiers": {
           "atk_": 0.72
         }
       }

@@ -13,9 +13,9 @@
         "source": "GildedDreams",
         "description": "",
         "states": [
-          {"value": "1 character", "modifiers": {"atk_": 0.14}},
-          {"value": "2 characters", "modifiers": {"atk_": 0.28}},
-          {"value": "3 characters", "modifiers": {"atk_": 0.42}}
+          { "value": "1 character", "modifiers": { "atk_": 0.14 } },
+          { "value": "2 characters", "modifiers": { "atk_": 0.28 } },
+          { "value": "3 characters", "modifiers": { "atk_": 0.42 } }
         ]
       },
       {
@@ -23,9 +23,9 @@
         "source": "GildedDreams",
         "description": "",
         "states": [
-          {"value": "1 character", "modifiers": {"eleMas": 50}},
-          {"value": "2 characters", "modifiers": {"eleMas": 100}},
-          {"value": "3 characters", "modifiers": {"eleMas": 150}}
+          { "value": "1 character", "modifiers": { "eleMas": 50 } },
+          { "value": "2 characters", "modifiers": { "eleMas": 100 } },
+          { "value": "3 characters", "modifiers": { "eleMas": 150 } }
         ]
       }
     ]

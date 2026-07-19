@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "pressDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -167,11 +127,7 @@
       },
       "ringDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
     "burst": {
       "singleDmg": {
         "element": "electro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "electro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
@@ -240,21 +192,19 @@
         "source": "Kuki Shinobu",
         "description": "Heart's Repose (A4): Sanctifying Ring's DMG (Grass Ring of Sanctification's periodic ring tick) is increased by 25% of Shinobu's Elemental Mastery (the Healing Bonus portion of this passive is not modeled). Modeled as a flat skill_dmgInc at representative EM values; note this flat add also applies to the ring's initial pressDmg hit since no hit-specific key exists for ringDmg without touching hit_definitions_json (minor overestimate).",
         "states": [
-          {"value": "200 EM", "modifiers": {"skill_dmgInc": 50}},
-          {"value": "400 EM", "modifiers": {"skill_dmgInc": 100}},
-          {"value": "600 EM", "modifiers": {"skill_dmgInc": 150}},
-          {"value": "800 EM", "modifiers": {"skill_dmgInc": 200}},
-          {"value": "1000 EM", "modifiers": {"skill_dmgInc": 250}}
+          { "value": "200 EM", "modifiers": { "skill_dmgInc": 50 } },
+          { "value": "400 EM", "modifiers": { "skill_dmgInc": 100 } },
+          { "value": "600 EM", "modifiers": { "skill_dmgInc": 150 } },
+          { "value": "800 EM", "modifiers": { "skill_dmgInc": 200 } },
+          { "value": "1000 EM", "modifiers": { "skill_dmgInc": 250 } }
         ]
       },
       {
         "conditionKey": "c6ToWardWeakness",
         "source": "Kuki Shinobu",
         "description": "C6 To Ward Weakness: when Shinobu's HP drops below 25%, she gains 150 Elemental Mastery for 15s (triggers once every 60s; the death-prevention effect is not damage-relevant and is not modeled).",
-        "gating": {"constellationMin": 6},
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 150}}
-        ]
+        "gating": { "constellationMin": 6 },
+        "states": [{ "value": "on", "modifiers": { "eleMas": 150 } }]
       }
     ],
     "team_modifiers_json": {},

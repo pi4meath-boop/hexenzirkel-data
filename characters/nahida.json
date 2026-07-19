@@ -5,7 +5,7 @@
   "character_key": "avatar_10000073",
   "element": "dendro",
   "weapon_type": "catalyst",
-  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 10360.0405293,
     "baseAtk": 298.972975,
@@ -17,11 +17,7 @@
     "normal": {
       "0": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -31,11 +27,7 @@
       },
       "1": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -45,11 +37,7 @@
       },
       "2": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -59,11 +47,7 @@
       },
       "3": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -75,11 +59,7 @@
     "charged": {
       "dmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
     "plunging": {
       "dmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -105,11 +81,7 @@
       },
       "low": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -119,11 +91,7 @@
       },
       "high": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -135,11 +103,7 @@
     "skill": {
       "pressDmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -149,11 +113,7 @@
       },
       "holdDmg": {
         "element": "dendro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "dendro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -240,7 +200,7 @@
   "buffs": {
     "self_modifiers_json": {
       "karmadmg_dmg_from_eleMas_excess200_": 0.001,
-      "karmadmg_dmg_from_eleMas_excess200_cap_": 0.80,
+      "karmadmg_dmg_from_eleMas_excess200_cap_": 0.8,
       "karmadmg_critRate_from_eleMas_excess200_": 0.0003,
       "karmadmg_critRate_from_eleMas_excess200_cap_": 0.24
     },

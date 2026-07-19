@@ -11,8 +11,8 @@
         "source": "GoldenTroupe",
         "description": "4pc: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field.",
         "states": {
-          "on_field": {"skill_dmg_": 0.25},
-          "off_field": {"skill_dmg_": 0.5}
+          "on_field": { "skill_dmg_": 0.25 },
+          "off_field": { "skill_dmg_": 0.5 }
         }
       }
     ],

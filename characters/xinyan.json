@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "spin": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "final": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,11 +117,7 @@
     "skill": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -169,11 +129,7 @@
     "burst": {
       "pressPhysDmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -183,11 +139,7 @@
       },
       "dotPyroDmg": {
         "element": "pyro",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,18 +191,18 @@
         "conditionKey": "c2ImpromptuOpening",
         "source": "Xinyan",
         "description": "C2 Impromptu Opening: Riff Revolution's (burst) Physical DMG (pressPhysDmg hit) has its CRIT Rate increased by 100%, and forms a Shield Level 3: Rave shield when cast.",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "states": [
-          {"value": "on", "modifiers": {"pressphysdmg_critRate_": 1.0}}
+          { "value": "on", "modifiers": { "pressphysdmg_critRate_": 1.0 } }
         ]
       },
       {
         "conditionKey": "c6RockinInAFlamingWorld",
         "source": "Xinyan",
         "description": "C6 Rockin' in a Flaming World: Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
-        "gating": {"constellationMin": 6},
+        "gating": { "constellationMin": 6 },
         "states": [
-          {"value": "on", "modifiers": {"charged_dmgIncFromDef_": 0.5}}
+          { "value": "on", "modifiers": { "charged_dmgIncFromDef_": 0.5 } }
         ]
       }
     ],
@@ -260,17 +212,15 @@
         "conditionKey": "a4RockNRoll",
         "source": "Xinyan",
         "description": "A4 \"...Now That's Rock 'N' Roll!\": characters shielded by Sweeping Fervor (Elemental Skill) deal 15% increased Physical DMG.",
-        "states": [
-          {"value": "on", "modifiers": {"physical_dmg_": 0.15}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "physical_dmg_": 0.15 } }]
       },
       {
         "conditionKey": "c4WildfireRhythm",
         "source": "Xinyan",
         "description": "C4 Wildfire Rhythm: Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.",
-        "gating": {"constellationMin": 4},
+        "gating": { "constellationMin": 4 },
         "states": [
-          {"value": "on", "modifiers": {"physical_enemyRes_": -0.15}}
+          { "value": "on", "modifiers": { "physical_enemyRes_": -0.15 } }
         ]
       }
     ],

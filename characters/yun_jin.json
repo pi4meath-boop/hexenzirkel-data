@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
       },
       "5": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -105,11 +81,7 @@
       },
       "6": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -121,11 +93,7 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -165,11 +125,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
     "skill": {
       "dmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -195,11 +147,7 @@
       },
       "dmg1": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -209,11 +157,7 @@
       },
       "dmg2": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "def",
@@ -225,11 +169,7 @@
     "burst": {
       "dmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -284,10 +224,8 @@
         "conditionKey": "c4FlowerAndAFighter",
         "source": "Yun Jin",
         "description": "C4 Flower and a Fighter: when Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s.",
-        "gating": {"constellationMin": 4},
-        "states": [
-          {"value": "on", "modifiers": {"def_": 0.2}}
-        ]
+        "gating": { "constellationMin": 4 },
+        "states": [{ "value": "on", "modifiers": { "def_": 0.2 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -297,20 +235,30 @@
         "source": "Yun Jin",
         "description": "A4 Breaking Conventions: the Normal Attack DMG Bonus granted by Flying Cloud Flag Formation (Elemental Skill) is further increased based on Yun Jin's DEF, scaling with the number of distinct elemental types in the party (2.5% / 5% / 7.5% / 11.5% of DEF for 1 / 2 / 3 / 4 types). Only this A4 increment is modeled; the Flag Formation's own base Normal ATK DMG% from the Skill itself is out of scope.",
         "states": [
-          {"value": "1 element", "modifiers": {"normal_dmgIncFromDef_": 0.025}},
-          {"value": "2 elements", "modifiers": {"normal_dmgIncFromDef_": 0.05}},
-          {"value": "3 elements", "modifiers": {"normal_dmgIncFromDef_": 0.075}},
-          {"value": "4 elements", "modifiers": {"normal_dmgIncFromDef_": 0.115}}
+          {
+            "value": "1 element",
+            "modifiers": { "normal_dmgIncFromDef_": 0.025 }
+          },
+          {
+            "value": "2 elements",
+            "modifiers": { "normal_dmgIncFromDef_": 0.05 }
+          },
+          {
+            "value": "3 elements",
+            "modifiers": { "normal_dmgIncFromDef_": 0.075 }
+          },
+          {
+            "value": "4 elements",
+            "modifiers": { "normal_dmgIncFromDef_": 0.115 }
+          }
         ]
       },
       {
         "conditionKey": "c2MyriadMiseEnScene",
         "source": "Yun Jin",
         "description": "C2 Myriad Mise-En-Scene: after Cliffbreaker's Banner (burst) is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
-        "gating": {"constellationMin": 2},
-        "states": [
-          {"value": "on", "modifiers": {"normal_dmg_": 0.15}}
-        ]
+        "gating": { "constellationMin": 2 },
+        "states": [{ "value": "on", "modifiers": { "normal_dmg_": 0.15 } }]
       }
     ],
     "others_modifiers_json": {},

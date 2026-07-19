@@ -189,10 +189,34 @@
         "source": "Xianyun",
         "description": "A4 Consider, the Adeptus in Her Realm: while the Starwicker (from Stars Gather at Dusk) has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG is increased by 200% of Xianyun's ATK, capped at 9,000 DMG (cap reached at 4,500 ATK). The 'shockwave' is the ground-impact hit only (plunging_low / plunging_high) — it does NOT apply to the mid-air collision hit (plunging_dmg), even though all three share the plunging_dmg_ attack-type bonus key. Modeled as hit-scoped flat plunging_low_dmgInc/plunging_high_dmgInc at fixed ATK breakpoints since the evaluator has no generic ratio-with-cap mechanism; pick the state matching Xianyun's actual ATK.",
         "states": [
-          { "value": "3500atk", "modifiers": { "plunging_low_dmgInc": 7000, "plunging_high_dmgInc": 7000 } },
-          { "value": "4000atk", "modifiers": { "plunging_low_dmgInc": 8000, "plunging_high_dmgInc": 8000 } },
-          { "value": "4300atk", "modifiers": { "plunging_low_dmgInc": 8600, "plunging_high_dmgInc": 8600 } },
-          { "value": "capped", "modifiers": { "plunging_low_dmgInc": 9000, "plunging_high_dmgInc": 9000 } }
+          {
+            "value": "3500atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 7000,
+              "plunging_high_dmgInc": 7000
+            }
+          },
+          {
+            "value": "4000atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 8000,
+              "plunging_high_dmgInc": 8000
+            }
+          },
+          {
+            "value": "4300atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 8600,
+              "plunging_high_dmgInc": 8600
+            }
+          },
+          {
+            "value": "capped",
+            "modifiers": {
+              "plunging_low_dmgInc": 9000,
+              "plunging_high_dmgInc": 9000
+            }
+          }
         ]
       },
       {
@@ -201,10 +225,34 @@
         "gating": { "constellationMin": 2 },
         "description": "C2 enhances A4: Plunging Attack shockwave DMG bonus increases from 200% to 400% of Xianyun's ATK, cap increases from 9,000 to 18,000 DMG (cap still reached at 4,500 ATK). Same shockwave-only scope as a4GalesOfReverie (excludes the plunging_dmg collision hit). Modeled as an additional copy of the same capped hit-scoped breakpoints on top of the base a4GalesOfReverie entry (200%+200% = 400%, 9,000+9,000 = 18,000 cap) — select the same ATK-breakpoint state as a4GalesOfReverie.",
         "states": [
-          { "value": "3500atk", "modifiers": { "plunging_low_dmgInc": 7000, "plunging_high_dmgInc": 7000 } },
-          { "value": "4000atk", "modifiers": { "plunging_low_dmgInc": 8000, "plunging_high_dmgInc": 8000 } },
-          { "value": "4300atk", "modifiers": { "plunging_low_dmgInc": 8600, "plunging_high_dmgInc": 8600 } },
-          { "value": "capped", "modifiers": { "plunging_low_dmgInc": 9000, "plunging_high_dmgInc": 9000 } }
+          {
+            "value": "3500atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 7000,
+              "plunging_high_dmgInc": 7000
+            }
+          },
+          {
+            "value": "4000atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 8000,
+              "plunging_high_dmgInc": 8000
+            }
+          },
+          {
+            "value": "4300atk",
+            "modifiers": {
+              "plunging_low_dmgInc": 8600,
+              "plunging_high_dmgInc": 8600
+            }
+          },
+          {
+            "value": "capped",
+            "modifiers": {
+              "plunging_low_dmgInc": 9000,
+              "plunging_high_dmgInc": 9000
+            }
+          }
         ]
       }
     ]

@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -77,11 +61,7 @@
       },
       "4": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,11 +71,7 @@
       },
       "5": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -105,11 +81,7 @@
       },
       "6": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -121,11 +93,7 @@
     "charged": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,11 +115,7 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -165,11 +125,7 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -181,11 +137,7 @@
     "burst": {
       "slugger_dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,7 +191,10 @@
           "constellationMin": 6
         },
         "states": [
-          {"value": "on", "modifiers": {"skill_critRate_": 0.12, "skill_critDMG_": 0.32}}
+          {
+            "value": "on",
+            "modifiers": { "skill_critRate_": 0.12, "skill_critDMG_": 0.32 }
+          }
         ]
       }
     ],
@@ -251,9 +206,7 @@
         "conditionKey": "a4PenetrativeReasoningEM",
         "source": "Shikanoin Heizou",
         "description": "A4 Penetrative Reasoning: after Heizou's Heartstopper Strike (Elemental Skill) hits an opponent, increases all party members' (excluding Heizou) Elemental Mastery by 80 for 10s.",
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 80.0}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "eleMas": 80.0 } }]
       }
     ]
   }

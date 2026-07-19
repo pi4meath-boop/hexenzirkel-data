@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -63,11 +51,7 @@
       },
       "3": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
     "charged": {
       "cyclicDmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,11 +73,7 @@
       },
       "finalDmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -137,11 +105,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,14 +117,8 @@
     "skill": {
       "totalShardDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
-        "mvMultiplierKeys": [
-          "navia_e_shardshot_mult_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["navia_e_shardshot_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -170,11 +128,7 @@
       },
       "bladeDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -186,11 +140,7 @@
     "burst": {
       "skillDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -200,11 +150,7 @@
       },
       "supportDmg": {
         "element": "geo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "geo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -258,7 +204,14 @@
         "source": "avatar_10000091",
         "description": "A1 Undisclosed Distribution Channels: For 4s after using Ceremonial Crystalshot, the DMG dealt by Navia's Normal, Charged, and Plunging Attacks will be converted into Geo DMG which cannot be overridden by other Elemental infusions, and increased by 40%.",
         "states": [
-          {"value": "on", "modifiers": {"normal_dmg_": 0.4, "charged_dmg_": 0.4, "plunging_dmg_": 0.4}}
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.4,
+              "charged_dmg_": 0.4,
+              "plunging_dmg_": 0.4
+            }
+          }
         ]
       },
       {
@@ -266,8 +219,8 @@
         "source": "avatar_10000091",
         "description": "A4 Mutual Assistance Network: For each Pyro/Electro/Cryo/Hydro party member, Navia gains 20% increased ATK. This effect can stack up to 2 times (select how many qualifying members are in the team).",
         "states": [
-          {"value": "1", "modifiers": {"atk_": 0.2}},
-          {"value": "2", "modifiers": {"atk_": 0.4}}
+          { "value": "1", "modifiers": { "atk_": 0.2 } },
+          { "value": "2", "modifiers": { "atk_": 0.4 } }
         ]
       },
       {
@@ -275,31 +228,40 @@
         "source": "avatar_10000091",
         "description": "Elemental Skill Ceremonial Crystalshot: firing consumes all held Crystal Shrapnel charges (0/1/2/3+ -> 5/7/9/11 Rosula Shardshots fired) and deals more DMG the more shots strike a single target, up to 200% of the base amount when all 11 land (3+ charges). Every charge consumed beyond 3 adds a further +15% DMG. Select charges consumed at cast, assuming all shots land; 1-2 charge values aren't precisely published and are rarely used since holding to 3+ charges is strictly better.",
         "states": [
-          {"value": "0", "modifiers": {"navia_e_shardshot_mult_": 1.2}},
-          {"value": "1", "modifiers": {"navia_e_shardshot_mult_": 1.4}},
-          {"value": "2", "modifiers": {"navia_e_shardshot_mult_": 1.6667}},
-          {"value": "3", "modifiers": {"navia_e_shardshot_mult_": 2.0}},
-          {"value": "4", "modifiers": {"navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.15}},
-          {"value": "5", "modifiers": {"navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.3}},
-          {"value": "6", "modifiers": {"navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.45}}
+          { "value": "0", "modifiers": { "navia_e_shardshot_mult_": 1.2 } },
+          { "value": "1", "modifiers": { "navia_e_shardshot_mult_": 1.4 } },
+          { "value": "2", "modifiers": { "navia_e_shardshot_mult_": 1.6667 } },
+          { "value": "3", "modifiers": { "navia_e_shardshot_mult_": 2.0 } },
+          {
+            "value": "4",
+            "modifiers": { "navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.15 }
+          },
+          {
+            "value": "5",
+            "modifiers": { "navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.3 }
+          },
+          {
+            "value": "6",
+            "modifiers": { "navia_e_shardshot_mult_": 2.0, "skill_dmg_": 0.45 }
+          }
         ]
       },
       {
         "conditionKey": "c2ShardBuff",
         "source": "avatar_10000091",
         "states": [
-          {"value": "1", "modifiers": {"critRate_": 0.12}},
-          {"value": "2", "modifiers": {"critRate_": 0.24}},
-          {"value": "3", "modifiers": {"critRate_": 0.36}}
+          { "value": "1", "modifiers": { "critRate_": 0.12 } },
+          { "value": "2", "modifiers": { "critRate_": 0.24 } },
+          { "value": "3", "modifiers": { "critRate_": 0.36 } }
         ]
       },
       {
         "conditionKey": "c6ShardBuff",
         "source": "avatar_10000091",
         "states": [
-          {"value": "4", "modifiers": {"critDMG_": 0.45}},
-          {"value": "5", "modifiers": {"critDMG_": 0.9}},
-          {"value": "6", "modifiers": {"critDMG_": 1.35}}
+          { "value": "4", "modifiers": { "critDMG_": 0.45 } },
+          { "value": "5", "modifiers": { "critDMG_": 0.9 } },
+          { "value": "6", "modifiers": { "critDMG_": 1.35 } }
         ]
       }
     ],
