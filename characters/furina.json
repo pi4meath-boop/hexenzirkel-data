@@ -84,7 +84,7 @@
       }
     },
     "burst": {
-      "hit1": {
+      "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
