@@ -5,7 +5,7 @@
   "character_key": "avatar_10000071",
   "element": "electro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": {"skill": 5, "burst": 3},
+  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
   "base_stats_json": {
     "baseHp": 12490.8290496,
     "baseAtk": 318.1072494,
@@ -18,89 +18,89 @@
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "hit2Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "hit3aDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "hit3bDmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "hit4Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "chargedDmg": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "plungeDmg": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeLow": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "plungeHigh": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "mortuaryRiteDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "riteDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "duststalkerBoltDmg": {
         "element": "electro",
         "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p2_mult"},
-          {"scalingKey": "eleMas", "multKey": "p3_mult"}
+          { "scalingKey": "atk", "multKey": "p2_mult" },
+          { "scalingKey": "eleMas", "multKey": "p3_mult" }
         ]
       },
       "duststalkerBoltStarsameDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["electro_dmg_", "stellarconduct_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p4_mult"},
-          {"scalingKey": "eleMas", "multKey": "p5_mult"}
+          { "scalingKey": "atk", "multKey": "p4_mult" },
+          { "scalingKey": "eleMas", "multKey": "p5_mult" }
         ]
       }
     },
     "passive1": {
       "boltStellarDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["electro_dmg_", "stellarconduct_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p4_mult"},
-          {"scalingKey": "eleMas", "multKey": "p5_mult"}
+          { "scalingKey": "atk", "multKey": "p4_mult" },
+          { "scalingKey": "eleMas", "multKey": "p5_mult" }
         ]
       }
     },
@@ -109,110 +109,110 @@
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p0_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p0_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal2Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p1_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p1_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal3Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p2_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p2_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal4aDmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal4bDmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal5Dmg": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p4_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p4_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal_0": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p0_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p0_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal_1": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p1_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p1_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal_2": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p2_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p2_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal_3": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "atk", "multKey": "p3_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "atk", "multKey": "p3_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "normal_4": {
         "element": "electro",
         "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
         "components": [
-          {"scalingKey": "atk", "multKey": "p4_mult"},
-          {"scalingKey": "eleMas", "multKey": "p9_mult"}
+          { "scalingKey": "atk", "multKey": "p4_mult" },
+          { "scalingKey": "eleMas", "multKey": "p9_mult" }
         ]
       },
       "chargedDmg": {
         "element": "electro",
         "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "plungeDmg": {
         "element": "electro",
         "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       },
       "plungeLow": {
         "element": "electro",
         "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
       },
       "plungeHigh": {
         "element": "electro",
         "dmgBonusKeys": ["plunging_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
+        "components": [{ "scalingKey": "atk", "multKey": "p8_mult" }]
       }
     }
   },
@@ -272,7 +272,7 @@
     },
     "constellation": {
       "c1TogetherWeRiseEM": 200,
-      "c2CeremonyElectroDmgPerStack": 0.10,
+      "c2CeremonyElectroDmgPerStack": 0.1,
       "c2RadianceStellarConductDmgPerStack": 0.16
     }
   },
@@ -283,30 +283,26 @@
         "conditionKey": "a1JudicationDmgBonus",
         "source": "avatar_10000071",
         "description": "A1 Featherfall Judgment: when Judication triggers (Endseer stance + Elemental Skill cast while in Pactsworn Pathclearer), Secret Rite: Chasmic Soulfarer/Mortuary Rite DMG is increased by 35%. Note: this shares the skill_dmg_ tag with the base Duststalker Bolt hit, so enabling it also (slightly incorrectly) buffs that hit too — the Starsame (Radiance) bolt is unaffected since it isn't tagged skill_dmg_.",
-        "states": [
-          {"value": "on", "modifiers": {"skill_dmg_": 0.35}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "skill_dmg_": 0.35 } }]
       },
       {
         "conditionKey": "afterBurstEleMas",
         "source": "avatar_10000071",
         "description": "A4 Authority Over the Nine Bows: while transformed into Pactsworn Pathclearer, Cyno gains 100 Elemental Mastery. (2026-07 audit: was missing entirely -- only the A4 EM-scaled DMG-increase ratios for Duststalker Bolt/Starsame/Pathclearer Normal ATK were modeled, not this separate flat EM grant. Confirmed against GO's dm.burst.eleMas = 100, gated by condAfterBurst / Pathclearer state.)",
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 100}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "eleMas": 100 } }]
       },
       {
         "conditionKey": "c2CeremonyElectroDmg",
         "source": "avatar_10000071",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "description": "C2 Ceremony: Homecoming of Spirits — Cyno's Normal Attack hits increase his own Electro DMG Bonus by 10% for 4s, stacking up to 5 times (max 50%).",
         "states": [
-          {"value": "0", "modifiers": {}},
-          {"value": "1", "modifiers": {"electro_dmg_": 0.10}},
-          {"value": "2", "modifiers": {"electro_dmg_": 0.20}},
-          {"value": "3", "modifiers": {"electro_dmg_": 0.30}},
-          {"value": "4", "modifiers": {"electro_dmg_": 0.40}},
-          {"value": "5", "modifiers": {"electro_dmg_": 0.50}}
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "electro_dmg_": 0.1 } },
+          { "value": "2", "modifiers": { "electro_dmg_": 0.2 } },
+          { "value": "3", "modifiers": { "electro_dmg_": 0.3 } },
+          { "value": "4", "modifiers": { "electro_dmg_": 0.4 } },
+          { "value": "5", "modifiers": { "electro_dmg_": 0.5 } }
         ]
       }
     ],
@@ -315,24 +311,22 @@
       {
         "conditionKey": "c1TogetherWeRiseEM",
         "source": "avatar_10000071",
-        "gating": {"constellationMin": 1},
+        "gating": { "constellationMin": 1 },
         "description": "C1 Radiance: Stellar-Conduct — while Cyno is in Pactsworn Pathclearer he gains Together We Rise (+200 Elemental Mastery); switching off him passes it to the incoming character for the remaining duration. Modeled as a party buff so it applies whether Cyno is the scored character or a support.",
-        "states": [
-          {"value": "on", "modifiers": {"eleMas": 200}}
-        ]
+        "states": [{ "value": "on", "modifiers": { "eleMas": 200 } }]
       },
       {
         "conditionKey": "c2RadianceStellarConductDmg",
         "source": "avatar_10000071",
-        "gating": {"constellationMin": 2},
+        "gating": { "constellationMin": 2 },
         "description": "C2 Radiance: Stellar-Conduct — whichever character currently carries Together We Rise gains +16% Stellar-Conduct DMG per Normal/Charged Attack hit, stacking up to 5 times (max 80%) for the remaining Together We Rise duration.",
         "states": [
-          {"value": "0", "modifiers": {}},
-          {"value": "1", "modifiers": {"stellarconduct_dmg_": 0.16}},
-          {"value": "2", "modifiers": {"stellarconduct_dmg_": 0.32}},
-          {"value": "3", "modifiers": {"stellarconduct_dmg_": 0.48}},
-          {"value": "4", "modifiers": {"stellarconduct_dmg_": 0.64}},
-          {"value": "5", "modifiers": {"stellarconduct_dmg_": 0.80}}
+          { "value": "0", "modifiers": {} },
+          { "value": "1", "modifiers": { "stellarconduct_dmg_": 0.16 } },
+          { "value": "2", "modifiers": { "stellarconduct_dmg_": 0.32 } },
+          { "value": "3", "modifiers": { "stellarconduct_dmg_": 0.48 } },
+          { "value": "4", "modifiers": { "stellarconduct_dmg_": 0.64 } },
+          { "value": "5", "modifiers": { "stellarconduct_dmg_": 0.8 } }
         ]
       }
     ]
