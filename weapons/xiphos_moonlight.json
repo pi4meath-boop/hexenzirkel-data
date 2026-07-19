@@ -9,8 +9,29 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "selfJinnisWhisperEnerRech",
+        "source": "Xiphos' Moonlight",
+        "description": "Jinni's Whisper: every 10s the wielder gains 0.036/0.045/0.054/0.063/0.072% (R1/R3/R5) Energy Recharge per point of Elemental Mastery they have for 12s. Auto-applied from the wielder's own live EM, selected by the leaderboard's chosen refinement for this weapon (main-weapon-pool selection).",
+        "refinementTiered": true,
+        "states": {
+          "R1": { "enerRech_from_eleMas_": 0.00036 },
+          "R3": { "enerRech_from_eleMas_": 0.00054 },
+          "R5": { "enerRech_from_eleMas_": 0.00072 }
+        }
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "source": "Xiphos' Moonlight",
+        "conditionKey": "jinnisWhisperTeamEnerRech",
+        "description": "Jinni's Whisper (support use, assumes R5): nearby party members gain 30% of the wielder's Jinni's Whisper buff (=0.0216% ER per point of the wielder's EM) as flat Energy Recharge. Type the support wielder's actual EM into this condition's input for an exact value; the checkbox-only fallback assumes 800 EM.",
+        "states": {
+          "active": { "enerRech_": 0.1728 }
+        }
+      }
+    ]
   }
 }

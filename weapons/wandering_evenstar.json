@@ -9,17 +9,27 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "selfWildlingNightstarAtk",
+        "source": "Wandering Evenstar",
+        "description": "Wildling Nightstar: every 10s the wielder gains 24/30/36/42/48% (R1/R3/R5) of their own Elemental Mastery as bonus ATK for 12s. Auto-applied from the wielder's own live EM, selected by the leaderboard's chosen refinement for this weapon (main-weapon-pool selection).",
+        "refinementTiered": true,
+        "states": {
+          "R1": { "atk_from_eleMas_": 0.24 },
+          "R3": { "atk_from_eleMas_": 0.36 },
+          "R5": { "atk_from_eleMas_": 0.48 }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "source": "WanderingEvenstar",
-        "conditionKey": "wildlingNightstar",
-        "description": "Wildling Nightstar (R1): every 10s the wielder gains 24% of their Elemental Mastery as bonus ATK for 12s; nearby party members gain 30% of that buff. Modeled as a flat +60.75 ATK team buff assuming the wielder has 844 EM (0.30 x 0.24 x 844).",
+        "conditionKey": "wildlingNightstarTeamAtk",
+        "description": "Wildling Nightstar (support use, assumes R5): nearby party members gain 30% of the wielder's Wildling Nightstar buff (=14.4% of the wielder's EM) as flat ATK. Type the support wielder's actual EM into this condition's input for an exact value; the checkbox-only fallback assumes 800 EM.",
         "states": {
-          "active": {
-            "atk": 60.75
-          }
+          "active": { "atk": 115.2 }
         }
       }
     ]

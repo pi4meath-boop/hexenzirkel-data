@@ -8,20 +8,31 @@
     "subStatValue": 165.38400000000001
   },
   "buffs": {
-    "self_modifiers_json": { "atk_from_eleMas_": 0.48 },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "selfDesertPavilionAtk",
+        "source": "Makhaira Aquamarine",
+        "description": "Desert Pavilion: every 10s the wielder gains 24/30/36/42/48% (R1/R3/R5) of their own Elemental Mastery as bonus ATK for 12s. Auto-applied from the wielder's own live EM, selected by the leaderboard's chosen refinement for this weapon (main-weapon-pool selection).",
+        "refinementTiered": true,
+        "states": {
+          "R1": { "atk_from_eleMas_": 0.24 },
+          "R3": { "atk_from_eleMas_": 0.36 },
+          "R5": { "atk_from_eleMas_": 0.48 }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": [
       {
-        "conditionKey": "r5DesertPavilionTeamAtk",
+        "conditionKey": "desertPavilionTeamAtk",
         "source": "Makhaira Aquamarine",
-        "description": "R5 Desert Pavilion: every 10s the wielder gains 48% of their own EM as bonus ATK for 12s; nearby party members gain 30% of that buff (=14.4% of the wielder's EM) as flat ATK for the same duration. Modeled as a flat assumption at a couple of representative wielder EM values; pick the state matching the wielder's actual EM (or adjust manually for anything else). Scoped as 'others' (not 'team') so it only applies when this weapon is on a support, not double-counted alongside the wielder's own self_modifiers_json atk_from_eleMas_ conversion when they're the scored main.",
-        "states": [
-          { "value": "800 EM", "modifiers": { "atk": 115.2 } },
-          { "value": "1000 EM", "modifiers": { "atk": 144.0 } }
-        ]
+        "description": "Desert Pavilion (support use, assumes R5): nearby party members gain 30% of the wielder's Desert Pavilion buff (=14.4% of the wielder's EM) as flat ATK. Type the support wielder's actual EM into this condition's input for an exact value; the checkbox-only fallback assumes 800 EM. Scoped as 'others' (not 'team') so it only applies when this weapon is on a support, not double-counted alongside the wielder's own self_conditional_modifiers_json conversion when they're the scored main.",
+        "states": {
+          "active": { "atk": 115.2 }
+        }
       }
     ]
   }
